@@ -1,10 +1,11 @@
 // tetin file version 1.1
-// written by ICEM CFD - version 19.5 on Wed Oct 20 23:22:35 2021
+// written by ICEM CFD - version 19.5 on Wed Oct 20 23:41:37 2021
 
 set_triangulation_tolerance 0.001
 # In ICEM CFD 4.2 the family_boco file is no longer tied to tetin
 # read_family_boco family_boco
 define_family PNTS color 14693271
+define_family GEOM color 16663866
 
 prescribed_point 36.5213503 -52.27720925 0 family PNTS name pnt0
 prescribed_point 36.48953592 -52.28891894 0 family PNTS name pnt1
@@ -1611,6 +1612,15 @@ prescribed_point 36.48953592 -52.28891894 0 family PNTS name pnt1601
 prescribed_point 36.457248 -52.29909982 0 family PNTS name pnt1602
 prescribed_point 36.42451362 -52.3077654 0 family PNTS name pnt1603
 prescribed_point 36.39127188 -52.31490216 0 family PNTS name pnt1604
+prescribed_point -0.006046682 0.270673472 0 family GEOM name pnt.00
+prescribed_point -55.006046682 34.070673472 0 family GEOM name pnt.09
+prescribed_point -55.006046682 -33.529326528 0 family GEOM name pnt.10
+define_curve family GEOM tetra_size 1e+10 name crv.01 vertex1 pnt.09 vertex2 pnt.10
+bspline
+2,2,0
+0,0,1,1
+-55.006046682,34.070673472,0
+-55.006046682,-33.529326528,0
 affix 0
 define_model 1e+10 reference_size 1
 return

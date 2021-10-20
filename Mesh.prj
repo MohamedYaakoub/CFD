@@ -1,5 +1,5 @@
 # ICEM CFD Project Settings
-# Saved by mohsy on Neptune on Wed Oct 20 11:22:35 PM W. Europe Daylight Time 2021
+# Saved by mohsy on Neptune on Wed Oct 20 11:41:37 PM W. Europe Daylight Time 2021
 # ICEM CFD - version 19.5 - Release date: Jul 29 2019
 
 array set file_name {
@@ -14,12 +14,12 @@ array set file_name {
     ugparts_dir .
     icons {{$env(ICEM_ACN)/lib/ai_env/icons} {$env(ICEM_ACN)/lib/va/EZCAD/icons} {$env(ICEM_ACN)/lib/icons} {$env(ICEM_ACN)/lib/va/CABIN/icons}}
     tetin Mesh.tin
-    family_boco {}
+    family_boco Mesh.fbc
     iges_dir .
     solver_params_loaded 0
     attributes_loaded 0
     project_lock {}
-    attributes {}
+    attributes Mesh.atr
     domain {}
     domains_dir .
     settings_loaded 0
@@ -196,6 +196,7 @@ array set vid_options {
     default_part GEOM
     new_srf_topo 1
     DelPerFlag 0
+    show_item_name 0
     composite_tolerance 1.0
     replace 0
     same_pnt_tol 1e-4
@@ -203,8 +204,8 @@ array set vid_options {
     vid_mode 0
     DelBlkPerFlag 0
 }
-set savedTreeVisibility {geomNode 2 geom_subsetNode 2 geomPointNode 2 partNode 2 part-PNTS 2}
-set last_view {rot {0.0 0.0 -0.166191201037 0.986093547642} scale {7.76536608143 7.76536608143 7.76536608143} center {18.4855173083 -21.192743778200001 0} pos {0.0 0.0 0}}
+set savedTreeVisibility {geomNode 1 geom_subsetNode 0 geomPointNode 2 geomCurveNode 2 partNode 2 part-GEOM 2 part-PNTS 2}
+set last_view {rot {-0.035000605882 -0.0107706168515 -8.94342680875e-005 0.99932924675} scale {3.32606655647 3.32606655647 3.32606655647} center {-55.0678153571758742 0.211649414957998577 0.00764279511698524178} pos {-469.068588233 55.5654658842 0}}
 array set cut_info {
     active 0
 }
@@ -238,6 +239,159 @@ array set saved_views {
 #------------- DEZ Data ------------------
 
 namespace eval ::AIEnv::GUIManagement::DEZ {
+    array set createPointsDEZ_data {
+        this createPointsDEZ
+        type DEZ
+        PartList {"From screen" GEOM PNTS}
+        __createPointsFam_Last_Index 0
+        name pnt.11
+        createPointsEXGVal 1
+        pickScreenList {}
+        createPntExplicitVal 0
+        x {-0.006046682
+-55}
+        y {0.270673472
+-67.6/2}
+        z 0
+        crePntParamList {-1, 1, 0.1}
+        Xexpress 2*sin(m*180)
+        Yexpress 2*cos(m*180)
+        Zexpress { m / 2}
+        pickBasePnt {}
+        dx 0
+        dy 0
+        dz 0
+        createPointsCentFRVal 0
+        pickCenterList {}
+        pickCenterCrv {}
+        createPnt2LocMethodVal 1
+        nPnt2Loc 1
+        ratio 0.5
+        pickBetweenList {}
+        ptExtEGVal 0
+        pickEndList {}
+        how_select_end {both xmin xmax ymin ymax zmin zmax}
+        which_end both
+        __createPntCrvEnd_Last_Index 0
+        fangle 30
+        toler 0.1
+        pickIntList {}
+        createPntCrvParMethodVal 1
+        crePnts3param 0.5
+        pickParList {}
+        pickProjCrv {}
+        pickPoint {}
+        trimCrvPrjFlag 0
+        movePointPrjFlag 0
+        pickProjSrf {}
+        pickPoint2 {}
+        embedPntOnSurfFlag 0
+    }
+    array set createCurvesDEZ_data {
+        this createCurvesDEZ
+        type DEZ
+        PartList {"From screen" GEOM PNTS}
+        __createCurvesFam_Last_Index 0
+        name crv.02
+        createCurvesEXGVal 0
+        pickList {}
+        createCrvArcMethodVal 0
+        pickArcList {}
+        RadiusArcGGVal 0
+        radius 0
+        keep_arc 0
+        RadiusGGVal 0
+        stangle 0
+        enangle 360
+        pickCircleList {}
+        creCurveEGVal 2
+        pickSurf {}
+        pickCurvCrePnt {}
+        pickEdgePnt {}
+        pickEdgePnt2 {}
+        UVChoiceVal 0
+        isopar 0.5
+        creCrvIntSetRVal 0
+        diffPartsFlag 0
+        singleCurveFlag 0
+        pickSetSurfs {}
+        createCurveIntCTVal 1
+        pickSet1Surfs {}
+        pickSet2Surfs {}
+        createCrvProjMethodVal 0
+        pickCurvesProj {}
+        pickSurfsProj {}
+        createCrvPrjEGVal 0
+        projpointsvec {}
+        prjOriginCurvFlag 1
+        prTrFlag 0
+        modifyCurveSegFRVal 0
+        pickCurveSeg {}
+        pickPointSeg {}
+        pickCurveSegWith {}
+        segBothFlag 0
+        modSegmCRVNormEGVal 0
+        SegPlanePntList {}
+        segVecList {}
+        keepOriginCurvFlag 0
+        seg_angle2 20
+        minSeg2 1
+        modifyReapproxCrvVal 0
+        pickCurveConcat {}
+        creCrvConcatTolGGVal 0
+        ctol 0.1
+        pickCurveReapp {}
+        ctol1 0.1
+        reappcrvfacetedFlag 0
+        pickCurveHull {}
+        hull_tol 0.06
+        shrink 0.2
+        four 0
+        pickCurveExtract {}
+        crvExtEGVal 0
+        extract_bsp_how 0
+        fangle 20
+        MinSeg {}
+        boundary {}
+        __facetedBoundaryOpt_Last_Index 0
+        modCrvEGVal 0
+        modCrv_crv0 {}
+        modCrv_crv1 {}
+        modCrvExtEndEGVal 0
+        modCrvExtEndPnt {}
+        allowExtendTargetFlag 0
+        CrvExtTo {}
+        modCrvExtLen 1
+        modCrvExtMethod line
+        modCrv_crv2 {}
+        modCrvMatchAcc 1
+        modCrvMatchOneOrBoth 0
+        modCrvMatchMethodEGVal 2
+        modCrvKeepFlag 0
+        modCrv_crv3_1 {}
+        createCrvMidMethodVal 0
+        pickMidline_crv2 {}
+        midlineList {}
+        midlineList2 {}
+        pickSurfSect {}
+        sectCurvePlaneEGVal 0
+        sectCurvePlaneXYZEGVal 0
+        sectCurveplnpnt1 {}
+        sectCurveplnpnt2 {}
+        sectCurveplnpnt3 {}
+        pickcrvexist {}
+        numsect {}
+        sectCurveOffsetGGVal 0
+        mpsectdelta {}
+        mpsectstart {}
+        mpsectend {}
+    }
+    array set deleteEntityDEZ_data {
+        this deleteEntityDEZ
+        type point
+        entityList {}
+        DelUnattFlag 0
+    }
     array set geoImportINPUTDEZ_data {
         this geoImportINPUTDEZ
         type DEZ
