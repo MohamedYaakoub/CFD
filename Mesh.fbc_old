@@ -1,5 +1,6 @@
-# family_boco file written by ICEM CFD by mohsy on Thu Oct 21 7:23:34 PM W. Europe Daylight Time 2021
+# family_boco file written by ICEM CFD by mohsy on Thu Oct 21 10:52:34 PM W. Europe Daylight Time 2021
 ## solver ANSYS Fluent
 "PNTS"
 "GEOM"
 "GEOM" "color" 16663900
+"CRVS"

@@ -1,10 +1,10 @@
 # ICEM CFD Project Settings
-# Saved by mohsy on Neptune on Thu Oct 21 7:23:34 PM W. Europe Daylight Time 2021
+# Saved by mohsy on Neptune on Thu Oct 21 10:52:34 PM W. Europe Daylight Time 2021
 # ICEM CFD - version 19.5 - Release date: Jul 29 2019
 
 array set file_name {
     catia_dir C:/Users/mohsy/University/CFD/Assignment
-    parts_dir C:/Users/mohsy/University/CFD/Assignment
+    parts_dir C:/Users/mohsy/University/CFD/Assignment/parts
     domain_loaded 0
     cart_file_loaded 0
     cart_file {}
@@ -236,8 +236,8 @@ array set vid_options {
     vid_mode 0
     DelBlkPerFlag 0
 }
-set savedTreeVisibility {geomNode 1 geom_subsetNode 0 geomPointNode 2 geomCurveNode 2 partNode 2 part-GEOM 2 part-PNTS 2}
-set last_view {rot {-0 -0 0 1} scale {1.84138961967 1.84138961967 1.84138961967} center {34.872003555299997 -38.631765365600003 0} pos {2.79770831555 -16.0525771106 0}}
+set savedTreeVisibility {geomNode 1 geom_subsetNode 0 geomPointNode 0 geomCurveNode 2 partNode 2 part-CRVS 2 part-GEOM 2 part-PNTS 2}
+set last_view {rot {0 0 0 1} scale {4.46412491434 4.46412491434 4.46412491434} center {34.872 -67.38165 0.0} pos {-103.553101297 -91.3001061363 0}}
 array set cut_info {
     active 0
 }
@@ -271,190 +271,6 @@ array set saved_views {
 #------------- DEZ Data ------------------
 
 namespace eval ::AIEnv::GUIManagement::DEZ {
-    array set createPointsDEZ_data {
-        this createPointsDEZ
-        type DEZ
-        PartList {"From screen" GEOM PNTS}
-        __createPointsFam_Last_Index 0
-        name pnt.26
-        createPointsEXGVal 1
-        pickScreenList {}
-        createPntExplicitVal 0
-        x {-0.006046682 - 55}
-        y {0.270673472 + 34.87804878
- - 57.5}
-        z 0
-        crePntParamList {-1, 1, 0.1}
-        Xexpress 2*sin(m*180)
-        Yexpress 2*cos(m*180)
-        Zexpress { m / 2}
-        pickBasePnt {}
-        dx 0
-        dy 0
-        dz 0
-        createPointsCentFRVal 0
-        pickCenterList {}
-        pickCenterCrv {}
-        createPnt2LocMethodVal 1
-        nPnt2Loc 1
-        ratio 0.5
-        pickBetweenList {}
-        ptExtEGVal 0
-        pickEndList {}
-        how_select_end {both xmin xmax ymin ymax zmin zmax}
-        which_end both
-        __createPntCrvEnd_Last_Index 0
-        fangle 30
-        toler 0.1
-        pickIntList {}
-        createPntCrvParMethodVal 1
-        crePnts3param 0.5
-        pickParList {}
-        pickProjCrv {}
-        pickPoint {}
-        trimCrvPrjFlag 0
-        movePointPrjFlag 0
-        pickProjSrf {}
-        pickPoint2 {}
-        embedPntOnSurfFlag 0
-    }
-    array set createCurvesDEZ_data {
-        this createCurvesDEZ
-        type DEZ
-        PartList {"From screen" GEOM PNTS}
-        __createCurvesFam_Last_Index 0
-        name crv.16
-        createCurvesEXGVal 0
-        pickList {}
-        createCrvArcMethodVal 0
-        pickArcList {pnt.24 pnt.25}
-        RadiusArcGGVal 0
-        radius 0
-        keep_arc 0
-        RadiusGGVal 0
-        stangle 0
-        enangle 360
-        pickCircleList {}
-        creCurveEGVal 2
-        pickSurf {}
-        pickCurvCrePnt {}
-        pickEdgePnt {}
-        pickEdgePnt2 {}
-        UVChoiceVal 0
-        isopar 0.5
-        creCrvIntSetRVal 0
-        diffPartsFlag 0
-        singleCurveFlag 0
-        pickSetSurfs {}
-        createCurveIntCTVal 1
-        pickSet1Surfs {}
-        pickSet2Surfs {}
-        createCrvProjMethodVal 0
-        pickCurvesProj {}
-        pickSurfsProj {}
-        createCrvPrjEGVal 0
-        projpointsvec {}
-        prjOriginCurvFlag 1
-        prTrFlag 0
-        modifyCurveSegFRVal 0
-        pickCurveSeg {}
-        pickPointSeg {}
-        pickCurveSegWith {}
-        segBothFlag 0
-        modSegmCRVNormEGVal 0
-        SegPlanePntList {}
-        segVecList {}
-        keepOriginCurvFlag 0
-        seg_angle2 20
-        minSeg2 1
-        modifyReapproxCrvVal 0
-        pickCurveConcat {}
-        creCrvConcatTolGGVal 0
-        ctol 0.1
-        pickCurveReapp {}
-        ctol1 0.1
-        reappcrvfacetedFlag 0
-        pickCurveHull {}
-        hull_tol 0.06
-        shrink 0.2
-        four 0
-        pickCurveExtract {}
-        crvExtEGVal 0
-        extract_bsp_how 0
-        fangle 20
-        MinSeg {}
-        boundary {}
-        __facetedBoundaryOpt_Last_Index 0
-        modCrvEGVal 0
-        modCrv_crv0 {}
-        modCrv_crv1 {}
-        modCrvExtEndEGVal 0
-        modCrvExtEndPnt {}
-        allowExtendTargetFlag 0
-        CrvExtTo {}
-        modCrvExtLen 1
-        modCrvExtMethod line
-        modCrv_crv2 {}
-        modCrvMatchAcc 1
-        modCrvMatchOneOrBoth 0
-        modCrvMatchMethodEGVal 2
-        modCrvKeepFlag 0
-        modCrv_crv3_1 {}
-        createCrvMidMethodVal 0
-        pickMidline_crv2 {}
-        midlineList {}
-        midlineList2 {}
-        pickSurfSect {}
-        sectCurvePlaneEGVal 0
-        sectCurvePlaneXYZEGVal 0
-        sectCurveplnpnt1 {}
-        sectCurveplnpnt2 {}
-        sectCurveplnpnt3 {}
-        pickcrvexist {}
-        numsect {}
-        sectCurveOffsetGGVal 0
-        mpsectdelta {}
-        mpsectstart {}
-        mpsectend {}
-    }
-    array set transformSurfsToolsDEZ_data {
-        this transformSurfsToolsDEZ
-        type curve
-        surfaceList {}
-        detachFlag 0
-        transfrmSurfsEGVal 0
-        copyTranslateGGVal 1
-        numCopies 1
-        transfrParts {}
-        moveSurfsEGVal 0
-        x 0
-        y -57.5
-        z 0
-        pointList2 {}
-        movedistance {}
-        copyRotateGGVal 0
-        geomRotateAxisOptionEGVal 0
-        axisSurfList {}
-        rot_angle {}
-        RotateGeomCenterEGVal 0
-        rotateCenterPnt {}
-        copyMirrorGGVal 0
-        geomMirrorAxisOptionEGVal 0
-        normPointList {}
-        ReflectGeomCenterEGVal 0
-        reflectCenterPnt {}
-        copyScaleGGVal 0
-        xF 1
-        yF 1
-        zF 1
-        ScaleGeomCenterEGVal 0
-        scaleCenterPnt {}
-        copyAutoGGVal 0
-        transAutoEGVal 0
-        rotateAutoList {}
-        fromLCS {}
-        toLCS {}
-    }
     array set deleteEntityDEZ_data {
         this deleteEntityDEZ
         type point
@@ -471,5 +287,21 @@ namespace eval ::AIEnv::GUIManagement::DEZ {
         smoothing_steps 12
         first_layer_smoothing_steps 1
         loadmesh 0
+    }
+    array set geoImportINPUTDEZ_data {
+        this geoImportINPUTDEZ
+        type DEZ
+        INPUTfile C:/Users/mohsy/University/CFD/Assignment/blade_coords.txt
+        ppart PNTS
+        cpart CRVS
+        spart SURFS
+        ppartp pnt
+        cpartp crv
+        spartp srf
+        points 1
+        curves 1
+        surfaces 0
+        tol 0.001
+        format 0
     }
 }

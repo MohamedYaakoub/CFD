@@ -1,4 +1,4 @@
-# Written by ICEM CFD 19.5, user mohsy, Thu Oct 21 7:23:34 PM W. Europe Daylight Time 2021
+# Written by ICEM CFD 19.5, user mohsy, Thu Oct 21 10:52:34 PM W. Europe Daylight Time 2021
 
 begin family PNTS
     begin solver "ANSYS Fluent"
@@ -13,3 +13,8 @@ begin family GEOM
         end bctype color
     end solver "ANSYS Fluent"
 end family GEOM
+
+begin family CRVS
+    begin solver "ANSYS Fluent"
+    end solver "ANSYS Fluent"
+end family CRVS
