@@ -1,4 +1,4 @@
-# Written by ICEM CFD 19.5, user mohsy, Wed Oct 20 11:41:37 PM W. Europe Daylight Time 2021
+# Written by ICEM CFD 19.5, user mohsy, Thu Oct 21 7:23:34 PM W. Europe Daylight Time 2021
 
 begin family PNTS
     begin solver "ANSYS Fluent"

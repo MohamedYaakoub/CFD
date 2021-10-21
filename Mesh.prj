@@ -1,38 +1,39 @@
 # ICEM CFD Project Settings
-# Saved by mohsy on Neptune on Wed Oct 20 11:41:37 PM W. Europe Daylight Time 2021
+# Saved by mohsy on Neptune on Thu Oct 21 7:23:34 PM W. Europe Daylight Time 2021
 # ICEM CFD - version 19.5 - Release date: Jul 29 2019
 
 array set file_name {
-    catia_dir .
-    parts_dir .
+    catia_dir C:/Users/mohsy/University/CFD/Assignment
+    parts_dir C:/Users/mohsy/University/CFD/Assignment
     domain_loaded 0
     cart_file_loaded 0
     cart_file {}
     archive {}
     med_replay {}
-    topology_dir .
-    ugparts_dir .
+    topology_dir C:/Users/mohsy/University/CFD/Assignment
+    ugparts_dir C:/Users/mohsy/University/CFD/Assignment
     icons {{$env(ICEM_ACN)/lib/ai_env/icons} {$env(ICEM_ACN)/lib/va/EZCAD/icons} {$env(ICEM_ACN)/lib/icons} {$env(ICEM_ACN)/lib/va/CABIN/icons}}
     tetin Mesh.tin
     family_boco Mesh.fbc
-    iges_dir .
-    solver_params_loaded 0
-    attributes_loaded 0
+    prism_params Mesh.prism_params
+    iges_dir C:/Users/mohsy/University/CFD/Assignment
+    solver_params_loaded 1
+    attributes_loaded 1
     project_lock {}
     attributes Mesh.atr
     domain {}
-    domains_dir .
+    domains_dir C:/Users/mohsy/University/CFD/Assignment
     settings_loaded 0
     settings Mesh.prj
     blocking {}
     hexa_replay {}
-    transfer_dir .
-    mesh_dir .
+    transfer_dir C:/Users/mohsy/University/CFD/Assignment
+    mesh_dir C:/Users/mohsy/University/CFD/Assignment
     family_topo {}
-    gemsparts_dir .
-    family_boco_loaded 0
-    tetin_loaded 0
-    project_dir .
+    gemsparts_dir C:/Users/mohsy/University/CFD/Assignment
+    family_boco_loaded 1
+    tetin_loaded 1
+    project_dir C:/Users/mohsy/University/CFD/Assignment
     topo_mulcad_out {}
     solver_params {}
 }
@@ -168,11 +169,11 @@ array set prism_values {
     max_size_ratio {}
     triangle_quality {}
     max_prism_angle 180
-    tetra_smooth_limit 0.3
+    tetra_smooth_limit 0.30000001
     max_jump_factor 5
     use_existing_quad_layers 0
     layers 3
-    fillet 0.10
+    fillet 0.1
     into_orphan 0
     init_dir_from_prev {}
     blayer_2d 0
@@ -185,27 +186,58 @@ array set prism_values {
     stair_step 1
     smoothing_steps 12
     side_family {}
-    min_prism_quality 0.01
+    min_prism_quality 0.0099999998
     ratio 1.2
 }
 set aie_current_flavor {}
 array set vid_options {
+    wb_import_tritol 0.001
+    wb_import_mix_res_line 0
+    wb_import_cad_att_pre {SDFEA;DDM}
+    wb_import_surface_bodies 1
+    wb_NS_to_subset 0
+    wb_import_mat_points 0
     auxiliary 0
+    wb_import_mix_res_surface 0
+    wb_import_mix_res -1
+    wb_import_cad_att_trans 1
     show_name 0
+    wb_import_delete_solids 0
+    wb_import_solid_bodies 1
+    wb_import_save_pmdb {}
+    wb_import_mix_res_solid 0
     inherit 1
     default_part GEOM
     new_srf_topo 1
+    wb_import_associativity_model_name {}
     DelPerFlag 0
     show_item_name 0
+    wb_import_save_partfile 0
+    wb_import_line_bodies 0
     composite_tolerance 1.0
+    wb_import_en_sym_proc 1
+    wb_NS_to_entity_parts 0
+    wb_import_reference_key 0
+    wb_import_work_points 0
+    wb_import_sel_proc 1
+    wb_NS_only 0
+    wb_import_pluginname {}
+    wb_import_mix_res_point 0
+    wb_import_refresh_pmdb 0
+    wb_import_create_solids 0
+    wb_import_load_pmdb {}
+    wb_import_scale_geo Default
+    wb_import_sel_pre {}
+    wb_import_lcs 0
     replace 0
+    wb_import_cad_associativity 0
     same_pnt_tol 1e-4
     tdv_axes 1
     vid_mode 0
     DelBlkPerFlag 0
 }
 set savedTreeVisibility {geomNode 1 geom_subsetNode 0 geomPointNode 2 geomCurveNode 2 partNode 2 part-GEOM 2 part-PNTS 2}
-set last_view {rot {-0.035000605882 -0.0107706168515 -8.94342680875e-005 0.99932924675} scale {3.32606655647 3.32606655647 3.32606655647} center {-55.0678153571758742 0.211649414957998577 0.00764279511698524178} pos {-469.068588233 55.5654658842 0}}
+set last_view {rot {-0 -0 0 1} scale {1.84138961967 1.84138961967 1.84138961967} center {34.872003555299997 -38.631765365600003 0} pos {2.79770831555 -16.0525771106 0}}
 array set cut_info {
     active 0
 }
@@ -244,14 +276,13 @@ namespace eval ::AIEnv::GUIManagement::DEZ {
         type DEZ
         PartList {"From screen" GEOM PNTS}
         __createPointsFam_Last_Index 0
-        name pnt.11
+        name pnt.26
         createPointsEXGVal 1
         pickScreenList {}
         createPntExplicitVal 0
-        x {-0.006046682
--55}
-        y {0.270673472
--67.6/2}
+        x {-0.006046682 - 55}
+        y {0.270673472 + 34.87804878
+ - 57.5}
         z 0
         crePntParamList {-1, 1, 0.1}
         Xexpress 2*sin(m*180)
@@ -292,11 +323,11 @@ namespace eval ::AIEnv::GUIManagement::DEZ {
         type DEZ
         PartList {"From screen" GEOM PNTS}
         __createCurvesFam_Last_Index 0
-        name crv.02
+        name crv.16
         createCurvesEXGVal 0
         pickList {}
         createCrvArcMethodVal 0
-        pickArcList {}
+        pickArcList {pnt.24 pnt.25}
         RadiusArcGGVal 0
         radius 0
         keep_arc 0
@@ -386,26 +417,59 @@ namespace eval ::AIEnv::GUIManagement::DEZ {
         mpsectstart {}
         mpsectend {}
     }
+    array set transformSurfsToolsDEZ_data {
+        this transformSurfsToolsDEZ
+        type curve
+        surfaceList {}
+        detachFlag 0
+        transfrmSurfsEGVal 0
+        copyTranslateGGVal 1
+        numCopies 1
+        transfrParts {}
+        moveSurfsEGVal 0
+        x 0
+        y -57.5
+        z 0
+        pointList2 {}
+        movedistance {}
+        copyRotateGGVal 0
+        geomRotateAxisOptionEGVal 0
+        axisSurfList {}
+        rot_angle {}
+        RotateGeomCenterEGVal 0
+        rotateCenterPnt {}
+        copyMirrorGGVal 0
+        geomMirrorAxisOptionEGVal 0
+        normPointList {}
+        ReflectGeomCenterEGVal 0
+        reflectCenterPnt {}
+        copyScaleGGVal 0
+        xF 1
+        yF 1
+        zF 1
+        ScaleGeomCenterEGVal 0
+        scaleCenterPnt {}
+        copyAutoGGVal 0
+        transAutoEGVal 0
+        rotateAutoList {}
+        fromLCS {}
+        toLCS {}
+    }
     array set deleteEntityDEZ_data {
         this deleteEntityDEZ
         type point
         entityList {}
         DelUnattFlag 0
     }
-    array set geoImportINPUTDEZ_data {
-        this geoImportINPUTDEZ
+    array set meshPrismDEZ_data {
+        this meshPrismDEZ
         type DEZ
-        INPUTfile C:/Users/mohsy/University/CFD/Assignment/blade_coords.txt
-        ppart PNTS
-        cpart CRVS
-        spart SURFS
-        ppartp pnt
-        cpartp crv
-        spartp srf
-        points 1
-        curves 1
-        surfaces 1
-        tol 0.001
-        format 0
+        n_triangle_smoothing_steps 5
+        triangle_quality {}
+        __meshPrismTriQuality_Last_Index 0
+        n_tetra_smoothing_steps 10
+        smoothing_steps 12
+        first_layer_smoothing_steps 1
+        loadmesh 0
     }
 }

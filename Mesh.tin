@@ -1,9 +1,8 @@
 // tetin file version 1.1
 // written by ICEM CFD - version 19.5 on Wed Oct 20 23:41:37 2021
+// written by ICEM CFD - version 19.5 on Thu Oct 21 19:23:34 2021
 
 set_triangulation_tolerance 0.001
-# In ICEM CFD 4.2 the family_boco file is no longer tied to tetin
-# read_family_boco family_boco
 define_family PNTS color 14693271
 define_family GEOM color 16663866
 
@@ -1613,14 +1612,104 @@ prescribed_point 36.457248 -52.29909982 0 family PNTS name pnt1602
 prescribed_point 36.42451362 -52.3077654 0 family PNTS name pnt1603
 prescribed_point 36.39127188 -52.31490216 0 family PNTS name pnt1604
 prescribed_point -0.006046682 0.270673472 0 family GEOM name pnt.00
-prescribed_point -55.006046682 34.070673472 0 family GEOM name pnt.09
-prescribed_point -55.006046682 -33.529326528 0 family GEOM name pnt.10
-define_curve family GEOM tetra_size 1e+10 name crv.01 vertex1 pnt.09 vertex2 pnt.10
+prescribed_point 25.481753318 16.368234452 0 family GEOM name pnt.13
+prescribed_point 14.750050878 28.441405182 0 family GEOM name pnt.14
+prescribed_point 56.335416728 -103.022009428 0 family GEOM name pnt.15
+prescribed_point 69.750050878 -112.412253328 0 family GEOM name pnt.16
+prescribed_point 61.701270388 -109.729326528 0 family GEOM name pnt.18
+prescribed_point 124.750050878 -112.412253328 0 family GEOM name pnt.19
+prescribed_point -0.006046682 35.148722252 0 family GEOM name pnt.23
+prescribed_point -55.006046682 35.148722252 0 family GEOM name pnt.24
+prescribed_point -55.006046682 -22.351277748 0 family GEOM name pnt.25
+prescribed_point 25.481753318 -41.131765548 0 family GEOM name pnt.13.0
+prescribed_point 14.750050878 -29.058594818 0 family GEOM name pnt.14.0
+prescribed_point 56.335416728 -160.522009428 0 family GEOM name pnt.15.0
+prescribed_point 69.750050878 -169.912253328 0 family GEOM name pnt.16.0
+prescribed_point 61.701270388 -167.229326528 0 family GEOM name pnt.18.0
+prescribed_point 124.750050878 -169.912253328 0 family GEOM name pnt.19.0
+prescribed_point -0.006046682 -22.351277748 0 family GEOM name pnt.23.0
+prescribed_point -55.006046682 -22.351277748 0 family GEOM name pnt.24.0
+define_curve family GEOM tetra_size 1e+10 name crv.05 vertex1 pnt.13 vertex2 pnt.15
 bspline
 2,2,0
 0,0,1,1
--55.006046682,34.070673472,0
--55.006046682,-33.529326528,0
+25.481753318,16.368234452,0
+56.335416728,-103.022009428,0
+define_curve family GEOM tetra_size 1e+10 name crv.07 vertex1 pnt.15 vertex2 pnt.16
+bspline
+3,3,1
+0,0,0,1.1486096706949,1.1486096706949
+1.1486096706949
+56.335416728,-103.022009428,0,1
+50.378166728298,-94.07984721944,0,0.83957015434206
+69.750050878,-112.412253328,0,1
+define_curve family GEOM tetra_size 1e+10 name crv.08 vertex1 pnt.16 vertex2 pnt.19
+bspline
+2,2,0
+0,0,1,1
+69.750050878,-112.412253328,0
+124.750050878,-112.412253328,0
+define_curve family GEOM tetra_size 1e+10 name crv.12 vertex1 pnt.24 vertex2 pnt.23
+bspline
+2,2,0
+0,0,1,1
+-55.006046682,35.148722252,0
+-0.006046682,35.148722252,0
+define_curve family GEOM tetra_size 1e+10 name crv.13 vertex1 pnt.23 vertex2 pnt.13
+bspline
+3,3,1
+0,0,0,0.83505343745897,0.83505343745897
+0.83505343745897
+-0.0060466819999991,35.148722252,0,1
+15.451355794306,28.713350022425,0,0.91409465283953
+25.481753318,16.368234452,0,1
+define_curve family GEOM tetra_size 1e+10 name crv.14 vertex1 pnt.24 vertex2 pnt.25
+bspline
+2,2,0
+0,0,1,1
+-55.006046682,35.148722252,0
+-55.006046682,-22.351277748,0
+define_curve family GEOM tetra_size 1e+10 name crv.05.0
+bspline
+2,2,0
+0,0,1,1
+25.481753318,-41.131765548,0
+56.335416728,-160.522009428,0
+define_curve family GEOM tetra_size 1e+10 name crv.07.0
+bspline
+3,3,1
+0,0,0,1.1486096706949,1.1486096706949
+1.1486096706949
+56.335416728,-160.522009428,0,1
+50.378166819502,-142.35513126443,0,0.83957015434206
+69.750050878,-169.912253328,0,1
+define_curve family GEOM tetra_size 1e+10 name crv.08.0
+bspline
+2,2,0
+0,0,1,1
+69.750050878,-169.912253328,0
+124.750050878,-169.912253328,0
+define_curve family GEOM tetra_size 1e+10 name crv.12.0
+bspline
+2,2,0
+0,0,1,1
+-55.006046682,-22.351277748,0
+-0.006046682,-22.351277748,0
+define_curve family GEOM tetra_size 1e+10 name crv.13.0
+bspline
+3,3,1
+0,0,0,0.83505343745897,0.83505343745897
+0.83505343745897
+-0.0060466819999991,-22.351277748,0,1
+15.451356231091,-23.847091704166,0,0.91409465283953
+25.481753318,-41.131765548,0,1
+define_curve family GEOM tetra_size 1e+10 name crv.15 vertex1 pnt.19 vertex2 pnt.19.0
+bspline
+2,2,0
+0,0,1,1
+124.750050878,-112.412253328,0
+124.750050878,-169.912253328,0
 affix 0
 define_model 1e+10 reference_size 1
+define_prism_meshing_parameters law 0 nlay 3 hratio 1.2 min_quality 0.01 fillet 0.1 tetra_smooth_limit 0.3
 return
