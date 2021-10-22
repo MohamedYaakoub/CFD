@@ -1,4 +1,4 @@
-# Written by ICEM CFD 19.5, user mohsy, Thu Oct 21 10:52:34 PM W. Europe Daylight Time 2021
+# Written by ICEM CFD 19.5, user Javier Alba Maestre, Fri Oct 22 15:15:47 W. Europe Summer Time 2021
 
 begin family PNTS
     begin solver "ANSYS Fluent"
@@ -7,10 +7,6 @@ end family PNTS
 
 begin family GEOM
     begin solver "ANSYS Fluent"
-        begin bctype color
-            active 1
-            color 16663900 1
-        end bctype color
     end solver "ANSYS Fluent"
 end family GEOM
 
@@ -18,3 +14,12 @@ begin family CRVS
     begin solver "ANSYS Fluent"
     end solver "ANSYS Fluent"
 end family CRVS
+
+begin family SOLID
+    begin solver "ANSYS Fluent"
+        begin bctype color
+            active 1
+            color 3403390 1
+        end bctype color
+    end solver "ANSYS Fluent"
+end family SOLID
