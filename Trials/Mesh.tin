@@ -1,0 +1,2189 @@
+// tetin file version 1.1
+// written by ICEM CFD - version 19.5 on Wed Oct 20 23:41:37 2021
+// written by ICEM CFD - version 19.5 on Thu Oct 21 19:23:34 2021
+// written by ICEM CFD - version 19.5 on Thu Oct 21 22:52:34 2021
+// written by ICEM CFD - version 19.5 on Fri Oct 22 15:15:47 2021
+// written by ICEM CFD - version 19.5 on Fri Oct 22 18:43:41 2021
+
+set_triangulation_tolerance 0.001
+define_family PNTS color 14693271
+define_family GEOM color 16663866
+define_family CRVS color 6158899
+define_family SOLID color 3403389
+
+prescribed_point 25.481753318 16.368234452 0 family GEOM name pnt.13
+prescribed_point 14.750050878 28.441405182 0 family GEOM name pnt.14
+prescribed_point 56.335416728 -103.022009428 0 family GEOM name pnt.15
+prescribed_point 69.750050878 -112.412253328 0 family GEOM name pnt.16
+prescribed_point 61.701270388 -109.729326528 0 family GEOM name pnt.18
+prescribed_point 124.750050878 -112.412253328 0 family GEOM name pnt.19
+prescribed_point -0.006046682 35.148722252 0 family GEOM name pnt.23
+prescribed_point -55.006046682 35.148722252 0 family GEOM name pnt.24
+prescribed_point -55.006046682 -22.351277748 0 family GEOM name pnt.25
+prescribed_point 25.481753318 -41.131765548 0 family GEOM name pnt.13.0
+prescribed_point 14.750050878 -29.058594818 0 family GEOM name pnt.14.0
+prescribed_point 56.335416728 -160.522009428 0 family GEOM name pnt.15.0
+prescribed_point 69.750050878 -169.912253328 0 family GEOM name pnt.16.0
+prescribed_point 61.701270388 -167.229326528 0 family GEOM name pnt.18.0
+prescribed_point 124.750050878 -169.912253328 0 family GEOM name pnt.19.0
+prescribed_point -0.006046682 -22.351277748 0 family GEOM name pnt.23.0
+prescribed_point -55.006046682 -22.351277748 0 family GEOM name pnt.24.0
+prescribed_point 36.5213503 -52.27720925 0 family PNTS name pnt0
+prescribed_point 36.48953592 -52.28891894 0 family PNTS name pnt1
+prescribed_point 36.457248 -52.29909982 0 family PNTS name pnt2
+prescribed_point 36.42451362 -52.3077654 0 family PNTS name pnt3
+prescribed_point 36.39127188 -52.31490216 0 family PNTS name pnt4
+prescribed_point 36.35751603 -52.32049656 0 family PNTS name pnt5
+prescribed_point 36.32334753 -52.3244945 0 family PNTS name pnt6
+prescribed_point 36.28889492 -52.32686891 0 family PNTS name pnt7
+prescribed_point 36.25414465 -52.32758597 0 family PNTS name pnt8
+prescribed_point 36.21921174 -52.32661185 0 family PNTS name pnt9
+prescribed_point 36.18423824 -52.3239398 0 family PNTS name pnt10
+prescribed_point 36.14921062 -52.31953598 0 family PNTS name pnt11
+prescribed_point 36.11424389 -52.31337333 0 family PNTS name pnt12
+prescribed_point 36.07950039 -52.30547216 0 family PNTS name pnt13
+prescribed_point 36.04498689 -52.29579864 0 family PNTS name pnt14
+prescribed_point 36.01079133 -52.28433924 0 family PNTS name pnt15
+prescribed_point 35.9770896 -52.27113455 0 family PNTS name pnt16
+prescribed_point 35.94390874 -52.25617103 0 family PNTS name pnt17
+prescribed_point 35.91131642 -52.23943516 0 family PNTS name pnt18
+prescribed_point 35.87951557 -52.22099459 0 family PNTS name pnt19
+prescribed_point 35.84852647 -52.20084931 0 family PNTS name pnt20
+prescribed_point 35.81841679 -52.1789858 0 family PNTS name pnt21
+prescribed_point 35.7893827 -52.15551906 0 family PNTS name pnt22
+prescribed_point 35.76145126 -52.13043555 0 family PNTS name pnt23
+prescribed_point 35.73469687 -52.10375557 0 family PNTS name pnt24
+prescribed_point 35.70929542 -52.07561442 0 family PNTS name pnt25
+prescribed_point 35.68527397 -52.04600533 0 family PNTS name pnt26
+prescribed_point 35.66272722 -52.01497565 0 family PNTS name pnt27
+prescribed_point 35.64179048 -51.98267421 0 family PNTS name pnt28
+prescribed_point 35.62249079 -51.94908071 0 family PNTS name pnt29
+prescribed_point 35.60494992 -51.91434397 0 family PNTS name pnt30
+prescribed_point 35.58924229 -51.87853842 0 family PNTS name pnt31
+prescribed_point 35.57518524 -51.84181963 0 family PNTS name pnt32
+prescribed_point 35.56132437 -51.80483701 0 family PNTS name pnt33
+prescribed_point 35.54739585 -51.76767175 0 family PNTS name pnt34
+prescribed_point 35.53339969 -51.73031031 0 family PNTS name pnt35
+prescribed_point 35.51932911 -51.69275946 0 family PNTS name pnt36
+prescribed_point 35.50519766 -51.6550192 0 family PNTS name pnt37
+prescribed_point 35.49099179 -51.61708276 0 family PNTS name pnt38
+prescribed_point 35.47671827 -51.57895015 0 family PNTS name pnt39
+prescribed_point 35.46237034 -51.54062812 0 family PNTS name pnt40
+prescribed_point 35.44796153 -51.50210316 0 family PNTS name pnt41
+prescribed_point 35.43347154 -51.46338878 0 family PNTS name pnt42
+prescribed_point 35.41891391 -51.42447146 0 family PNTS name pnt43
+prescribed_point 35.40428863 -51.38535796 0 family PNTS name pnt44
+prescribed_point 35.38958893 -51.34604829 0 family PNTS name pnt45
+prescribed_point 35.37482159 -51.30652892 0 family PNTS name pnt46
+prescribed_point 35.35997984 -51.26682013 0 family PNTS name pnt47
+prescribed_point 35.34507044 -51.2269084 0 family PNTS name pnt48
+prescribed_point 35.33008663 -51.18678696 0 family PNTS name pnt49
+prescribed_point 35.31502841 -51.14646935 0 family PNTS name pnt50
+prescribed_point 35.29990254 -51.10594203 0 family PNTS name pnt51
+prescribed_point 35.28469549 -51.06521177 0 family PNTS name pnt52
+prescribed_point 35.2694208 -51.02427857 0 family PNTS name pnt53
+prescribed_point 35.2540717 -50.98313567 0 family PNTS name pnt54
+prescribed_point 35.23864818 -50.94178982 0 family PNTS name pnt55
+prescribed_point 35.22315702 -50.9002275 0 family PNTS name pnt56
+prescribed_point 35.20758468 -50.85846901 0 family PNTS name pnt57
+prescribed_point 35.19194469 -50.81648728 0 family PNTS name pnt58
+prescribed_point 35.17622353 -50.77430261 0 family PNTS name pnt59
+prescribed_point 35.16043472 -50.73190147 0 family PNTS name pnt60
+prescribed_point 35.14456473 -50.68929063 0 family PNTS name pnt61
+prescribed_point 35.12862034 -50.64646331 0 family PNTS name pnt62
+prescribed_point 35.11260153 -50.60341953 0 family PNTS name pnt63
+prescribed_point 35.0965083 -50.56016603 0 family PNTS name pnt64
+prescribed_point 35.08034067 -50.51669607 0 family PNTS name pnt65
+prescribed_point 35.06409863 -50.47300964 0 family PNTS name pnt66
+prescribed_point 35.04777541 -50.42909997 0 family PNTS name pnt67
+prescribed_point 35.03137777 -50.38497383 0 family PNTS name pnt68
+prescribed_point 35.01489896 -50.34063123 0 family PNTS name pnt69
+prescribed_point 34.99835251 -50.29606538 0 family PNTS name pnt70
+prescribed_point 34.98172488 -50.25128307 0 family PNTS name pnt71
+prescribed_point 34.96501607 -50.20627075 0 family PNTS name pnt72
+prescribed_point 34.94823285 -50.16104197 0 family PNTS name pnt73
+prescribed_point 34.93137521 -50.11558319 0 family PNTS name pnt74
+prescribed_point 34.9144364 -50.06990793 0 family PNTS name pnt75
+prescribed_point 34.89741642 -50.02399591 0 family PNTS name pnt76
+prescribed_point 34.88032202 -49.97786742 0 family PNTS name pnt77
+prescribed_point 34.86315321 -49.93150217 0 family PNTS name pnt78
+prescribed_point 34.84589646 -49.88491368 0 family PNTS name pnt79
+prescribed_point 34.8285653 -49.83809519 0 family PNTS name pnt80
+prescribed_point 34.81115296 -49.7910467 0 family PNTS name pnt81
+prescribed_point 34.79365945 -49.74376822 0 family PNTS name pnt82
+prescribed_point 34.77609152 -49.69625973 0 family PNTS name pnt83
+prescribed_point 34.75844242 -49.64851447 0 family PNTS name pnt84
+prescribed_point 34.74071214 -49.60053246 0 family PNTS name pnt85
+prescribed_point 34.72290069 -49.55232044 0 family PNTS name pnt86
+prescribed_point 34.70500129 -49.50387842 0 family PNTS name pnt87
+prescribed_point 34.68702748 -49.45519288 0 family PNTS name pnt88
+prescribed_point 34.6689725 -49.40627057 0 family PNTS name pnt89
+prescribed_point 34.65083634 -49.35711826 0 family PNTS name pnt90
+prescribed_point 34.632619 -49.30772242 0 family PNTS name pnt91
+prescribed_point 34.61431372 -49.25808981 0 family PNTS name pnt92
+prescribed_point 34.59592727 -49.20821368 0 family PNTS name pnt93
+prescribed_point 34.57745287 -49.15809402 0 family PNTS name pnt94
+prescribed_point 34.55890407 -49.10773759 0 family PNTS name pnt95
+prescribed_point 34.54026055 -49.05713087 0 family PNTS name pnt96
+prescribed_point 34.52154263 -49.00628739 0 family PNTS name pnt97
+prescribed_point 34.50273676 -48.95520037 0 family PNTS name pnt98
+prescribed_point 34.48384296 -48.90386306 0 family PNTS name pnt99
+prescribed_point 34.46486797 -48.85228223 0 family PNTS name pnt100
+prescribed_point 34.44580505 -48.80045786 0 family PNTS name pnt101
+prescribed_point 34.42666095 -48.74837643 0 family PNTS name pnt102
+prescribed_point 34.40742214 -48.69605148 0 family PNTS name pnt103
+prescribed_point 34.38810216 -48.64347623 0 family PNTS name pnt104
+prescribed_point 34.36869423 -48.59065069 0 family PNTS name pnt105
+prescribed_point 34.34919837 -48.53758162 0 family PNTS name pnt106
+prescribed_point 34.32962132 -48.48424872 0 family PNTS name pnt107
+prescribed_point 34.30994281 -48.4306723 0 family PNTS name pnt108
+prescribed_point 34.29018989 -48.37683882 0 family PNTS name pnt109
+prescribed_point 34.27034226 -48.32274827 0 family PNTS name pnt110
+prescribed_point 34.25040669 -48.26840067 0 family PNTS name pnt111
+prescribed_point 34.23038318 -48.21380278 0 family PNTS name pnt112
+prescribed_point 34.21026496 -48.15894106 0 family PNTS name pnt113
+prescribed_point 34.1900588 -48.10382905 0 family PNTS name pnt114
+prescribed_point 34.1697647 -48.04845322 0 family PNTS name pnt115
+prescribed_point 34.14938266 -47.99282033 0 family PNTS name pnt116
+prescribed_point 34.12890591 -47.93693037 0 family PNTS name pnt117
+prescribed_point 34.10834122 -47.8807766 0 family PNTS name pnt118
+prescribed_point 34.08767506 -47.824359 0 family PNTS name pnt119
+prescribed_point 34.06692773 -47.76767758 0 family PNTS name pnt120
+prescribed_point 34.04608569 -47.7107391 0 family PNTS name pnt121
+prescribed_point 34.02514894 -47.65353003 0 family PNTS name pnt122
+prescribed_point 34.00411749 -47.59606391 0 family PNTS name pnt123
+prescribed_point 33.9829981 -47.53832043 0 family PNTS name pnt124
+prescribed_point 33.96177723 -47.48031989 0 family PNTS name pnt125
+prescribed_point 33.94046843 -47.422042 0 family PNTS name pnt126
+prescribed_point 33.91906492 -47.36350705 0 family PNTS name pnt127
+prescribed_point 33.8975667 -47.30469475 0 family PNTS name pnt128
+prescribed_point 33.87596701 -47.24561862 0 family PNTS name pnt129
+prescribed_point 33.85427939 -47.18627191 0 family PNTS name pnt130
+prescribed_point 33.83249029 -47.12664784 0 family PNTS name pnt131
+prescribed_point 33.81060648 -47.06675319 0 family PNTS name pnt132
+prescribed_point 33.78862797 -47.00658795 0 family PNTS name pnt133
+prescribed_point 33.76654799 -46.94615212 0 family PNTS name pnt134
+prescribed_point 33.7443733 -46.88543894 0 family PNTS name pnt135
+prescribed_point 33.72210391 -46.8244484 0 family PNTS name pnt136
+prescribed_point 33.69973305 -46.76318728 0 family PNTS name pnt137
+prescribed_point 33.67726072 -46.70164204 0 family PNTS name pnt138
+prescribed_point 33.65469368 -46.63981944 0 family PNTS name pnt139
+prescribed_point 33.63202517 -46.57772626 0 family PNTS name pnt140
+prescribed_point 33.60924842 -46.51535573 0 family PNTS name pnt141
+prescribed_point 33.58637697 -46.45270108 0 family PNTS name pnt142
+prescribed_point 33.56340405 -46.38976231 0 family PNTS name pnt143
+prescribed_point 33.54032966 -46.32655295 0 family PNTS name pnt144
+prescribed_point 33.51714703 -46.26305271 0 family PNTS name pnt145
+prescribed_point 33.49386293 -46.19927512 0 family PNTS name pnt146
+prescribed_point 33.47047737 -46.13521341 0 family PNTS name pnt147
+prescribed_point 33.44698356 -46.07087435 0 family PNTS name pnt148
+prescribed_point 33.42338829 -46.00624441 0 family PNTS name pnt149
+prescribed_point 33.39967802 -45.94133711 0 family PNTS name pnt150
+prescribed_point 33.37586627 -45.87613217 0 family PNTS name pnt151
+prescribed_point 33.35194629 -45.81065664 0 family PNTS name pnt152
+prescribed_point 33.32791808 -45.74488346 0 family PNTS name pnt153
+prescribed_point 33.30378163 -45.67882616 0 family PNTS name pnt154
+prescribed_point 33.27953694 -45.61247798 0 family PNTS name pnt155
+prescribed_point 33.25517726 -45.54584569 0 family PNTS name pnt156
+prescribed_point 33.23070934 -45.47892251 0 family PNTS name pnt157
+prescribed_point 33.20613318 -45.41171522 0 family PNTS name pnt158
+prescribed_point 33.18143526 -45.34421704 0 family PNTS name pnt159
+prescribed_point 33.15663587 -45.27642798 0 family PNTS name pnt160
+prescribed_point 33.13171472 -45.20834128 0 family PNTS name pnt161
+prescribed_point 33.10667856 -45.13997045 0 family PNTS name pnt162
+prescribed_point 33.08153417 -45.07130198 0 family PNTS name pnt163
+prescribed_point 33.05626802 -45.0023494 0 family PNTS name pnt164
+prescribed_point 33.0308801 -44.93309916 0 family PNTS name pnt165
+prescribed_point 33.00538395 -44.86355805 0 family PNTS name pnt166
+prescribed_point 32.97976603 -44.79371928 0 family PNTS name pnt167
+prescribed_point 32.95402634 -44.72358964 0 family PNTS name pnt168
+prescribed_point 32.92817166 -44.65316235 0 family PNTS name pnt169
+prescribed_point 32.90219521 -44.58243741 0 family PNTS name pnt170
+prescribed_point 32.87609024 -44.51142835 0 family PNTS name pnt171
+prescribed_point 32.84987026 -44.44011489 0 family PNTS name pnt172
+prescribed_point 32.82352852 -44.36850377 0 family PNTS name pnt173
+prescribed_point 32.79705148 -44.29659501 0 family PNTS name pnt174
+prescribed_point 32.77045945 -44.2243886 0 family PNTS name pnt175
+prescribed_point 32.74373888 -44.15189131 0 family PNTS name pnt176
+prescribed_point 32.71688979 -44.07908961 0 family PNTS name pnt177
+prescribed_point 32.68991893 -44.00599703 0 family PNTS name pnt178
+prescribed_point 32.66281277 -43.93260003 0 family PNTS name pnt179
+prescribed_point 32.63557809 -43.85889863 0 family PNTS name pnt180
+prescribed_point 32.60821488 -43.78490634 0 family PNTS name pnt181
+prescribed_point 32.58071637 -43.71060964 0 family PNTS name pnt182
+prescribed_point 32.55308934 -43.63600853 0 family PNTS name pnt183
+prescribed_point 32.52532701 -43.56111653 0 family PNTS name pnt184
+prescribed_point 32.49742939 -43.48592013 0 family PNTS name pnt185
+prescribed_point 32.46939647 -43.41041931 0 family PNTS name pnt186
+prescribed_point 32.44122826 -43.33462085 0 family PNTS name pnt187
+prescribed_point 32.41291799 -43.25851797 0 family PNTS name pnt188
+prescribed_point 32.38447919 -43.18211069 0 family PNTS name pnt189
+prescribed_point 32.35589157 -43.10539899 0 family PNTS name pnt190
+prescribed_point 32.32716865 -43.02839641 0 family PNTS name pnt191
+prescribed_point 32.29829691 -42.95108265 0 family PNTS name pnt192
+prescribed_point 32.26928988 -42.87347125 0 family PNTS name pnt193
+prescribed_point 32.24013402 -42.79554867 0 family PNTS name pnt194
+prescribed_point 32.21083611 -42.71732844 0 family PNTS name pnt195
+prescribed_point 32.18139613 -42.63880381 0 family PNTS name pnt196
+prescribed_point 32.15180057 -42.55997476 0 family PNTS name pnt197
+prescribed_point 32.12205619 -42.4808413 0 family PNTS name pnt198
+prescribed_point 32.09216974 -42.40140342 0 family PNTS name pnt199
+prescribed_point 32.06212771 -42.32166114 0 family PNTS name pnt200
+prescribed_point 32.03193685 -42.24162121 0 family PNTS name pnt201
+prescribed_point 32.00158364 -42.1612701 0 family PNTS name pnt202
+prescribed_point 31.97108161 -42.08061458 0 family PNTS name pnt203
+prescribed_point 31.94042399 -41.99965466 0 family PNTS name pnt204
+prescribed_point 31.90961078 -41.91839708 0 family PNTS name pnt205
+prescribed_point 31.87863522 -41.83682833 0 family PNTS name pnt206
+prescribed_point 31.84750407 -41.75495516 0 family PNTS name pnt207
+prescribed_point 31.81621057 -41.67278435 0 family PNTS name pnt208
+prescribed_point 31.78475471 -41.59030236 0 family PNTS name pnt209
+prescribed_point 31.75313651 -41.50751597 0 family PNTS name pnt210
+prescribed_point 31.72134918 -41.42442516 0 family PNTS name pnt211
+prescribed_point 31.6893995 -41.34102993 0 family PNTS name pnt212
+prescribed_point 31.65728071 -41.2573303 0 family PNTS name pnt213
+prescribed_point 31.62499279 -41.17332626 0 family PNTS name pnt214
+prescribed_point 31.59253576 -41.08902456 0 family PNTS name pnt215
+prescribed_point 31.55990285 -41.0044117 0 family PNTS name pnt216
+prescribed_point 31.52710082 -40.91949442 0 family PNTS name pnt217
+prescribed_point 31.49411614 -40.83427949 0 family PNTS name pnt218
+prescribed_point 31.46096235 -40.74875339 0 family PNTS name pnt219
+prescribed_point 31.42762591 -40.66292964 0 family PNTS name pnt220
+prescribed_point 31.39411358 -40.57680148 0 family PNTS name pnt221
+prescribed_point 31.36041861 -40.49036891 0 family PNTS name pnt222
+prescribed_point 31.32654099 -40.40363869 0 family PNTS name pnt223
+prescribed_point 31.29248073 -40.31661082 0 family PNTS name pnt224
+prescribed_point 31.25823782 -40.22928531 0 family PNTS name pnt225
+prescribed_point 31.2238055 -40.14164862 0 family PNTS name pnt226
+prescribed_point 31.18919053 -40.05372105 0 family PNTS name pnt227
+prescribed_point 31.15438614 -39.96548231 0 family PNTS name pnt228
+prescribed_point 31.11938559 -39.87695268 0 family PNTS name pnt229
+prescribed_point 31.08419562 -39.78811187 0 family PNTS name pnt230
+prescribed_point 31.04880271 -39.69895313 0 family PNTS name pnt231
+prescribed_point 31.01322038 -39.60948997 0 family PNTS name pnt232
+prescribed_point 30.97744189 -39.51973593 0 family PNTS name pnt233
+prescribed_point 30.94146721 -39.42968424 0 family PNTS name pnt234
+prescribed_point 30.90529636 -39.33934167 0 family PNTS name pnt235
+prescribed_point 30.86892933 -39.24868793 0 family PNTS name pnt236
+prescribed_point 30.8323526 -39.1577433 0 family PNTS name pnt237
+prescribed_point 30.79557969 -39.06650779 0 family PNTS name pnt238
+prescribed_point 30.75860384 -38.97497464 0 family PNTS name pnt239
+prescribed_point 30.72142505 -38.88314384 0 family PNTS name pnt240
+prescribed_point 30.68404332 -38.79101539 0 family PNTS name pnt241
+prescribed_point 30.64644512 -38.69859605 0 family PNTS name pnt242
+prescribed_point 30.60864397 -38.60587908 0 family PNTS name pnt243
+prescribed_point 30.57063312 -38.51287122 0 family PNTS name pnt244
+prescribed_point 30.53241257 -38.41957247 0 family PNTS name pnt245
+prescribed_point 30.49397554 -38.32597608 0 family PNTS name pnt246
+prescribed_point 30.45532205 -38.23209558 0 family PNTS name pnt247
+prescribed_point 30.41645885 -38.13791742 0 family PNTS name pnt248
+prescribed_point 30.37737241 -38.04344839 0 family PNTS name pnt249
+prescribed_point 30.3380695 -37.94869524 0 family PNTS name pnt250
+prescribed_point 30.29855012 -37.85364444 0 family PNTS name pnt251
+prescribed_point 30.25880075 -37.75830275 0 family PNTS name pnt252
+prescribed_point 30.2188349 -37.66268372 0 family PNTS name pnt253
+prescribed_point 30.17863905 -37.56676704 0 family PNTS name pnt254
+prescribed_point 30.1382132 -37.47056624 0 family PNTS name pnt255
+prescribed_point 30.09756412 -37.37408809 0 family PNTS name pnt256
+prescribed_point 30.05668504 -37.27731229 0 family PNTS name pnt257
+prescribed_point 30.01557596 -37.18025238 0 family PNTS name pnt258
+prescribed_point 29.97423011 -37.08291511 0 family PNTS name pnt259
+prescribed_point 29.9326475 -36.98529372 0 family PNTS name pnt260
+prescribed_point 29.89083489 -36.88738822 0 family PNTS name pnt261
+prescribed_point 29.84877875 -36.7891986 0 family PNTS name pnt262
+prescribed_point 29.80648585 -36.69073162 0 family PNTS name pnt263
+prescribed_point 29.76394941 -36.5919873 0 family PNTS name pnt264
+prescribed_point 29.72116945 -36.49295886 0 family PNTS name pnt265
+prescribed_point 29.67814596 -36.39365306 0 family PNTS name pnt266
+prescribed_point 29.63487217 -36.29407668 0 family PNTS name pnt267
+prescribed_point 29.59135486 -36.19421617 0 family PNTS name pnt268
+prescribed_point 29.54758725 -36.09408508 0 family PNTS name pnt269
+prescribed_point 29.50356258 -35.99366988 0 family PNTS name pnt270
+prescribed_point 29.45928762 -35.89299085 0 family PNTS name pnt271
+prescribed_point 29.4147556 -35.79204123 0 family PNTS name pnt272
+prescribed_point 29.36996652 -35.69081426 0 family PNTS name pnt273
+prescribed_point 29.32492038 -35.5893167 0 family PNTS name pnt274
+prescribed_point 29.27961042 -35.48755532 0 family PNTS name pnt275
+prescribed_point 29.2340434 -35.38552335 0 family PNTS name pnt276
+prescribed_point 29.1882058 -35.28322755 0 family PNTS name pnt277
+prescribed_point 29.14210436 -35.18066117 0 family PNTS name pnt278
+prescribed_point 29.09573235 -35.07783773 0 family PNTS name pnt279
+prescribed_point 29.04908974 -34.9747437 0 family PNTS name pnt280
+prescribed_point 29.00216978 -34.87139262 0 family PNTS name pnt281
+prescribed_point 28.954986 -34.76777771 0 family PNTS name pnt282
+prescribed_point 28.90753163 -34.66392603 0 family PNTS name pnt283
+prescribed_point 28.85980667 -34.55983083 0 family PNTS name pnt284
+prescribed_point 28.81180436 -34.4554921 0 family PNTS name pnt285
+prescribed_point 28.76352469 -34.35089631 0 family PNTS name pnt286
+prescribed_point 28.71496768 -34.24605022 0 family PNTS name pnt287
+prescribed_point 28.66612654 -34.14096061 0 family PNTS name pnt288
+prescribed_point 28.61700129 -34.03561393 0 family PNTS name pnt289
+prescribed_point 28.56758516 -33.9300305 0 family PNTS name pnt290
+prescribed_point 28.51786461 -33.82413588 0 family PNTS name pnt291
+prescribed_point 28.46784642 -33.7180045 0 family PNTS name pnt292
+prescribed_point 28.41755088 -33.61163636 0 family PNTS name pnt293
+prescribed_point 28.36695769 -33.50503145 0 family PNTS name pnt294
+prescribed_point 28.31608038 -33.39818978 0 family PNTS name pnt295
+prescribed_point 28.26490542 -33.29111811 0 family PNTS name pnt296
+prescribed_point 28.21343958 -33.18381644 0 family PNTS name pnt297
+prescribed_point 28.1616761 -33.07628477 0 family PNTS name pnt298
+prescribed_point 28.10962173 -32.9685231 0 family PNTS name pnt299
+prescribed_point 28.05726296 -32.86053819 0 family PNTS name pnt300
+prescribed_point 28.00460653 -32.75233005 0 family PNTS name pnt301
+prescribed_point 27.95164569 -32.64389191 0 family PNTS name pnt302
+prescribed_point 27.89838045 -32.53523053 0 family PNTS name pnt303
+prescribed_point 27.84481079 -32.42635945 0 family PNTS name pnt304
+prescribed_point 27.79093672 -32.31726513 0 family PNTS name pnt305
+prescribed_point 27.73675147 -32.20794758 0 family PNTS name pnt306
+prescribed_point 27.68225505 -32.09842032 0 family PNTS name pnt307
+prescribed_point 27.62745421 -31.9886766 0 family PNTS name pnt308
+prescribed_point 27.57233544 -31.87872993 0 family PNTS name pnt309
+prescribed_point 27.51689872 -31.76856679 0 family PNTS name pnt310
+prescribed_point 27.46115083 -31.65819394 0 family PNTS name pnt311
+prescribed_point 27.40508499 -31.54761816 0 family PNTS name pnt312
+prescribed_point 27.34869445 -31.43683266 0 family PNTS name pnt313
+prescribed_point 27.29198597 -31.325851 0 family PNTS name pnt314
+prescribed_point 27.23495279 -31.21466639 0 family PNTS name pnt315
+prescribed_point 27.1775949 -31.1032856 0 family PNTS name pnt316
+prescribed_point 27.1199123 -30.99170187 0 family PNTS name pnt317
+prescribed_point 27.06189823 -30.87992874 0 family PNTS name pnt318
+prescribed_point 27.00355946 -30.76795942 0 family PNTS name pnt319
+prescribed_point 26.94488245 -30.65579393 0 family PNTS name pnt320
+prescribed_point 26.88588074 -30.54344579 0 family PNTS name pnt321
+prescribed_point 26.82653403 -30.43090824 0 family PNTS name pnt322
+prescribed_point 26.76686261 -30.31818805 0 family PNTS name pnt323
+prescribed_point 26.70684619 -30.20527844 0 family PNTS name pnt324
+prescribed_point 26.64649154 -30.09219295 0 family PNTS name pnt325
+prescribed_point 26.58579188 -29.97892481 0 family PNTS name pnt326
+prescribed_point 26.52474723 -29.86548079 0 family PNTS name pnt327
+prescribed_point 26.46336434 -29.75186089 0 family PNTS name pnt328
+prescribed_point 26.40162969 -29.63807187 0 family PNTS name pnt329
+prescribed_point 26.33955004 -29.52410697 0 family PNTS name pnt330
+prescribed_point 26.27711862 -29.40997972 0 family PNTS name pnt331
+prescribed_point 26.21433544 -29.29568335 0 family PNTS name pnt332
+prescribed_point 26.1512005 -29.18121786 0 family PNTS name pnt333
+prescribed_point 26.08770702 -29.06659678 0 family PNTS name pnt334
+prescribed_point 26.02386178 -28.95181335 0 family PNTS name pnt335
+prescribed_point 25.95965801 -28.8368811 0 family PNTS name pnt336
+prescribed_point 25.89513631 -28.72186767 0 family PNTS name pnt337
+prescribed_point 25.83025607 -28.60671218 0 family PNTS name pnt338
+prescribed_point 25.7650173 -28.49141464 0 family PNTS name pnt339
+prescribed_point 25.69942001 -28.37597503 0 family PNTS name pnt340
+prescribed_point 25.63346418 -28.26040013 0 family PNTS name pnt341
+prescribed_point 25.56709571 -28.14462229 0 family PNTS name pnt342
+prescribed_point 25.50034165 -28.0286821 0 family PNTS name pnt343
+prescribed_point 25.4332223 -27.9126269 0 family PNTS name pnt344
+prescribed_point 25.36574441 -27.79645671 0 family PNTS name pnt345
+prescribed_point 25.29790124 -27.68017152 0 family PNTS name pnt346
+prescribed_point 25.229686 -27.56377809 0 family PNTS name pnt347
+prescribed_point 25.16109871 -27.44728319 0 family PNTS name pnt348
+prescribed_point 25.09214612 -27.33068006 0 family PNTS name pnt349
+prescribed_point 25.02281471 -27.21398222 0 family PNTS name pnt350
+prescribed_point 24.95310448 -27.09718291 0 family PNTS name pnt351
+prescribed_point 24.88302219 -26.98028889 0 family PNTS name pnt352
+prescribed_point 24.81256107 -26.86330693 0 family PNTS name pnt353
+prescribed_point 24.74171437 -26.74623704 0 family PNTS name pnt354
+prescribed_point 24.67048884 -26.62908596 0 family PNTS name pnt355
+prescribed_point 24.59887773 -26.51184695 0 family PNTS name pnt356
+prescribed_point 24.52687426 -26.39452675 0 family PNTS name pnt357
+prescribed_point 24.45449197 -26.27713892 0 family PNTS name pnt358
+prescribed_point 24.38171056 -26.1596699 0 family PNTS name pnt359
+prescribed_point 24.3085368 -26.04214 0 family PNTS name pnt360
+prescribed_point 24.23497746 -25.92453569 0 family PNTS name pnt361
+prescribed_point 24.16101223 -25.8068705 0 family PNTS name pnt362
+prescribed_point 24.08665464 -25.68914443 0 family PNTS name pnt363
+prescribed_point 24.01189118 -25.57136423 0 family PNTS name pnt364
+prescribed_point 23.93673536 -25.45352316 0 family PNTS name pnt365
+prescribed_point 23.8611669 -25.3356415 0 family PNTS name pnt366
+prescribed_point 23.78519932 -25.21770572 0 family PNTS name pnt367
+prescribed_point 23.70881909 -25.09972935 0 family PNTS name pnt368
+prescribed_point 23.63203298 -24.98171239 0 family PNTS name pnt369
+prescribed_point 23.55482746 -24.86365485 0 family PNTS name pnt370
+prescribed_point 23.47721606 -24.74556348 0 family PNTS name pnt371
+prescribed_point 23.39919201 -24.62743829 0 family PNTS name pnt372
+prescribed_point 23.32074854 -24.50929281 0 family PNTS name pnt373
+prescribed_point 23.24188567 -24.3911135 0 family PNTS name pnt374
+prescribed_point 23.16259662 -24.27292066 0 family PNTS name pnt375
+prescribed_point 23.08288816 -24.15471429 0 family PNTS name pnt376
+prescribed_point 23.00275353 -24.03648763 0 family PNTS name pnt377
+prescribed_point 22.92219948 -23.9182542 0 family PNTS name pnt378
+prescribed_point 22.84121249 -23.80000725 0 family PNTS name pnt379
+prescribed_point 22.75979256 -23.68176705 0 family PNTS name pnt380
+prescribed_point 22.67793969 -23.5635201 0 family PNTS name pnt381
+prescribed_point 22.59565388 -23.44527991 0 family PNTS name pnt382
+prescribed_point 22.51293513 -23.32704648 0 family PNTS name pnt383
+prescribed_point 22.4297902 -23.20884688 0 family PNTS name pnt384
+prescribed_point 22.34629351 -23.09078257 0 family PNTS name pnt385
+prescribed_point 22.26237741 -22.97275208 0 family PNTS name pnt386
+prescribed_point 22.17803513 -22.85475542 0 family PNTS name pnt387
+prescribed_point 22.09321255 -22.73670464 0 family PNTS name pnt388
+prescribed_point 22.00794351 -22.61866063 0 family PNTS name pnt389
+prescribed_point 21.92226182 -22.50067073 0 family PNTS name pnt390
+prescribed_point 21.83618101 -22.38272818 0 family PNTS name pnt391
+prescribed_point 21.74968756 -22.26483976 0 family PNTS name pnt392
+prescribed_point 21.66280175 -22.14700545 0 family PNTS name pnt393
+prescribed_point 21.57551006 -22.02923202 0 family PNTS name pnt394
+prescribed_point 21.48781926 -21.91150595 0 family PNTS name pnt395
+prescribed_point 21.39972933 -21.79384752 0 family PNTS name pnt396
+prescribed_point 21.31125382 -21.67623645 0 family PNTS name pnt397
+prescribed_point 21.22238596 -21.55869302 0 family PNTS name pnt398
+prescribed_point 21.13312574 -21.44121047 0 family PNTS name pnt399
+prescribed_point 21.04347317 -21.32378881 0 family PNTS name pnt400
+prescribed_point 20.95344178 -21.20642803 0 family PNTS name pnt401
+prescribed_point 20.8630248 -21.0891349 0 family PNTS name pnt402
+prescribed_point 20.772229 -20.97190265 0 family PNTS name pnt403
+prescribed_point 20.68106113 -20.85473804 0 family PNTS name pnt404
+prescribed_point 20.58950768 -20.73764108 0 family PNTS name pnt405
+prescribed_point 20.49758894 -20.62061177 0 family PNTS name pnt406
+prescribed_point 20.40529814 -20.50365011 0 family PNTS name pnt407
+prescribed_point 20.31263528 -20.3867561 0 family PNTS name pnt408
+prescribed_point 20.21960712 -20.26993649 0 family PNTS name pnt409
+prescribed_point 20.12622044 -20.15318453 0 family PNTS name pnt410
+prescribed_point 20.03246846 -20.03650699 0 family PNTS name pnt411
+prescribed_point 19.93836472 -19.91990385 0 family PNTS name pnt412
+prescribed_point 19.84390245 -19.80336837 0 family PNTS name pnt413
+prescribed_point 19.74908842 -19.68691406 0 family PNTS name pnt414
+prescribed_point 19.65392262 -19.57053416 0 family PNTS name pnt415
+prescribed_point 19.55841182 -19.45423544 0 family PNTS name pnt416
+prescribed_point 19.46255602 -19.33801113 0 family PNTS name pnt417
+prescribed_point 19.36635522 -19.22186123 0 family PNTS name pnt418
+prescribed_point 19.26982295 -19.1057925 0 family PNTS name pnt419
+prescribed_point 19.17295245 -18.98981172 0 family PNTS name pnt420
+prescribed_point 19.07574371 -18.87390535 0 family PNTS name pnt421
+prescribed_point 18.97821026 -18.75808016 0 family PNTS name pnt422
+prescribed_point 18.88035211 -18.64233614 0 family PNTS name pnt423
+prescribed_point 18.78216926 -18.52668007 0 family PNTS name pnt424
+prescribed_point 18.68366169 -18.41110517 0 family PNTS name pnt425
+prescribed_point 18.58483619 -18.29561144 0 family PNTS name pnt426
+prescribed_point 18.48569951 -18.18021243 0 family PNTS name pnt427
+prescribed_point 18.38624489 -18.06489459 0 family PNTS name pnt428
+prescribed_point 18.28656028 -17.94974586 0 family PNTS name pnt429
+prescribed_point 18.1865983 -17.83472567 0 family PNTS name pnt430
+prescribed_point 18.0862778 -17.7197393 0 family PNTS name pnt431
+prescribed_point 17.98562583 -17.60482734 0 family PNTS name pnt432
+prescribed_point 17.88468974 -17.49003714 0 family PNTS name pnt433
+prescribed_point 17.78345601 -17.37536871 0 family PNTS name pnt434
+prescribed_point 17.68193815 -17.26082205 0 family PNTS name pnt435
+prescribed_point 17.58012942 -17.14641068 0 family PNTS name pnt436
+prescribed_point 17.4780298 -17.0321346 0 family PNTS name pnt437
+prescribed_point 17.3756393 -16.91798705 0 family PNTS name pnt438
+prescribed_point 17.27295792 -16.80398833 0 family PNTS name pnt439
+prescribed_point 17.16998566 -16.69013166 0 family PNTS name pnt440
+prescribed_point 17.06672928 -16.57641706 0 family PNTS name pnt441
+prescribed_point 16.96318201 -16.46285804 0 family PNTS name pnt442
+prescribed_point 16.85935063 -16.34944784 0 family PNTS name pnt443
+prescribed_point 16.75522837 -16.23619323 0 family PNTS name pnt444
+prescribed_point 16.65081523 -16.12310774 0 family PNTS name pnt445
+prescribed_point 16.54611797 -16.01017784 0 family PNTS name pnt446
+prescribed_point 16.44112982 -15.89741706 0 family PNTS name pnt447
+prescribed_point 16.33585756 -15.78482539 0 family PNTS name pnt448
+prescribed_point 16.23029442 -15.67240961 0 family PNTS name pnt449
+prescribed_point 16.12444716 -15.5601697 0 family PNTS name pnt450
+prescribed_point 16.01831578 -15.44811245 0 family PNTS name pnt451
+prescribed_point 15.91189352 -15.33623784 0 family PNTS name pnt452
+prescribed_point 15.8051939 -15.22454588 0 family PNTS name pnt453
+prescribed_point 15.69820341 -15.11305009 0 family PNTS name pnt454
+prescribed_point 15.5909288 -15.00174372 0 family PNTS name pnt455
+prescribed_point 15.48337007 -14.89064029 0 family PNTS name pnt456
+prescribed_point 15.37552722 -14.77973303 0 family PNTS name pnt457
+prescribed_point 15.26740025 -14.66902871 0 family PNTS name pnt458
+prescribed_point 15.15898917 -14.55853411 0 family PNTS name pnt459
+prescribed_point 15.05030074 -14.44824244 0 family PNTS name pnt460
+prescribed_point 14.94132142 -14.338174 0 family PNTS name pnt461
+prescribed_point 14.83206475 -14.22831527 0 family PNTS name pnt462
+prescribed_point 14.72253073 -14.11867978 0 family PNTS name pnt463
+prescribed_point 14.61271259 -14.00926752 0 family PNTS name pnt464
+prescribed_point 14.50261709 -13.9000785 0 family PNTS name pnt465
+prescribed_point 14.39223749 -13.79111948 0 family PNTS name pnt466
+prescribed_point 14.28158052 -13.68239722 0 family PNTS name pnt467
+prescribed_point 14.17063944 -13.57391173 0 family PNTS name pnt468
+prescribed_point 14.05942777 -13.465663 0 family PNTS name pnt469
+prescribed_point 13.94793875 -13.35765103 0 family PNTS name pnt470
+prescribed_point 13.83616562 -13.24989613 0 family PNTS name pnt471
+prescribed_point 13.72412189 -13.14238475 0 family PNTS name pnt472
+prescribed_point 13.61190228 -13.03521837 0 family PNTS name pnt473
+prescribed_point 13.49938503 -12.92828199 0 family PNTS name pnt474
+prescribed_point 13.38662424 -12.82162297 0 family PNTS name pnt475
+prescribed_point 13.27362669 -12.715221 0 family PNTS name pnt476
+prescribed_point 13.16039238 -12.60909639 0 family PNTS name pnt477
+prescribed_point 13.0469416 -12.50322883 0 family PNTS name pnt478
+prescribed_point 12.93326758 -12.39761834 0 family PNTS name pnt479
+prescribed_point 12.81938385 -12.29225813 0 family PNTS name pnt480
+prescribed_point 12.70529042 -12.18715499 0 family PNTS name pnt481
+prescribed_point 12.59100758 -12.08230214 0 family PNTS name pnt482
+prescribed_point 12.47652856 -11.97769282 0 family PNTS name pnt483
+prescribed_point 12.3618669 -11.87332026 0 family PNTS name pnt484
+prescribed_point 12.24702259 -11.76919124 0 family PNTS name pnt485
+prescribed_point 12.13201592 -11.66529897 0 family PNTS name pnt486
+prescribed_point 12.01684014 -11.56162995 0 family PNTS name pnt487
+prescribed_point 11.901502 -11.45819092 0 family PNTS name pnt488
+prescribed_point 11.78601505 -11.35498189 0 family PNTS name pnt489
+prescribed_point 11.67038603 -11.25198933 0 family PNTS name pnt490
+prescribed_point 11.55461495 -11.14921325 0 family PNTS name pnt491
+prescribed_point 11.43871535 -11.04665363 0 family PNTS name pnt492
+prescribed_point 11.32268721 -10.94430372 0 family PNTS name pnt493
+prescribed_point 11.20654408 -10.84216351 0 family PNTS name pnt494
+prescribed_point 11.09028594 -10.74021948 0 family PNTS name pnt495
+prescribed_point 10.97392634 -10.6384784 0 family PNTS name pnt496
+prescribed_point 10.85747203 -10.53694025 0 family PNTS name pnt497
+prescribed_point 10.74092301 -10.43559151 0 family PNTS name pnt498
+prescribed_point 10.62428606 -10.33443219 0 family PNTS name pnt499
+prescribed_point 10.50756792 -10.23345551 0 family PNTS name pnt500
+prescribed_point 10.39078214 -10.13266825 0 family PNTS name pnt501
+prescribed_point 10.27393548 -10.03205686 0 family PNTS name pnt502
+prescribed_point 10.15702117 -9.931621364 0 family PNTS name pnt503
+prescribed_point 10.0400595 -9.831361745 0 family PNTS name pnt504
+prescribed_point 9.923057254 -9.731264479 0 family PNTS name pnt505
+prescribed_point 9.80600765 -9.631343096 0 family PNTS name pnt506
+prescribed_point 9.688930987 -9.5315773 0 family PNTS name pnt507
+prescribed_point 9.571827265 -9.431967092 0 family PNTS name pnt508
+prescribed_point 9.454703249 -9.332519238 0 family PNTS name pnt509
+prescribed_point 9.337565704 -9.233213442 0 family PNTS name pnt510
+prescribed_point 9.220421394 -9.134063234 0 family PNTS name pnt511
+prescribed_point 9.103283849 -9.035061849 0 family PNTS name pnt512
+prescribed_point 8.986173362 -8.936222818 0 family PNTS name pnt513
+prescribed_point 8.86908317 -8.837532609 0 family PNTS name pnt514
+prescribed_point 8.752006507 -8.73898446 0 family PNTS name pnt515
+prescribed_point 8.634943374 -8.640578369 0 family PNTS name pnt516
+prescribed_point 8.517907299 -8.542314337 0 family PNTS name pnt517
+prescribed_point 8.400891518 -8.444199128 0 family PNTS name pnt518
+prescribed_point 8.283902797 -8.346232742 0 family PNTS name pnt519
+prescribed_point 8.166941134 -8.24841518 0 family PNTS name pnt520
+prescribed_point 8.050020059 -8.150746442 0 family PNTS name pnt521
+prescribed_point 7.933126043 -8.053226527 0 family PNTS name pnt522
+prescribed_point 7.81627938 -7.95584867 0 family PNTS name pnt523
+prescribed_point 7.69946654 -7.858626402 0 family PNTS name pnt524
+prescribed_point 7.582701053 -7.761552957 0 family PNTS name pnt525
+prescribed_point 7.46598292 -7.664628335 0 family PNTS name pnt526
+prescribed_point 7.349312139 -7.567859302 0 family PNTS name pnt527
+prescribed_point 7.232695475 -7.471239092 0 family PNTS name pnt528
+prescribed_point 7.11613293 -7.37477447 0 family PNTS name pnt529
+prescribed_point 6.999631266 -7.278458671 0 family PNTS name pnt530
+prescribed_point 6.883183721 -7.18229846 0 family PNTS name pnt531
+prescribed_point 6.766803822 -7.086287073 0 family PNTS name pnt532
+prescribed_point 6.650492043 -6.990431274 0 family PNTS name pnt533
+prescribed_point 6.534247303 -6.894731063 0 family PNTS name pnt534
+prescribed_point 6.418074201 -6.799186441 0 family PNTS name pnt535
+prescribed_point 6.301975579 -6.703799097 0 family PNTS name pnt536
+prescribed_point 6.185954615 -6.608565515 0 family PNTS name pnt537
+prescribed_point 6.070012798 -6.513488671 0 family PNTS name pnt538
+prescribed_point 5.954153646 -6.418568092 0 family PNTS name pnt539
+prescribed_point 5.838379661 -6.323804725 0 family PNTS name pnt540
+prescribed_point 5.722693888 -6.229199177 0 family PNTS name pnt541
+prescribed_point 5.607098289 -6.134751857 0 family PNTS name pnt542
+prescribed_point 5.491595501 -6.040462762 0 family PNTS name pnt543
+prescribed_point 5.376188907 -5.946332435 0 family PNTS name pnt544
+prescribed_point 5.260880605 -5.852361417 0 family PNTS name pnt545
+prescribed_point 5.145673637 -5.758550113 0 family PNTS name pnt546
+prescribed_point 5.030569967 -5.664899133 0 family PNTS name pnt547
+prescribed_point 4.915572705 -5.571408408 0 family PNTS name pnt548
+prescribed_point 4.800683746 -5.478078481 0 family PNTS name pnt549
+prescribed_point 4.685906202 -5.384910297 0 family PNTS name pnt550
+prescribed_point 4.571243049 -5.291903384 0 family PNTS name pnt551
+prescribed_point 4.456695775 -5.199058823 0 family PNTS name pnt552
+prescribed_point 4.342267492 -5.106376548 0 family PNTS name pnt553
+prescribed_point 4.227961177 -5.013857031 0 family PNTS name pnt554
+prescribed_point 4.113778385 -4.921501356 0 family PNTS name pnt555
+prescribed_point 3.999725069 -4.829311957 0 family PNTS name pnt556
+prescribed_point 3.885796765 -4.737293975 0 family PNTS name pnt557
+prescribed_point 3.771988129 -4.645455393 0 family PNTS name pnt558
+prescribed_point 3.658294966 -4.553805276 0 family PNTS name pnt559
+prescribed_point 3.544712406 -4.462352755 0 family PNTS name pnt560
+prescribed_point 3.431236187 -4.371106896 0 family PNTS name pnt561
+prescribed_point 3.317862047 -4.28007629 0 family PNTS name pnt562
+prescribed_point 3.204585658 -4.189269122 0 family PNTS name pnt563
+prescribed_point 3.091402553 -4.098694592 0 family PNTS name pnt564
+prescribed_point 2.978308607 -4.008361291 0 family PNTS name pnt565
+prescribed_point 2.865299356 -3.918277405 0 family PNTS name pnt566
+prescribed_point 2.75237101 -3.828451794 0 family PNTS name pnt567
+prescribed_point 2.639536152 -3.738873231 0 family PNTS name pnt568
+prescribed_point 2.5268351 -3.649492671 0 family PNTS name pnt569
+prescribed_point 2.41431223 -3.560258092 0 family PNTS name pnt570
+prescribed_point 2.302011378 -3.471117949 0 family PNTS name pnt571
+prescribed_point 2.189975634 -3.382020965 0 family PNTS name pnt572
+prescribed_point 2.078247616 -3.292917081 0 family PNTS name pnt573
+prescribed_point 1.966869469 -3.203756305 0 family PNTS name pnt574
+prescribed_point 1.855882524 -3.114490474 0 family PNTS name pnt575
+prescribed_point 1.745327303 -3.025071355 0 family PNTS name pnt576
+prescribed_point 1.635247099 -2.935450174 0 family PNTS name pnt577
+prescribed_point 1.5258573 -2.845380155 0 family PNTS name pnt578
+prescribed_point 1.417637117 -2.754266884 0 family PNTS name pnt579
+prescribed_point 1.311138957 -2.661525621 0 family PNTS name pnt580
+prescribed_point 1.206944718 -2.566594151 0 family PNTS name pnt581
+prescribed_point 1.105617224 -2.46888435 0 family PNTS name pnt582
+prescribed_point 1.007908506 -2.3679923 0 family PNTS name pnt583
+prescribed_point 0.914463714 -2.263429249 0 family PNTS name pnt584
+prescribed_point 0.825843505 -2.155026623 0 family PNTS name pnt585
+prescribed_point 0.742152869 -2.043189559 0 family PNTS name pnt586
+prescribed_point 0.663245032 -1.928199062 0 family PNTS name pnt587
+prescribed_point 0.58900249 -1.810360761 0 family PNTS name pnt588
+prescribed_point 0.519416078 -1.690164895 0 family PNTS name pnt589
+prescribed_point 0.454270623 -1.56775244 0 family PNTS name pnt590
+prescribed_point 0.393443963 -1.443390736 0 family PNTS name pnt591
+prescribed_point 0.336861536 -1.317437704 0 family PNTS name pnt592
+prescribed_point 0.284335974 -1.18998203 0 family PNTS name pnt593
+prescribed_point 0.235768946 -1.061275495 0 family PNTS name pnt594
+prescribed_point 0.191044172 -0.931500002 0 family PNTS name pnt595
+prescribed_point 0.15008731 -0.800778263 0 family PNTS name pnt596
+prescribed_point 0.113094142 -0.669100421 0 family PNTS name pnt597
+prescribed_point 0.08043298 -0.536641392 0 family PNTS name pnt598
+prescribed_point 0.052419099 -0.403340725 0 family PNTS name pnt599
+prescribed_point 0.029423454 -0.269321784 0 family PNTS name pnt600
+prescribed_point 0.011837653 -0.134887793 0 family PNTS name pnt601
+prescribed_point 0 0 0 family PNTS name pnt602
+prescribed_point -0.005859787 0.135390147 0 family PNTS name pnt603
+prescribed_point -0.006046682 0.270673472 0 family PNTS name pnt604
+prescribed_point -0.001055418 0.405856612 0 family PNTS name pnt605
+prescribed_point 0.008630278 0.540928054 0 family PNTS name pnt606
+prescribed_point 0.022488769 0.675481373 0 family PNTS name pnt607
+prescribed_point 0.04002018 0.809499111 0 family PNTS name pnt608
+prescribed_point 0.060751757 0.943046059 0 family PNTS name pnt609
+prescribed_point 0.084226089 1.076168997 0 family PNTS name pnt610
+prescribed_point 0.109971611 1.208776531 0 family PNTS name pnt611
+prescribed_point 0.13756104 1.340966752 0 family PNTS name pnt612
+prescribed_point 0.166577051 1.472826516 0 family PNTS name pnt613
+prescribed_point 0.196614206 1.604436528 0 family PNTS name pnt614
+prescribed_point 0.227503288 1.735807341 0 family PNTS name pnt615
+prescribed_point 0.259402562 1.866896809 0 family PNTS name pnt616
+prescribed_point 0.292495792 1.997659272 0 family PNTS name pnt617
+prescribed_point 0.326981563 2.12809412 0 family PNTS name pnt618
+prescribed_point 0.363060516 2.258186539 0 family PNTS name pnt619
+prescribed_point 0.400862917 2.387667294 0 family PNTS name pnt620
+prescribed_point 0.440574771 2.516473203 0 family PNTS name pnt621
+prescribed_point 0.482384148 2.644541015 0 family PNTS name pnt622
+prescribed_point 0.526481631 2.771806669 0 family PNTS name pnt623
+prescribed_point 0.573060541 2.898204886 0 family PNTS name pnt624
+prescribed_point 0.622317136 3.023669506 0 family PNTS name pnt625
+prescribed_point 0.674389936 3.147992245 0 family PNTS name pnt626
+prescribed_point 0.729329975 3.270803209 0 family PNTS name pnt627
+prescribed_point 0.787398092 3.392314809 0 family PNTS name pnt628
+prescribed_point 0.848313268 3.512286696 0 family PNTS name pnt629
+prescribed_point 0.911779481 3.630804781 0 family PNTS name pnt630
+prescribed_point 0.977535003 3.748013423 0 family PNTS name pnt631
+prescribed_point 1.045323588 3.864053802 0 family PNTS name pnt632
+prescribed_point 1.114894063 3.979064728 0 family PNTS name pnt633
+prescribed_point 1.185951419 4.093106679 0 family PNTS name pnt634
+prescribed_point 1.258204097 4.206246692 0 family PNTS name pnt635
+prescribed_point 1.331452945 4.318689468 0 family PNTS name pnt636
+prescribed_point 1.405468707 4.430584574 0 family PNTS name pnt637
+prescribed_point 1.480024292 4.542079006 0 family PNTS name pnt638
+prescribed_point 1.554937257 4.653307857 0 family PNTS name pnt639
+prescribed_point 1.630173506 4.764260504 0 family PNTS name pnt640
+prescribed_point 1.705762805 4.874912732 0 family PNTS name pnt641
+prescribed_point 1.781735933 4.985243433 0 family PNTS name pnt642
+prescribed_point 1.858123467 5.095230352 0 family PNTS name pnt643
+prescribed_point 1.934955576 5.204851909 0 family PNTS name pnt644
+prescribed_point 2.012263041 5.314085376 0 family PNTS name pnt645
+prescribed_point 2.090075965 5.422909579 0 family PNTS name pnt646
+prescribed_point 2.16842445 5.531302328 0 family PNTS name pnt647
+prescribed_point 2.247338937 5.639242046 0 family PNTS name pnt648
+prescribed_point 2.326849259 5.746707423 0 family PNTS name pnt649
+prescribed_point 2.406961775 5.853645628 0 family PNTS name pnt650
+prescribed_point 2.487890045 5.960265755 0 family PNTS name pnt651
+prescribed_point 2.569494989 6.066256969 0 family PNTS name pnt652
+prescribed_point 2.651828424 6.171549525 0 family PNTS name pnt653
+prescribed_point 2.734952719 6.276089169 0 family PNTS name pnt654
+prescribed_point 2.818929502 6.379820838 0 family PNTS name pnt655
+prescribed_point 2.903820601 6.482690684 0 family PNTS name pnt656
+prescribed_point 2.989686359 6.584644724 0 family PNTS name pnt657
+prescribed_point 3.076588469 6.685629113 0 family PNTS name pnt658
+prescribed_point 3.164587204 6.785589394 0 family PNTS name pnt659
+prescribed_point 3.2537425 6.884475778 0 family PNTS name pnt660
+prescribed_point 3.34411463 6.982232458 0 family PNTS name pnt661
+prescribed_point 3.435763192 7.078805315 0 family PNTS name pnt662
+prescribed_point 3.528747173 7.174146997 0 family PNTS name pnt663
+prescribed_point 3.623125697 7.268203386 0 family PNTS name pnt664
+prescribed_point 3.718957549 7.360920364 0 family PNTS name pnt665
+prescribed_point 3.815942782 7.451912344 0 family PNTS name pnt666
+prescribed_point 3.914218855 7.541240207 0 family PNTS name pnt667
+prescribed_point 4.01393838 7.628991896 0 family PNTS name pnt668
+prescribed_point 4.11495091 7.715065938 0 family PNTS name pnt669
+prescribed_point 4.217235136 7.79948263 0 family PNTS name pnt670
+prescribed_point 4.320770966 7.882269028 0 family PNTS name pnt671
+prescribed_point 4.425540949 7.963445428 0 family PNTS name pnt672
+prescribed_point 4.531528577 8.043038888 0 family PNTS name pnt673
+prescribed_point 4.638721337 8.121056174 0 family PNTS name pnt674
+prescribed_point 4.746964925 8.197422872 0 family PNTS name pnt675
+prescribed_point 4.856206442 8.272132219 0 family PNTS name pnt676
+prescribed_point 4.96643229 8.345211273 0 family PNTS name pnt677
+prescribed_point 5.077630361 8.416666799 0 family PNTS name pnt678
+prescribed_point 5.189788614 8.486525856 0 family PNTS name pnt679
+prescribed_point 5.302896901 8.554801973 0 family PNTS name pnt680
+prescribed_point 5.416947172 8.621501915 0 family PNTS name pnt681
+prescribed_point 5.531919743 8.686632446 0 family PNTS name pnt682
+prescribed_point 5.647675124 8.75013945 0 family PNTS name pnt683
+prescribed_point 5.764166776 8.812016161 0 family PNTS name pnt684
+prescribed_point 5.881387798 8.872269344 0 family PNTS name pnt685
+prescribed_point 5.999332033 8.930919293 0 family PNTS name pnt686
+prescribed_point 6.117992989 8.987966008 0 family PNTS name pnt687
+prescribed_point 6.237366606 9.043429783 0 family PNTS name pnt688
+prescribed_point 6.357448419 9.097310619 0 family PNTS name pnt689
+prescribed_point 6.47823579 9.149622044 0 family PNTS name pnt690
+prescribed_point 6.599655661 9.200330235 0 family PNTS name pnt691
+prescribed_point 6.721600743 9.249408134 0 family PNTS name pnt692
+prescribed_point 6.84406346 9.296848975 0 family PNTS name pnt693
+prescribed_point 6.967052471 9.342673052 0 family PNTS name pnt694
+prescribed_point 7.090548834 9.386880367 0 family PNTS name pnt695
+prescribed_point 7.214566079 9.429464153 0 family PNTS name pnt696
+prescribed_point 7.339097442 9.470437941 0 family PNTS name pnt697
+prescribed_point 7.464142921 9.509794966 0 family PNTS name pnt698
+prescribed_point 7.589688989 9.547528463 0 family PNTS name pnt699
+prescribed_point 7.715607114 9.583597843 0 family PNTS name pnt700
+prescribed_point 7.841863475 9.617996342 0 family PNTS name pnt701
+prescribed_point 7.968451306 9.650723961 0 family PNTS name pnt702
+prescribed_point 8.095370608 9.681773934 0 family PNTS name pnt703
+prescribed_point 8.222628144 9.711139497 0 family PNTS name pnt704
+prescribed_point 8.350217151 9.738827414 0 family PNTS name pnt705
+prescribed_point 8.478151157 9.764817391 0 family PNTS name pnt706
+prescribed_point 8.606416634 9.789102664 0 family PNTS name pnt707
+prescribed_point 8.734966228 9.811669703 0 family PNTS name pnt708
+prescribed_point 8.863657881 9.832477921 0 family PNTS name pnt709
+prescribed_point 8.992498357 9.851520551 0 family PNTS name pnt710
+prescribed_point 9.121487657 9.86879083 0 family PNTS name pnt711
+prescribed_point 9.25062578 9.884281993 0 family PNTS name pnt712
+prescribed_point 9.379912726 9.897980511 0 family PNTS name pnt713
+prescribed_point 9.509348496 9.909866089 0 family PNTS name pnt714
+prescribed_point 9.638933089 9.919925198 0 family PNTS name pnt715
+prescribed_point 9.768666506 9.928137543 0 family PNTS name pnt716
+prescribed_point 9.898386393 9.934476067 0 family PNTS name pnt717
+prescribed_point 10.02803187 9.938934005 0 family PNTS name pnt718
+prescribed_point 10.1576097 9.941477532 0 family PNTS name pnt719
+prescribed_point 10.28711311 9.942099884 0 family PNTS name pnt720
+prescribed_point 10.41654888 9.940780768 0 family PNTS name pnt721
+prescribed_point 10.54591024 9.937499888 0 family PNTS name pnt722
+prescribed_point 10.67519719 9.932236952 0 family PNTS name pnt723
+prescribed_point 10.80440972 9.92495137 0 family PNTS name pnt724
+prescribed_point 10.93345314 9.915643142 0 family PNTS name pnt725
+prescribed_point 11.06215156 9.904285211 0 family PNTS name pnt726
+prescribed_point 11.19049821 9.890864046 0 family PNTS name pnt727
+prescribed_point 11.31849986 9.875359354 0 family PNTS name pnt728
+prescribed_point 11.44614299 9.85773731 0 family PNTS name pnt729
+prescribed_point 11.57342758 9.837984386 0 family PNTS name pnt730
+prescribed_point 11.70034688 9.816066758 0 family PNTS name pnt731
+prescribed_point 11.82690089 9.791943838 0 family PNTS name pnt732
+prescribed_point 11.9529949 9.765615626 0 family PNTS name pnt733
+prescribed_point 12.0784395 9.737115945 0 family PNTS name pnt734
+prescribed_point 12.20320086 9.706478618 0 family PNTS name pnt735
+prescribed_point 12.32729252 9.673730706 0 family PNTS name pnt736
+prescribed_point 12.45072123 9.63890603 0 family PNTS name pnt737
+prescribed_point 12.57349377 9.602024886 0 family PNTS name pnt738
+prescribed_point 12.6956169 9.563107567 0 family PNTS name pnt739
+prescribed_point 12.81709062 9.522194661 0 family PNTS name pnt740
+prescribed_point 12.93789463 9.479306463 0 family PNTS name pnt741
+prescribed_point 13.057826 9.434557973 0 family PNTS name pnt742
+prescribed_point 13.17689148 9.387989778 0 family PNTS name pnt743
+prescribed_point 13.29510462 9.339622173 0 family PNTS name pnt744
+prescribed_point 13.41247216 9.28950251 0 family PNTS name pnt745
+prescribed_point 13.52901441 9.23765785 0 family PNTS name pnt746
+prescribed_point 13.64473814 9.184115249 0 family PNTS name pnt747
+prescribed_point 13.75966362 9.128908532 0 family PNTS name pnt748
+prescribed_point 13.87379088 9.072071523 0 family PNTS name pnt749
+prescribed_point 13.98699137 9.013705691 0 family PNTS name pnt750
+prescribed_point 14.09923803 8.953858391 0 family PNTS name pnt751
+prescribed_point 14.21057147 8.892570209 0 family PNTS name pnt752
+prescribed_point 14.32099166 8.829874969 0 family PNTS name pnt753
+prescribed_point 14.43051892 8.765792966 0 family PNTS name pnt754
+prescribed_point 14.5391803 8.700358023 0 family PNTS name pnt755
+prescribed_point 14.64698256 8.633603963 0 family PNTS name pnt756
+prescribed_point 14.75393923 8.565551081 0 family PNTS name pnt757
+prescribed_point 14.86001649 8.496273788 0 family PNTS name pnt758
+prescribed_point 14.96515346 8.425839732 0 family PNTS name pnt759
+prescribed_point 15.06937043 8.354275971 0 family PNTS name pnt760
+prescribed_point 15.17270122 8.281616328 0 family PNTS name pnt761
+prescribed_point 15.2751526 8.207881098 0 family PNTS name pnt762
+prescribed_point 15.37675163 8.133090575 0 family PNTS name pnt763
+prescribed_point 15.47750507 8.057285347 0 family PNTS name pnt764
+prescribed_point 15.57743322 7.980472178 0 family PNTS name pnt765
+prescribed_point 15.67659696 7.902644305 0 family PNTS name pnt766
+prescribed_point 15.77503011 7.823815256 0 family PNTS name pnt767
+prescribed_point 15.87256355 7.744147384 0 family PNTS name pnt768
+prescribed_point 15.96923111 7.663660983 0 family PNTS name pnt769
+prescribed_point 16.06503956 7.582369583 0 family PNTS name pnt770
+prescribed_point 16.16001595 7.500307007 0 family PNTS name pnt771
+prescribed_point 16.25417381 7.417486785 0 family PNTS name pnt772
+prescribed_point 16.34753343 7.333929211 0 family PNTS name pnt773
+prescribed_point 16.44011512 7.249647814 0 family PNTS name pnt774
+prescribed_point 16.53192562 7.164669652 0 family PNTS name pnt775
+prescribed_point 16.62298525 7.079008256 0 family PNTS name pnt776
+prescribed_point 16.71330753 6.992677155 0 family PNTS name pnt777
+prescribed_point 16.80291274 6.905696642 0 family PNTS name pnt778
+prescribed_point 16.89181443 6.818080248 0 family PNTS name pnt779
+prescribed_point 16.98001935 6.729848333 0 family PNTS name pnt780
+prescribed_point 17.06754104 6.641012128 0 family PNTS name pnt781
+prescribed_point 17.15440655 6.551586785 0 family PNTS name pnt782
+prescribed_point 17.24060913 6.461586308 0 family PNTS name pnt783
+prescribed_point 17.32611493 6.371098501 0 family PNTS name pnt784
+prescribed_point 17.41089692 6.280159016 0 family PNTS name pnt785
+prescribed_point 17.49500243 6.188760477 0 family PNTS name pnt786
+prescribed_point 17.57843824 6.096915334 0 family PNTS name pnt787
+prescribed_point 17.66121788 6.00463522 0 family PNTS name pnt788
+prescribed_point 17.74336163 5.911932312 0 family PNTS name pnt789
+prescribed_point 17.82487626 5.81881757 0 family PNTS name pnt790
+prescribed_point 17.90578208 5.725302627 0 family PNTS name pnt791
+prescribed_point 17.98607907 5.631398106 0 family PNTS name pnt792
+prescribed_point 18.06578753 5.537114559 0 family PNTS name pnt793
+prescribed_point 18.14492099 5.442462132 0 family PNTS name pnt794
+prescribed_point 18.22348621 5.347450771 0 family PNTS name pnt795
+prescribed_point 18.30149673 5.252090689 0 family PNTS name pnt796
+prescribed_point 18.37895931 5.156390884 0 family PNTS name pnt797
+prescribed_point 18.45589425 5.060360961 0 family PNTS name pnt798
+prescribed_point 18.53229477 4.964009986 0 family PNTS name pnt799
+prescribed_point 18.60818794 4.867347565 0 family PNTS name pnt800
+prescribed_point 18.68357375 4.770381205 0 family PNTS name pnt801
+prescribed_point 18.75845898 4.673132081 0 family PNTS name pnt802
+prescribed_point 18.83293833 4.575486274 0 family PNTS name pnt803
+prescribed_point 18.90689003 4.477609183 0 family PNTS name pnt804
+prescribed_point 18.98032085 4.379503242 0 family PNTS name pnt805
+prescribed_point 19.05323078 4.28117251 0 family PNTS name pnt806
+prescribed_point 19.1256266 4.182618475 0 family PNTS name pnt807
+prescribed_point 19.19750831 4.083844993 0 family PNTS name pnt808
+prescribed_point 19.26888942 3.9848545 0 family PNTS name pnt809
+prescribed_point 19.33976318 3.885650107 0 family PNTS name pnt810
+prescribed_point 19.41013636 3.786234993 0 family PNTS name pnt811
+prescribed_point 19.48001571 3.686612 0 family PNTS name pnt812
+prescribed_point 19.549408 3.586784105 0 family PNTS name pnt813
+prescribed_point 19.61830647 3.486754621 0 family PNTS name pnt814
+prescribed_point 19.68672465 3.386526255 0 family PNTS name pnt815
+prescribed_point 19.75466929 3.286102931 0 family PNTS name pnt816
+prescribed_point 19.82213365 3.185487015 0 family PNTS name pnt817
+prescribed_point 19.889138 3.084681824 0 family PNTS name pnt818
+prescribed_point 19.95566882 2.983691211 0 family PNTS name pnt819
+prescribed_point 20.02174641 2.882517614 0 family PNTS name pnt820
+prescribed_point 20.087364 2.78116482 0 family PNTS name pnt821
+prescribed_point 20.15252836 2.679635941 0 family PNTS name pnt822
+prescribed_point 20.21724624 2.577934358 0 family PNTS name pnt823
+prescribed_point 20.28153119 2.476063253 0 family PNTS name pnt824
+prescribed_point 20.34536966 2.374026277 0 family PNTS name pnt825
+prescribed_point 20.40877519 2.271826745 0 family PNTS name pnt826
+prescribed_point 20.47176132 2.169467769 0 family PNTS name pnt827
+prescribed_point 20.5343145 2.066953138 0 family PNTS name pnt828
+prescribed_point 20.59645503 1.964286166 0 family PNTS name pnt829
+prescribed_point 20.65818292 1.86147037 0 family PNTS name pnt830
+prescribed_point 20.71949816 1.758509065 0 family PNTS name pnt831
+prescribed_point 20.78041428 1.655405972 0 family PNTS name pnt832
+prescribed_point 20.84092452 1.552164542 0 family PNTS name pnt833
+prescribed_point 20.90104918 1.448788358 0 family PNTS name pnt834
+prescribed_point 20.96078148 1.345280804 0 family PNTS name pnt835
+prescribed_point 21.02012819 1.241645735 0 family PNTS name pnt836
+prescribed_point 21.07907579 1.13792604 0 family PNTS name pnt837
+prescribed_point 21.13759044 1.034188621 0 family PNTS name pnt838
+prescribed_point 21.19571951 0.930372056 0 family PNTS name pnt839
+prescribed_point 21.25346299 0.82647959 0 family PNTS name pnt840
+prescribed_point 21.31082765 0.722514404 0 family PNTS name pnt841
+prescribed_point 21.36782701 0.61847967 0 family PNTS name pnt842
+prescribed_point 21.42446108 0.514378602 0 family PNTS name pnt843
+prescribed_point 21.48072985 0.410214371 0 family PNTS name pnt844
+prescribed_point 21.53664686 0.305990138 0 family PNTS name pnt845
+prescribed_point 21.59221887 0.201709094 0 family PNTS name pnt846
+prescribed_point 21.64744588 0.097374427 0 family PNTS name pnt847
+prescribed_point 21.70233466 -0.007010715 0 family PNTS name pnt848
+prescribed_point 21.75689873 -0.111443149 0 family PNTS name pnt849
+prescribed_point 21.81113809 -0.215919699 0 family PNTS name pnt850
+prescribed_point 21.86505275 -0.320437223 0 family PNTS name pnt851
+prescribed_point 21.91865623 -0.424992562 0 family PNTS name pnt852
+prescribed_point 21.97194854 -0.529582549 0 family PNTS name pnt853
+prescribed_point 22.0249432 -0.634204067 0 family PNTS name pnt854
+prescribed_point 22.07764021 -0.738853996 0 family PNTS name pnt855
+prescribed_point 22.13004634 -0.843529137 0 family PNTS name pnt856
+prescribed_point 22.18216836 -0.948226467 0 family PNTS name pnt857
+prescribed_point 22.23401302 -1.052942805 0 family PNTS name pnt858
+prescribed_point 22.28558033 -1.157674973 0 family PNTS name pnt859
+prescribed_point 22.33688381 -1.262419993 0 family PNTS name pnt860
+prescribed_point 22.38792347 -1.367174688 0 family PNTS name pnt861
+prescribed_point 22.43870608 -1.471936079 0 family PNTS name pnt862
+prescribed_point 22.48923839 -1.576701123 0 family PNTS name pnt863
+prescribed_point 22.53952717 -1.681466573 0 family PNTS name pnt864
+prescribed_point 22.58957242 -1.786229588 0 family PNTS name pnt865
+prescribed_point 22.63938767 -1.89098692 0 family PNTS name pnt866
+prescribed_point 22.68897292 -1.995735729 0 family PNTS name pnt867
+prescribed_point 22.73832817 -2.100472768 0 family PNTS name pnt868
+prescribed_point 22.78747371 -2.205195465 0 family PNTS name pnt869
+prescribed_point 22.83640279 -2.309900371 0 family PNTS name pnt870
+prescribed_point 22.88512892 -2.414584645 0 family PNTS name pnt871
+prescribed_point 22.93365212 -2.519245512 0 family PNTS name pnt872
+prescribed_point 22.9819656 -2.623853886 0 family PNTS name pnt873
+prescribed_point 23.03010321 -2.728455292 0 family PNTS name pnt874
+prescribed_point 23.07805817 -2.833057645 0 family PNTS name pnt875
+prescribed_point 23.12583048 -2.937616163 0 family PNTS name pnt876
+prescribed_point 23.17340661 -3.042130846 0 family PNTS name pnt877
+prescribed_point 23.22078657 -3.146600882 0 family PNTS name pnt878
+prescribed_point 23.26797712 -3.251025594 0 family PNTS name pnt879
+prescribed_point 23.31498502 -3.355404712 0 family PNTS name pnt880
+prescribed_point 23.36179674 -3.459737695 0 family PNTS name pnt881
+prescribed_point 23.40841906 -3.564023798 0 family PNTS name pnt882
+prescribed_point 23.45485872 -3.668262751 0 family PNTS name pnt883
+prescribed_point 23.50110898 -3.772454081 0 family PNTS name pnt884
+prescribed_point 23.54717658 -3.876597314 0 family PNTS name pnt885
+prescribed_point 23.59305478 -3.980691639 0 family PNTS name pnt886
+prescribed_point 23.63875033 -4.084736851 0 family PNTS name pnt887
+prescribed_point 23.68426323 -4.188732343 0 family PNTS name pnt888
+prescribed_point 23.72958672 -4.292678047 0 family PNTS name pnt889
+prescribed_point 23.77473433 -4.396572474 0 family PNTS name pnt890
+prescribed_point 23.81969929 -4.500416098 0 family PNTS name pnt891
+prescribed_point 23.8644816 -4.604208243 0 family PNTS name pnt892
+prescribed_point 23.90908127 -4.70794803 0 family PNTS name pnt893
+prescribed_point 23.95350505 -4.811635322 0 family PNTS name pnt894
+prescribed_point 23.99775296 -4.915269782 0 family PNTS name pnt895
+prescribed_point 24.04181821 -5.018850259 0 family PNTS name pnt896
+prescribed_point 24.08570759 -5.122377296 0 family PNTS name pnt897
+prescribed_point 24.12942108 -5.225849944 0 family PNTS name pnt898
+prescribed_point 24.17295869 -5.329267663 0 family PNTS name pnt899
+prescribed_point 24.21631365 -5.432629911 0 family PNTS name pnt900
+prescribed_point 24.25949949 -5.535936216 0 family PNTS name pnt901
+prescribed_point 24.30251622 -5.639186576 0 family PNTS name pnt902
+prescribed_point 24.3453503 -5.742380518 0 family PNTS name pnt903
+prescribed_point 24.38801526 -5.845516961 0 family PNTS name pnt904
+prescribed_point 24.43051111 -5.948595971 0 family PNTS name pnt905
+prescribed_point 24.47283784 -6.051617482 0 family PNTS name pnt906
+prescribed_point 24.51498868 -6.154580072 0 family PNTS name pnt907
+prescribed_point 24.55697041 -6.257484147 0 family PNTS name pnt908
+prescribed_point 24.59878302 -6.360328828 0 family PNTS name pnt909
+prescribed_point 24.64042651 -6.463113439 0 family PNTS name pnt910
+prescribed_point 24.68190089 -6.565838655 0 family PNTS name pnt911
+prescribed_point 24.72320615 -6.668502854 0 family PNTS name pnt912
+prescribed_point 24.76434905 -6.771106171 0 family PNTS name pnt913
+prescribed_point 24.80532284 -6.873645494 0 family PNTS name pnt914
+prescribed_point 24.84612751 -6.976130699 0 family PNTS name pnt915
+prescribed_point 24.88677659 -7.078548257 0 family PNTS name pnt916
+prescribed_point 24.92725656 -7.180904932 0 family PNTS name pnt917
+prescribed_point 24.96756741 -7.283193961 0 family PNTS name pnt918
+prescribed_point 25.00772267 -7.385428872 0 family PNTS name pnt919
+prescribed_point 25.04770881 -7.487589371 0 family PNTS name pnt920
+prescribed_point 25.08753936 -7.589695753 0 family PNTS name pnt921
+prescribed_point 25.12720756 -7.691727723 0 family PNTS name pnt922
+prescribed_point 25.16670665 -7.793705576 0 family PNTS name pnt923
+prescribed_point 25.20605691 -7.895609017 0 family PNTS name pnt924
+prescribed_point 25.24523805 -7.997451575 0 family PNTS name pnt925
+prescribed_point 25.2842636 -8.099226487 0 family PNTS name pnt926
+prescribed_point 25.32313357 -8.200933751 0 family PNTS name pnt927
+prescribed_point 25.36184118 -8.302580133 0 family PNTS name pnt928
+prescribed_point 25.40039321 -8.404152104 0 family PNTS name pnt929
+prescribed_point 25.43878964 -8.505656427 0 family PNTS name pnt930
+prescribed_point 25.47702373 -8.607099869 0 family PNTS name pnt931
+prescribed_point 25.51510899 -8.708468898 0 family PNTS name pnt932
+prescribed_point 25.5530319 -8.809770281 0 family PNTS name pnt933
+prescribed_point 25.59080598 -8.911004016 0 family PNTS name pnt934
+prescribed_point 25.62842448 -9.012170105 0 family PNTS name pnt935
+prescribed_point 25.66588739 -9.113261781 0 family PNTS name pnt936
+prescribed_point 25.70320147 -9.214285811 0 family PNTS name pnt937
+prescribed_point 25.74035997 -9.315242194 0 family PNTS name pnt938
+prescribed_point 25.77736964 -9.416124165 0 family PNTS name pnt939
+prescribed_point 25.81422373 -9.516938489 0 family PNTS name pnt940
+prescribed_point 25.85092899 -9.617678402 0 family PNTS name pnt941
+prescribed_point 25.88748543 -9.718343902 0 family PNTS name pnt942
+prescribed_point 25.92388628 -9.818941756 0 family PNTS name pnt943
+prescribed_point 25.96014507 -9.919465198 0 family PNTS name pnt944
+prescribed_point 25.99624828 -10.01992099 0 family PNTS name pnt945
+prescribed_point 26.03220266 -10.12029561 0 family PNTS name pnt946
+prescribed_point 26.06801498 -10.22060258 0 family PNTS name pnt947
+prescribed_point 26.10367848 -10.32083514 0 family PNTS name pnt948
+prescribed_point 26.13919315 -10.42099329 0 family PNTS name pnt949
+prescribed_point 26.17453871 -10.52100262 0 family PNTS name pnt950
+prescribed_point 26.20972191 -10.62090371 0 family PNTS name pnt951
+prescribed_point 26.24476306 -10.72073038 0 family PNTS name pnt952
+prescribed_point 26.27965538 -10.82046912 0 family PNTS name pnt953
+prescribed_point 26.31440565 -10.92013345 0 family PNTS name pnt954
+prescribed_point 26.34901385 -11.01973012 0 family PNTS name pnt955
+prescribed_point 26.38348676 -11.11927945 0 family PNTS name pnt956
+prescribed_point 26.41781762 -11.21873407 0 family PNTS name pnt957
+prescribed_point 26.45199965 -11.31810751 0 family PNTS name pnt958
+prescribed_point 26.48603962 -11.41739978 0 family PNTS name pnt959
+prescribed_point 26.51994429 -11.51659734 0 family PNTS name pnt960
+prescribed_point 26.55370691 -11.61571372 0 family PNTS name pnt961
+prescribed_point 26.58732747 -11.71474217 0 family PNTS name pnt962
+prescribed_point 26.62081273 -11.8136759 0 family PNTS name pnt963
+prescribed_point 26.6541627 -11.91252846 0 family PNTS name pnt964
+prescribed_point 26.68737738 -12.01128632 0 family PNTS name pnt965
+prescribed_point 26.72045676 -12.10995623 0 family PNTS name pnt966
+prescribed_point 26.75340085 -12.20853821 0 family PNTS name pnt967
+prescribed_point 26.78621641 -12.30702547 0 family PNTS name pnt968
+prescribed_point 26.81890344 -12.4054248 0 family PNTS name pnt969
+prescribed_point 26.85145518 -12.50373619 0 family PNTS name pnt970
+prescribed_point 26.88388515 -12.60195287 0 family PNTS name pnt971
+prescribed_point 26.91617983 -12.70007484 0 family PNTS name pnt972
+prescribed_point 26.94835274 -12.79810887 0 family PNTS name pnt973
+prescribed_point 26.98040389 -12.89604143 0 family PNTS name pnt974
+prescribed_point 27.01232651 -12.99388605 0 family PNTS name pnt975
+prescribed_point 27.04412737 -13.09163597 0 family PNTS name pnt976
+prescribed_point 27.07580646 -13.18929118 0 family PNTS name pnt977
+prescribed_point 27.10737055 -13.28685168 0 family PNTS name pnt978
+prescribed_point 27.13880611 -13.38431748 0 family PNTS name pnt979
+prescribed_point 27.17013343 -13.48168857 0 family PNTS name pnt980
+prescribed_point 27.20133899 -13.57896496 0 family PNTS name pnt981
+prescribed_point 27.23242279 -13.67613987 0 family PNTS name pnt982
+prescribed_point 27.26339835 -13.77322008 0 family PNTS name pnt983
+prescribed_point 27.29425215 -13.87019882 0 family PNTS name pnt984
+prescribed_point 27.32500447 -13.96708285 0 family PNTS name pnt985
+prescribed_point 27.35563504 -14.06387218 0 family PNTS name pnt986
+prescribed_point 27.38615736 -14.16056004 0 family PNTS name pnt987
+prescribed_point 27.41657145 -14.25714643 0 family PNTS name pnt988
+prescribed_point 27.44687731 -14.35363811 0 family PNTS name pnt989
+prescribed_point 27.47707493 -14.45002832 0 family PNTS name pnt990
+prescribed_point 27.50716432 -14.54631706 0 family PNTS name pnt991
+prescribed_point 27.53714547 -14.64250433 0 family PNTS name pnt992
+prescribed_point 27.56702515 -14.73859013 0 family PNTS name pnt993
+prescribed_point 27.59680336 -14.83457445 0 family PNTS name pnt994
+prescribed_point 27.62647333 -14.93045731 0 family PNTS name pnt995
+prescribed_point 27.6560486 -15.0262387 0 family PNTS name pnt996
+prescribed_point 27.68551563 -15.12191862 0 family PNTS name pnt997
+prescribed_point 27.71488796 -15.21749706 0 family PNTS name pnt998
+prescribed_point 27.74415882 -15.31296727 0 family PNTS name pnt999
+prescribed_point 27.77333497 -15.40833601 0 family PNTS name pnt1000
+prescribed_point 27.80240965 -15.50360328 0 family PNTS name pnt1001
+prescribed_point 27.83139639 -15.59876232 0 family PNTS name pnt1002
+prescribed_point 27.86028166 -15.69381988 0 family PNTS name pnt1003
+prescribed_point 27.88907222 -15.78876921 0 family PNTS name pnt1004
+prescribed_point 27.91777484 -15.88361707 0 family PNTS name pnt1005
+prescribed_point 27.94638276 -15.97835669 0 family PNTS name pnt1006
+prescribed_point 27.97489597 -16.07298808 0 family PNTS name pnt1007
+prescribed_point 28.00332124 -16.16751124 0 family PNTS name pnt1008
+prescribed_point 28.03165857 -16.26193292 0 family PNTS name pnt1009
+prescribed_point 28.05990795 -16.35624637 0 family PNTS name pnt1010
+prescribed_point 28.0880694 -16.45045158 0 family PNTS name pnt1011
+prescribed_point 28.11614967 -16.54454855 0 family PNTS name pnt1012
+prescribed_point 28.14413523 -16.6385373 0 family PNTS name pnt1013
+prescribed_point 28.17203962 -16.7324178 0 family PNTS name pnt1014
+prescribed_point 28.19986283 -16.82619007 0 family PNTS name pnt1015
+prescribed_point 28.2275981 -16.91984735 0 family PNTS name pnt1016
+prescribed_point 28.25525896 -17.01340315 0 family PNTS name pnt1017
+prescribed_point 28.28283188 -17.10684395 0 family PNTS name pnt1018
+prescribed_point 28.31032362 -17.20017651 0 family PNTS name pnt1019
+prescribed_point 28.33774095 -17.29339408 0 family PNTS name pnt1020
+prescribed_point 28.3650771 -17.38650341 0 family PNTS name pnt1021
+prescribed_point 28.39233884 -17.47950451 0 family PNTS name pnt1022
+prescribed_point 28.41951941 -17.57239737 0 family PNTS name pnt1023
+prescribed_point 28.44662556 -17.66516846 0 family PNTS name pnt1024
+prescribed_point 28.4736573 -17.75783809 0 family PNTS name pnt1025
+prescribed_point 28.50061463 -17.85038595 0 family PNTS name pnt1026
+prescribed_point 28.52749755 -17.94282557 0 family PNTS name pnt1027
+prescribed_point 28.55430605 -18.0351502 0 family PNTS name pnt1028
+prescribed_point 28.58104691 -18.12736659 0 family PNTS name pnt1029
+prescribed_point 28.60771336 -18.21946798 0 family PNTS name pnt1030
+prescribed_point 28.63431216 -18.31144761 0 family PNTS name pnt1031
+prescribed_point 28.66083655 -18.403319 0 family PNTS name pnt1032
+prescribed_point 28.68730005 -18.49508215 0 family PNTS name pnt1033
+prescribed_point 28.71368238 -18.58671001 0 family PNTS name pnt1034
+prescribed_point 28.74000383 -18.67821611 0 family PNTS name pnt1035
+prescribed_point 28.76625763 -18.76960721 0 family PNTS name pnt1036
+prescribed_point 28.79244379 -18.86088331 0 family PNTS name pnt1037
+prescribed_point 28.81856229 -18.9520444 0 family PNTS name pnt1038
+prescribed_point 28.84461992 -19.0430905 0 family PNTS name pnt1039
+prescribed_point 28.8706099 -19.1340216 0 family PNTS name pnt1040
+prescribed_point 28.89653899 -19.22483769 0 family PNTS name pnt1041
+prescribed_point 28.92239367 -19.31553203 0 family PNTS name pnt1042
+prescribed_point 28.94818747 -19.40611136 0 family PNTS name pnt1043
+prescribed_point 28.97392039 -19.49657569 0 family PNTS name pnt1044
+prescribed_point 28.9995789 -19.58691826 0 family PNTS name pnt1045
+prescribed_point 29.02518329 -19.67714583 0 family PNTS name pnt1046
+prescribed_point 29.05071327 -19.76725163 0 family PNTS name pnt1047
+prescribed_point 29.07618236 -19.8572492 0 family PNTS name pnt1048
+prescribed_point 29.10159058 -19.94712501 0 family PNTS name pnt1049
+prescribed_point 29.12693791 -20.03688581 0 family PNTS name pnt1050
+prescribed_point 29.15221083 -20.12652485 0 family PNTS name pnt1051
+prescribed_point 29.17742286 -20.21604889 0 family PNTS name pnt1052
+prescribed_point 29.20258078 -20.30545117 0 family PNTS name pnt1053
+prescribed_point 29.22766429 -20.39473844 0 family PNTS name pnt1054
+prescribed_point 29.25268692 -20.48391072 0 family PNTS name pnt1055
+prescribed_point 29.27764866 -20.57296799 0 family PNTS name pnt1056
+prescribed_point 29.30254952 -20.66189674 0 family PNTS name pnt1057
+prescribed_point 29.32738273 -20.75071725 0 family PNTS name pnt1058
+prescribed_point 29.35215506 -20.839416 0 family PNTS name pnt1059
+prescribed_point 29.37686651 -20.92799974 0 family PNTS name pnt1060
+prescribed_point 29.40151708 -21.01646172 0 family PNTS name pnt1061
+prescribed_point 29.4261 -21.10480871 0 family PNTS name pnt1062
+prescribed_point 29.4506288 -21.19303392 0 family PNTS name pnt1063
+prescribed_point 29.47508996 -21.28114414 0 family PNTS name pnt1064
+prescribed_point 29.49949023 -21.36913259 0 family PNTS name pnt1065
+prescribed_point 29.52382962 -21.45700605 0 family PNTS name pnt1066
+prescribed_point 29.54810813 -21.5447645 0 family PNTS name pnt1067
+prescribed_point 29.57231899 -21.63240119 0 family PNTS name pnt1068
+prescribed_point 29.59647573 -21.71991611 0 family PNTS name pnt1069
+prescribed_point 29.6205716 -21.80731604 0 family PNTS name pnt1070
+prescribed_point 29.64460658 -21.89460096 0 family PNTS name pnt1071
+prescribed_point 29.66858067 -21.98175736 0 family PNTS name pnt1072
+prescribed_point 29.69249389 -22.06880552 0 family PNTS name pnt1073
+prescribed_point 29.71634622 -22.15573191 0 family PNTS name pnt1074
+prescribed_point 29.74013767 -22.24253654 0 family PNTS name pnt1075
+prescribed_point 29.76386824 -22.32922617 0 family PNTS name pnt1076
+prescribed_point 29.78754469 -22.41579404 0 family PNTS name pnt1077
+prescribed_point 29.81115349 -22.5022469 0 family PNTS name pnt1078
+prescribed_point 29.83470817 -22.588578 0 family PNTS name pnt1079
+prescribed_point 29.85820198 -22.67479411 0 family PNTS name pnt1080
+prescribed_point 29.8816349 -22.76088844 0 family PNTS name pnt1081
+prescribed_point 29.9050137 -22.84686102 0 family PNTS name pnt1082
+prescribed_point 29.92832486 -22.93271859 0 family PNTS name pnt1083
+prescribed_point 29.95158866 -23.01846116 0 family PNTS name pnt1084
+prescribed_point 29.97478482 -23.1040752 0 family PNTS name pnt1085
+prescribed_point 29.99792686 -23.18958101 0 family PNTS name pnt1086
+prescribed_point 30.02100801 -23.27495829 0 family PNTS name pnt1087
+prescribed_point 30.04403505 -23.36022057 0 family PNTS name pnt1088
+prescribed_point 30.06700121 -23.44536785 0 family PNTS name pnt1089
+prescribed_point 30.08990648 -23.5303866 0 family PNTS name pnt1090
+prescribed_point 30.11275764 -23.61529711 0 family PNTS name pnt1091
+prescribed_point 30.13555468 -23.7000791 0 family PNTS name pnt1092
+prescribed_point 30.15829083 -23.78474608 0 family PNTS name pnt1093
+prescribed_point 30.18096611 -23.86929807 0 family PNTS name pnt1094
+prescribed_point 30.20358727 -23.95372829 0 family PNTS name pnt1095
+prescribed_point 30.2261543 -24.03803674 0 family PNTS name pnt1096
+prescribed_point 30.24866046 -24.12222344 0 family PNTS name pnt1097
+prescribed_point 30.2711125 -24.20629513 0 family PNTS name pnt1098
+prescribed_point 30.29350366 -24.29024505 0 family PNTS name pnt1099
+prescribed_point 30.3158407 -24.37407998 0 family PNTS name pnt1100
+prescribed_point 30.33812362 -24.45779314 0 family PNTS name pnt1101
+prescribed_point 30.36034566 -24.54139131 0 family PNTS name pnt1102
+prescribed_point 30.38252035 -24.62486094 0 family PNTS name pnt1103
+prescribed_point 30.40463415 -24.70822234 0 family PNTS name pnt1104
+prescribed_point 30.42668707 -24.79145521 0 family PNTS name pnt1105
+prescribed_point 30.44869264 -24.87457308 0 family PNTS name pnt1106
+prescribed_point 30.47063733 -24.95756918 0 family PNTS name pnt1107
+prescribed_point 30.4925279 -25.04045028 0 family PNTS name pnt1108
+prescribed_point 30.51436435 -25.12320962 0 family PNTS name pnt1109
+prescribed_point 30.53614668 -25.2058472 0 family PNTS name pnt1110
+prescribed_point 30.5578749 -25.28836977 0 family PNTS name pnt1111
+prescribed_point 30.579549 -25.37077059 0 family PNTS name pnt1112
+prescribed_point 30.60116221 -25.45304963 0 family PNTS name pnt1113
+prescribed_point 30.62272808 -25.53520691 0 family PNTS name pnt1114
+prescribed_point 30.64423982 -25.61725596 0 family PNTS name pnt1115
+prescribed_point 30.66569069 -25.69917648 0 family PNTS name pnt1116
+prescribed_point 30.6870942 -25.78098199 0 family PNTS name pnt1117
+prescribed_point 30.70843683 -25.86266575 0 family PNTS name pnt1118
+prescribed_point 30.7297321 -25.94422773 0 family PNTS name pnt1119
+prescribed_point 30.7509665 -26.02567472 0 family PNTS name pnt1120
+prescribed_point 30.77215354 -26.10699995 0 family PNTS name pnt1121
+prescribed_point 30.79328646 -26.18821017 0 family PNTS name pnt1122
+prescribed_point 30.81436526 -26.26929863 0 family PNTS name pnt1123
+prescribed_point 30.83539672 -26.35026532 0 family PNTS name pnt1124
+prescribed_point 30.85636729 -26.43111702 0 family PNTS name pnt1125
+prescribed_point 30.87728374 -26.51184018 0 family PNTS name pnt1126
+prescribed_point 30.89815284 -26.59245511 0 family PNTS name pnt1127
+prescribed_point 30.91896782 -26.67294828 0 family PNTS name pnt1128
+prescribed_point 30.93973545 -26.75331291 0 family PNTS name pnt1129
+prescribed_point 30.9604422 -26.83355578 0 family PNTS name pnt1130
+prescribed_point 30.98110159 -26.91368366 0 family PNTS name pnt1131
+prescribed_point 31.00170687 -26.99368976 0 family PNTS name pnt1132
+prescribed_point 31.02225802 -27.07358087 0 family PNTS name pnt1133
+prescribed_point 31.04276183 -27.15334345 0 family PNTS name pnt1134
+prescribed_point 31.06320475 -27.23299103 0 family PNTS name pnt1135
+prescribed_point 31.08360709 -27.31251684 0 family PNTS name pnt1136
+prescribed_point 31.10394854 -27.39192765 0 family PNTS name pnt1137
+prescribed_point 31.12424941 -27.4712167 0 family PNTS name pnt1138
+prescribed_point 31.14448939 -27.55038398 0 family PNTS name pnt1139
+prescribed_point 31.16468202 -27.62943627 0 family PNTS name pnt1140
+prescribed_point 31.18482729 -27.70836679 0 family PNTS name pnt1141
+prescribed_point 31.20491845 -27.78718231 0 family PNTS name pnt1142
+prescribed_point 31.22496226 -27.86587606 0 family PNTS name pnt1143
+prescribed_point 31.24495871 -27.94444805 0 family PNTS name pnt1144
+prescribed_point 31.26490105 -28.02289828 0 family PNTS name pnt1145
+prescribed_point 31.28478927 -28.10123351 0 family PNTS name pnt1146
+prescribed_point 31.3046369 -28.17944697 0 family PNTS name pnt1147
+prescribed_point 31.32443041 -28.25754543 0 family PNTS name pnt1148
+prescribed_point 31.34417657 -28.33552213 0 family PNTS name pnt1149
+prescribed_point 31.36387537 -28.41337706 0 family PNTS name pnt1150
+prescribed_point 31.38352683 -28.49111023 0 family PNTS name pnt1151
+prescribed_point 31.40313093 -28.56872839 0 family PNTS name pnt1152
+prescribed_point 31.42268091 -28.64621803 0 family PNTS name pnt1153
+prescribed_point 31.44219031 -28.72359943 0 family PNTS name pnt1154
+prescribed_point 31.46165235 -28.80085231 0 family PNTS name pnt1155
+prescribed_point 31.48106027 -28.87799018 0 family PNTS name pnt1156
+prescribed_point 31.50042761 -28.95500629 0 family PNTS name pnt1157
+prescribed_point 31.51974759 -29.0319074 0 family PNTS name pnt1158
+prescribed_point 31.53902022 -29.10867998 0 family PNTS name pnt1159
+prescribed_point 31.55825226 -29.18533756 0 family PNTS name pnt1160
+prescribed_point 31.57743695 -29.26187338 0 family PNTS name pnt1161
+prescribed_point 31.59657429 -29.33829419 0 family PNTS name pnt1162
+prescribed_point 31.61566427 -29.41459325 0 family PNTS name pnt1163
+prescribed_point 31.63471367 -29.49077053 0 family PNTS name pnt1164
+prescribed_point 31.65371571 -29.56683282 0 family PNTS name pnt1165
+prescribed_point 31.67267716 -29.64277334 0 family PNTS name pnt1166
+prescribed_point 31.69159127 -29.7185921 0 family PNTS name pnt1167
+prescribed_point 31.71045801 -29.79428909 0 family PNTS name pnt1168
+prescribed_point 31.72929094 -29.86987109 0 family PNTS name pnt1169
+prescribed_point 31.74806975 -29.94533131 0 family PNTS name pnt1170
+prescribed_point 31.76681473 -30.02066978 0 family PNTS name pnt1171
+prescribed_point 31.78551236 -30.09589324 0 family PNTS name pnt1172
+prescribed_point 31.8041694 -30.17099494 0 family PNTS name pnt1173
+prescribed_point 31.82277909 -30.24597488 0 family PNTS name pnt1174
+prescribed_point 31.84134819 -30.32083305 0 family PNTS name pnt1175
+prescribed_point 31.85987671 -30.39557622 0 family PNTS name pnt1176
+prescribed_point 31.87836463 -30.47019762 0 family PNTS name pnt1177
+prescribed_point 31.89681197 -30.54470403 0 family PNTS name pnt1178
+prescribed_point 31.91521872 -30.61908867 0 family PNTS name pnt1179
+prescribed_point 31.93357811 -30.69335155 0 family PNTS name pnt1180
+prescribed_point 31.95190369 -30.76749942 0 family PNTS name pnt1181
+prescribed_point 31.97018191 -30.84152553 0 family PNTS name pnt1182
+prescribed_point 31.98841954 -30.91542988 0 family PNTS name pnt1183
+prescribed_point 32.00662334 -30.98921246 0 family PNTS name pnt1184
+prescribed_point 32.0247798 -31.06288005 0 family PNTS name pnt1185
+prescribed_point 32.04290243 -31.13642587 0 family PNTS name pnt1186
+prescribed_point 32.06098447 -31.20985668 0 family PNTS name pnt1187
+prescribed_point 32.07902593 -31.28316574 0 family PNTS name pnt1188
+prescribed_point 32.09703356 -31.35635303 0 family PNTS name pnt1189
+prescribed_point 32.11499384 -31.42942532 0 family PNTS name pnt1190
+prescribed_point 32.13292029 -31.50237584 0 family PNTS name pnt1191
+prescribed_point 32.15080616 -31.57521137 0 family PNTS name pnt1192
+prescribed_point 32.16865144 -31.64792513 0 family PNTS name pnt1193
+prescribed_point 32.18646289 -31.72051712 0 family PNTS name pnt1194
+prescribed_point 32.20423376 -31.79299412 0 family PNTS name pnt1195
+prescribed_point 32.2219708 -31.86534935 0 family PNTS name pnt1196
+prescribed_point 32.23966726 -31.93758282 0 family PNTS name pnt1197
+prescribed_point 32.25732313 -32.00970128 0 family PNTS name pnt1198
+prescribed_point 32.27494517 -32.08169799 0 family PNTS name pnt1199
+prescribed_point 32.29253339 -32.15357969 0 family PNTS name pnt1200
+prescribed_point 32.31008102 -32.22533963 0 family PNTS name pnt1201
+prescribed_point 32.32759483 -32.29698456 0 family PNTS name pnt1202
+prescribed_point 32.34506805 -32.36850774 0 family PNTS name pnt1203
+prescribed_point 32.36250745 -32.43990914 0 family PNTS name pnt1204
+prescribed_point 32.37991302 -32.51119555 0 family PNTS name pnt1205
+prescribed_point 32.397278 -32.5823602 0 family PNTS name pnt1206
+prescribed_point 32.41460917 -32.65340984 0 family PNTS name pnt1207
+prescribed_point 32.4319065 -32.72434449 0 family PNTS name pnt1208
+prescribed_point 32.44916325 -32.7951506 0 family PNTS name pnt1209
+prescribed_point 32.46639294 -32.86584848 0 family PNTS name pnt1210
+prescribed_point 32.48358205 -32.93642459 0 family PNTS name pnt1211
+prescribed_point 32.50073733 -33.00687895 0 family PNTS name pnt1212
+prescribed_point 32.51785878 -33.0772183 0 family PNTS name pnt1213
+prescribed_point 32.53494641 -33.14743588 0 family PNTS name pnt1214
+prescribed_point 32.55200022 -33.21753847 0 family PNTS name pnt1215
+prescribed_point 32.56901344 -33.28751929 0 family PNTS name pnt1216
+prescribed_point 32.58599961 -33.35738511 0 family PNTS name pnt1217
+prescribed_point 32.60295194 -33.42713593 0 family PNTS name pnt1218
+prescribed_point 32.61987046 -33.49676499 0 family PNTS name pnt1219
+prescribed_point 32.63674838 -33.56627228 0 family PNTS name pnt1220
+prescribed_point 32.65359925 -33.63566458 0 family PNTS name pnt1221
+prescribed_point 32.6704163 -33.70494187 0 family PNTS name pnt1222
+prescribed_point 32.68720628 -33.7740974 0 family PNTS name pnt1223
+prescribed_point 32.70395568 -33.84313792 0 family PNTS name pnt1224
+prescribed_point 32.72067802 -33.91206345 0 family PNTS name pnt1225
+prescribed_point 32.73735977 -33.98086722 0 family PNTS name pnt1226
+prescribed_point 32.75401446 -34.04955598 0 family PNTS name pnt1227
+prescribed_point 32.77063533 -34.11812298 0 family PNTS name pnt1228
+prescribed_point 32.78722914 -34.18657498 0 family PNTS name pnt1229
+prescribed_point 32.80378912 -34.25491198 0 family PNTS name pnt1230
+prescribed_point 32.82031528 -34.32312721 0 family PNTS name pnt1231
+prescribed_point 32.83680762 -34.39122745 0 family PNTS name pnt1232
+prescribed_point 32.8532729 -34.45921268 0 family PNTS name pnt1233
+prescribed_point 32.86970436 -34.52707615 0 family PNTS name pnt1234
+prescribed_point 32.88610876 -34.59482462 0 family PNTS name pnt1235
+prescribed_point 32.90247933 -34.66245809 0 family PNTS name pnt1236
+prescribed_point 32.91881608 -34.72997656 0 family PNTS name pnt1237
+prescribed_point 32.93512577 -34.79737327 0 family PNTS name pnt1238
+prescribed_point 32.95140841 -34.86465498 0 family PNTS name pnt1239
+prescribed_point 32.96765721 -34.93181492 0 family PNTS name pnt1240
+prescribed_point 32.98387897 -34.99886663 0 family PNTS name pnt1241
+prescribed_point 33.00006689 -35.06579657 0 family PNTS name pnt1242
+prescribed_point 33.016221 -35.13261151 0 family PNTS name pnt1243
+prescribed_point 33.03235481 -35.19931145 0 family PNTS name pnt1244
+prescribed_point 33.04844803 -35.26588963 0 family PNTS name pnt1245
+prescribed_point 33.06452095 -35.33235281 0 family PNTS name pnt1246
+prescribed_point 33.08056006 -35.39870775 0 family PNTS name pnt1247
+prescribed_point 33.0965721 -35.46494093 0 family PNTS name pnt1248
+prescribed_point 33.11255709 -35.53105234 0 family PNTS name pnt1249
+prescribed_point 33.12850825 -35.59705552 0 family PNTS name pnt1250
+prescribed_point 33.14443236 -35.66294369 0 family PNTS name pnt1251
+prescribed_point 33.1603294 -35.72871011 0 family PNTS name pnt1252
+prescribed_point 33.17619262 -35.79436152 0 family PNTS name pnt1253
+prescribed_point 33.19203555 -35.85989794 0 family PNTS name pnt1254
+prescribed_point 33.20784465 -35.92532611 0 family PNTS name pnt1255
+prescribed_point 33.2236267 -35.99063253 0 family PNTS name pnt1256
+prescribed_point 33.23938168 -36.05582394 0 family PNTS name pnt1257
+prescribed_point 33.25510961 -36.12089359 0 family PNTS name pnt1258
+prescribed_point 33.27080372 -36.185855 0 family PNTS name pnt1259
+prescribed_point 33.28647753 -36.25070142 0 family PNTS name pnt1260
+prescribed_point 33.30211751 -36.31543283 0 family PNTS name pnt1261
+prescribed_point 33.31773044 -36.38004925 0 family PNTS name pnt1262
+prescribed_point 33.33331631 -36.44455066 0 family PNTS name pnt1263
+prescribed_point 33.34887512 -36.50893708 0 family PNTS name pnt1264
+prescribed_point 33.36440687 -36.57320849 0 family PNTS name pnt1265
+prescribed_point 33.3799048 -36.63736491 0 family PNTS name pnt1266
+prescribed_point 33.39538243 -36.70141309 0 family PNTS name pnt1267
+prescribed_point 33.41082624 -36.7653395 0 family PNTS name pnt1268
+prescribed_point 33.42624976 -36.82915092 0 family PNTS name pnt1269
+prescribed_point 33.44163945 -36.8928541 0 family PNTS name pnt1270
+prescribed_point 33.45700208 -36.95643551 0 family PNTS name pnt1271
+prescribed_point 33.47233766 -37.01990869 0 family PNTS name pnt1272
+prescribed_point 33.48764617 -37.08327364 0 family PNTS name pnt1273
+prescribed_point 33.50292763 -37.14651682 0 family PNTS name pnt1274
+prescribed_point 33.51818203 -37.20965176 0 family PNTS name pnt1275
+prescribed_point 33.53340937 -37.27266494 0 family PNTS name pnt1276
+prescribed_point 33.54860289 -37.33556989 0 family PNTS name pnt1277
+prescribed_point 33.56377611 -37.3983666 0 family PNTS name pnt1278
+prescribed_point 33.57891551 -37.46104154 0 family PNTS name pnt1279
+prescribed_point 33.59403461 -37.52360825 0 family PNTS name pnt1280
+prescribed_point 33.60911989 -37.58606673 0 family PNTS name pnt1281
+prescribed_point 33.62418488 -37.64840344 0 family PNTS name pnt1282
+prescribed_point 33.63921604 -37.71063191 0 family PNTS name pnt1283
+prescribed_point 33.65422015 -37.77274539 0 family PNTS name pnt1284
+prescribed_point 33.66920396 -37.83475063 0 family PNTS name pnt1285
+prescribed_point 33.68415394 -37.89664087 0 family PNTS name pnt1286
+prescribed_point 33.69908364 -37.95841611 0 family PNTS name pnt1287
+prescribed_point 33.71397951 -38.02008312 0 family PNTS name pnt1288
+prescribed_point 33.72884832 -38.08164189 0 family PNTS name pnt1289
+prescribed_point 33.74369683 -38.14308566 0 family PNTS name pnt1290
+prescribed_point 33.75851153 -38.20441443 0 family PNTS name pnt1291
+prescribed_point 33.77329916 -38.26563496 0 family PNTS name pnt1292
+prescribed_point 33.7880665 -38.3267405 0 family PNTS name pnt1293
+prescribed_point 33.80280002 -38.3877378 0 family PNTS name pnt1294
+prescribed_point 33.81751324 -38.44862686 0 family PNTS name pnt1295
+prescribed_point 33.83219264 -38.50940093 0 family PNTS name pnt1296
+prescribed_point 33.84684498 -38.57005999 0 family PNTS name pnt1297
+prescribed_point 33.86147703 -38.63061082 0 family PNTS name pnt1298
+prescribed_point 33.87607525 -38.69106018 0 family PNTS name pnt1299
+prescribed_point 33.89065318 -38.75138777 0 family PNTS name pnt1300
+prescribed_point 33.90520405 -38.81160713 0 family PNTS name pnt1301
+prescribed_point 33.91972786 -38.87171826 0 family PNTS name pnt1302
+prescribed_point 33.93421784 -38.93171438 0 family PNTS name pnt1303
+prescribed_point 33.94868754 -38.99160227 0 family PNTS name pnt1304
+prescribed_point 33.96313017 -39.05138192 0 family PNTS name pnt1305
+prescribed_point 33.97754575 -39.11105334 0 family PNTS name pnt1306
+prescribed_point 33.99193427 -39.17061653 0 family PNTS name pnt1307
+prescribed_point 34.00629572 -39.23006471 0 family PNTS name pnt1308
+prescribed_point 34.02063689 -39.28940466 0 family PNTS name pnt1309
+prescribed_point 34.03494423 -39.34863637 0 family PNTS name pnt1310
+prescribed_point 34.04922451 -39.40775309 0 family PNTS name pnt1311
+prescribed_point 34.0634845 -39.46676833 0 family PNTS name pnt1312
+prescribed_point 34.07771743 -39.52567534 0 family PNTS name pnt1313
+prescribed_point 34.0919233 -39.58446734 0 family PNTS name pnt1314
+prescribed_point 34.10610211 -39.64315112 0 family PNTS name pnt1315
+prescribed_point 34.12025386 -39.70172665 0 family PNTS name pnt1316
+prescribed_point 34.13437855 -39.76019396 0 family PNTS name pnt1317
+prescribed_point 34.14848295 -39.81855302 0 family PNTS name pnt1318
+prescribed_point 34.16256029 -39.87680385 0 family PNTS name pnt1319
+prescribed_point 34.17660381 -39.93494645 0 family PNTS name pnt1320
+prescribed_point 34.19062703 -39.99298081 0 family PNTS name pnt1321
+prescribed_point 34.2046232 -40.05090694 0 family PNTS name pnt1322
+prescribed_point 34.2185923 -40.10872483 0 family PNTS name pnt1323
+prescribed_point 34.23254111 -40.16643448 0 family PNTS name pnt1324
+prescribed_point 34.2464561 -40.2240359 0 family PNTS name pnt1325
+prescribed_point 34.26034403 -40.28153585 0 family PNTS name pnt1326
+prescribed_point 34.27421843 -40.33892081 0 family PNTS name pnt1327
+prescribed_point 34.28805224 -40.39620428 0 family PNTS name pnt1328
+prescribed_point 34.30187253 -40.45337276 0 family PNTS name pnt1329
+prescribed_point 34.31566575 -40.51043977 0 family PNTS name pnt1330
+prescribed_point 34.32942515 -40.56739855 0 family PNTS name pnt1331
+prescribed_point 34.34316425 -40.62424909 0 family PNTS name pnt1332
+prescribed_point 34.3568763 -40.68099815 0 family PNTS name pnt1333
+prescribed_point 34.37056129 -40.73763899 0 family PNTS name pnt1334
+prescribed_point 34.38422598 -40.79416482 0 family PNTS name pnt1335
+prescribed_point 34.39786362 -40.85059595 0 family PNTS name pnt1336
+prescribed_point 34.41147419 -40.90691884 0 family PNTS name pnt1337
+prescribed_point 34.42506448 -40.96312673 0 family PNTS name pnt1338
+prescribed_point 34.43862094 -41.01923992 0 family PNTS name pnt1339
+prescribed_point 34.45215034 -41.07523811 0 family PNTS name pnt1340
+prescribed_point 34.46566621 -41.13113482 0 family PNTS name pnt1341
+prescribed_point 34.47914825 -41.18693007 0 family PNTS name pnt1342
+prescribed_point 34.49261001 -41.24261031 0 family PNTS name pnt1343
+prescribed_point 34.5060447 -41.29819585 0 family PNTS name pnt1344
+prescribed_point 34.51944557 -41.35366639 0 family PNTS name pnt1345
+prescribed_point 34.53283291 -41.40904223 0 family PNTS name pnt1346
+prescribed_point 34.54618643 -41.46430306 0 family PNTS name pnt1347
+prescribed_point 34.55952642 -41.51946919 0 family PNTS name pnt1348
+prescribed_point 34.57283258 -41.57452032 0 family PNTS name pnt1349
+prescribed_point 34.58611169 -41.62946998 0 family PNTS name pnt1350
+prescribed_point 34.5993705 -41.68431816 0 family PNTS name pnt1351
+prescribed_point 34.61260226 -41.73905812 0 family PNTS name pnt1352
+prescribed_point 34.62581371 -41.7936966 0 family PNTS name pnt1353
+prescribed_point 34.63899811 -41.84823361 0 family PNTS name pnt1354
+prescribed_point 34.65215546 -41.90266239 0 family PNTS name pnt1355
+prescribed_point 34.66528574 -41.95698969 0 family PNTS name pnt1356
+prescribed_point 34.67839573 -42.01120876 0 family PNTS name pnt1357
+prescribed_point 34.69147866 -42.06532636 0 family PNTS name pnt1358
+prescribed_point 34.70454129 -42.11934926 0 family PNTS name pnt1359
+prescribed_point 34.71757687 -42.17325715 0 family PNTS name pnt1360
+prescribed_point 34.73058539 -42.22706357 0 family PNTS name pnt1361
+prescribed_point 34.74357361 -42.28077529 0 family PNTS name pnt1362
+prescribed_point 34.75653478 -42.33437878 0 family PNTS name pnt1363
+prescribed_point 34.76946888 -42.38788079 0 family PNTS name pnt1364
+prescribed_point 34.7823827 -42.44127457 0 family PNTS name pnt1365
+prescribed_point 34.79526945 -42.49457364 0 family PNTS name pnt1366
+prescribed_point 34.80813591 -42.54776447 0 family PNTS name pnt1367
+prescribed_point 34.82096854 -42.60085384 0 family PNTS name pnt1368
+prescribed_point 34.83378765 -42.65384173 0 family PNTS name pnt1369
+prescribed_point 34.84657293 -42.70672816 0 family PNTS name pnt1370
+prescribed_point 34.85933792 -42.75951311 0 family PNTS name pnt1371
+prescribed_point 34.87208262 -42.8121966 0 family PNTS name pnt1372
+prescribed_point 34.88480025 -42.86477861 0 family PNTS name pnt1373
+prescribed_point 34.89749083 -42.91725915 0 family PNTS name pnt1374
+prescribed_point 34.91015435 -42.96963822 0 family PNTS name pnt1375
+prescribed_point 34.92280434 -43.02191582 0 family PNTS name pnt1376
+prescribed_point 34.9354205 -43.07409196 0 family PNTS name pnt1377
+prescribed_point 34.94801638 -43.12616662 0 family PNTS name pnt1378
+prescribed_point 34.96059195 -43.17814657 0 family PNTS name pnt1379
+prescribed_point 34.97314047 -43.23001829 0 family PNTS name pnt1380
+prescribed_point 34.98566193 -43.28178854 0 family PNTS name pnt1381
+prescribed_point 34.9981631 -43.33346408 0 family PNTS name pnt1382
+prescribed_point 35.0106372 -43.38503816 0 family PNTS name pnt1383
+prescribed_point 35.02309102 -43.43651076 0 family PNTS name pnt1384
+prescribed_point 35.03552453 -43.48788189 0 family PNTS name pnt1385
+prescribed_point 35.04792423 -43.53915832 0 family PNTS name pnt1386
+prescribed_point 35.06030363 -43.59032651 0 family PNTS name pnt1387
+prescribed_point 35.07266274 -43.64139999 0 family PNTS name pnt1388
+prescribed_point 35.08499479 -43.69237877 0 family PNTS name pnt1389
+prescribed_point 35.09730654 -43.74324932 0 family PNTS name pnt1390
+prescribed_point 35.10959123 -43.79402515 0 family PNTS name pnt1391
+prescribed_point 35.12185564 -43.84470629 0 family PNTS name pnt1392
+prescribed_point 35.13409298 -43.89527918 0 family PNTS name pnt1393
+prescribed_point 35.14631003 -43.94575737 0 family PNTS name pnt1394
+prescribed_point 35.15850002 -43.99614086 0 family PNTS name pnt1395
+prescribed_point 35.17066971 -44.04642288 0 family PNTS name pnt1396
+prescribed_point 35.18281235 -44.09660342 0 family PNTS name pnt1397
+prescribed_point 35.19493469 -44.14668249 0 family PNTS name pnt1398
+prescribed_point 35.20703674 -44.19667363 0 family PNTS name pnt1399
+prescribed_point 35.21911173 -44.24656329 0 family PNTS name pnt1400
+prescribed_point 35.23115966 -44.29635148 0 family PNTS name pnt1401
+prescribed_point 35.24318729 -44.34604497 0 family PNTS name pnt1402
+prescribed_point 35.25519464 -44.39564375 0 family PNTS name pnt1403
+prescribed_point 35.26717492 -44.44514106 0 family PNTS name pnt1404
+prescribed_point 35.27913491 -44.49454366 0 family PNTS name pnt1405
+prescribed_point 35.29106784 -44.54383803 0 family PNTS name pnt1406
+prescribed_point 35.30298048 -44.59305122 0 family PNTS name pnt1407
+prescribed_point 35.31487282 -44.64215618 0 family PNTS name pnt1408
+prescribed_point 35.3267381 -44.69116643 0 family PNTS name pnt1409
+prescribed_point 35.33858309 -44.74008874 0 family PNTS name pnt1410
+prescribed_point 35.35040103 -44.78890958 0 family PNTS name pnt1411
+prescribed_point 35.36219866 -44.83762895 0 family PNTS name pnt1412
+prescribed_point 35.37396924 -44.88625362 0 family PNTS name pnt1413
+prescribed_point 35.38571952 -44.93479034 0 family PNTS name pnt1414
+prescribed_point 35.39744951 -44.98321883 0 family PNTS name pnt1415
+prescribed_point 35.40915244 -45.03155937 0 family PNTS name pnt1416
+prescribed_point 35.42083508 -45.07979845 0 family PNTS name pnt1417
+prescribed_point 35.43249066 -45.12794958 0 family PNTS name pnt1418
+prescribed_point 35.44412594 -45.17599925 0 family PNTS name pnt1419
+prescribed_point 35.45574093 -45.22396097 0 family PNTS name pnt1420
+prescribed_point 35.46732886 -45.27182122 0 family PNTS name pnt1421
+prescribed_point 35.4788965 -45.31958677 0 family PNTS name pnt1422
+prescribed_point 35.49044384 -45.36725761 0 family PNTS name pnt1423
+prescribed_point 35.50195736 -45.41484051 0 family PNTS name pnt1424
+prescribed_point 35.51345735 -45.46232194 0 family PNTS name pnt1425
+prescribed_point 35.52493705 -45.50970866 0 family PNTS name pnt1426
+prescribed_point 35.53638292 -45.55700068 0 family PNTS name pnt1427
+prescribed_point 35.54781527 -45.60419799 0 family PNTS name pnt1428
+prescribed_point 35.55922055 -45.65130736 0 family PNTS name pnt1429
+prescribed_point 35.57060554 -45.69831526 0 family PNTS name pnt1430
+prescribed_point 35.58197024 -45.74523522 0 family PNTS name pnt1431
+prescribed_point 35.59330787 -45.79206047 0 family PNTS name pnt1432
+prescribed_point 35.60461845 -45.83879102 0 family PNTS name pnt1433
+prescribed_point 35.6159155 -45.88542686 0 family PNTS name pnt1434
+prescribed_point 35.62718549 -45.93197477 0 family PNTS name pnt1435
+prescribed_point 35.63843519 -45.97842796 0 family PNTS name pnt1436
+prescribed_point 35.64965782 -46.02477968 0 family PNTS name pnt1437
+prescribed_point 35.66086017 -46.07105023 0 family PNTS name pnt1438
+prescribed_point 35.67204222 -46.11721931 0 family PNTS name pnt1439
+prescribed_point 35.68319721 -46.16330721 0 family PNTS name pnt1440
+prescribed_point 35.6943319 -46.20928688 0 family PNTS name pnt1441
+prescribed_point 35.7054463 -46.25518537 0 family PNTS name pnt1442
+prescribed_point 35.71653365 -46.30098915 0 family PNTS name pnt1443
+prescribed_point 35.7276007 -46.34670499 0 family PNTS name pnt1444
+prescribed_point 35.73864745 -46.39232613 0 family PNTS name pnt1445
+prescribed_point 35.74967391 -46.43785256 0 family PNTS name pnt1446
+prescribed_point 35.76067332 -46.48329105 0 family PNTS name pnt1447
+prescribed_point 35.77165242 -46.52863483 0 family PNTS name pnt1448
+prescribed_point 35.78260447 -46.57389068 0 family PNTS name pnt1449
+prescribed_point 35.79354299 -46.61905181 0 family PNTS name pnt1450
+prescribed_point 35.80444769 -46.66412501 0 family PNTS name pnt1451
+prescribed_point 35.81533886 -46.7091035 0 family PNTS name pnt1452
+prescribed_point 35.82620296 -46.75400081 0 family PNTS name pnt1453
+prescribed_point 35.83704678 -46.79879666 0 family PNTS name pnt1454
+prescribed_point 35.8478703 -46.84350456 0 family PNTS name pnt1455
+prescribed_point 35.85866676 -46.88813129 0 family PNTS name pnt1456
+prescribed_point 35.86944969 -46.93265654 0 family PNTS name pnt1457
+prescribed_point 35.88020556 -46.97710062 0 family PNTS name pnt1458
+prescribed_point 35.89094114 -47.02144323 0 family PNTS name pnt1459
+prescribed_point 35.90164966 -47.06570466 0 family PNTS name pnt1460
+prescribed_point 35.91233789 -47.10987815 0 family PNTS name pnt1461
+prescribed_point 35.92300582 -47.15395694 0 family PNTS name pnt1462
+prescribed_point 35.93365346 -47.19794778 0 family PNTS name pnt1463
+prescribed_point 35.94427404 -47.24185068 0 family PNTS name pnt1464
+prescribed_point 35.95487432 -47.28566565 0 family PNTS name pnt1465
+prescribed_point 35.96545431 -47.3293859 0 family PNTS name pnt1466
+prescribed_point 35.97601401 -47.37302498 0 family PNTS name pnt1467
+prescribed_point 35.98654665 -47.41657612 0 family PNTS name pnt1468
+prescribed_point 35.99706576 -47.46003255 0 family PNTS name pnt1469
+prescribed_point 36.00755104 -47.50340105 0 family PNTS name pnt1470
+prescribed_point 36.0180228 -47.5466816 0 family PNTS name pnt1471
+prescribed_point 36.02847426 -47.58987421 0 family PNTS name pnt1472
+prescribed_point 36.03889866 -47.63298564 0 family PNTS name pnt1473
+prescribed_point 36.04930277 -47.67600237 0 family PNTS name pnt1474
+prescribed_point 36.05968658 -47.71893115 0 family PNTS name pnt1475
+prescribed_point 36.07005011 -47.76177876 0 family PNTS name pnt1476
+prescribed_point 36.08038657 -47.80453167 0 family PNTS name pnt1477
+prescribed_point 36.09070273 -47.84719663 0 family PNTS name pnt1478
+prescribed_point 36.10099861 -47.88978042 0 family PNTS name pnt1479
+prescribed_point 36.11127419 -47.93227626 0 family PNTS name pnt1480
+prescribed_point 36.12152947 -47.97468417 0 family PNTS name pnt1481
+prescribed_point 36.13176446 -48.01700413 0 family PNTS name pnt1482
+prescribed_point 36.1419724 -48.05923615 0 family PNTS name pnt1483
+prescribed_point 36.15216003 -48.101387 0 family PNTS name pnt1484
+prescribed_point 36.16232738 -48.1434499 0 family PNTS name pnt1485
+prescribed_point 36.17247443 -48.18542486 0 family PNTS name pnt1486
+prescribed_point 36.18260118 -48.22731189 0 family PNTS name pnt1487
+prescribed_point 36.19270088 -48.26911773 0 family PNTS name pnt1488
+prescribed_point 36.20278705 -48.31083564 0 family PNTS name pnt1489
+prescribed_point 36.21284616 -48.3524656 0 family PNTS name pnt1490
+prescribed_point 36.22288497 -48.39401439 0 family PNTS name pnt1491
+prescribed_point 36.23290349 -48.43547524 0 family PNTS name pnt1492
+prescribed_point 36.24290172 -48.47685491 0 family PNTS name pnt1493
+prescribed_point 36.25287965 -48.51814663 0 family PNTS name pnt1494
+prescribed_point 36.26283053 -48.55935042 0 family PNTS name pnt1495
+prescribed_point 36.27276787 -48.60047303 0 family PNTS name pnt1496
+prescribed_point 36.28267816 -48.6415077 0 family PNTS name pnt1497
+prescribed_point 36.29256815 -48.6824612 0 family PNTS name pnt1498
+prescribed_point 36.30243784 -48.72332675 0 family PNTS name pnt1499
+prescribed_point 36.31228725 -48.76411113 0 family PNTS name pnt1500
+prescribed_point 36.32211636 -48.80481433 0 family PNTS name pnt1501
+prescribed_point 36.33192517 -48.84542958 0 family PNTS name pnt1502
+prescribed_point 36.34171369 -48.88596367 0 family PNTS name pnt1503
+prescribed_point 36.35147515 -48.92640981 0 family PNTS name pnt1504
+prescribed_point 36.36122309 -48.96677477 0 family PNTS name pnt1505
+prescribed_point 36.37094396 -49.00705856 0 family PNTS name pnt1506
+prescribed_point 36.38065131 -49.04725441 0 family PNTS name pnt1507
+prescribed_point 36.39033159 -49.08736908 0 family PNTS name pnt1508
+prescribed_point 36.39999158 -49.12740257 0 family PNTS name pnt1509
+prescribed_point 36.40963128 -49.16734813 0 family PNTS name pnt1510
+prescribed_point 36.41925068 -49.20721927 0 family PNTS name pnt1511
+prescribed_point 36.42885656 -49.24700247 0 family PNTS name pnt1512
+prescribed_point 36.43843537 -49.28670449 0 family PNTS name pnt1513
+prescribed_point 36.44799389 -49.32631858 0 family PNTS name pnt1514
+prescribed_point 36.45753212 -49.36585825 0 family PNTS name pnt1515
+prescribed_point 36.46705005 -49.40531674 0 family PNTS name pnt1516
+prescribed_point 36.47654769 -49.4446873 0 family PNTS name pnt1517
+prescribed_point 36.48602504 -49.48397668 0 family PNTS name pnt1518
+prescribed_point 36.49548209 -49.52318488 0 family PNTS name pnt1519
+prescribed_point 36.50491208 -49.5623119 0 family PNTS name pnt1520
+prescribed_point 36.51433531 -49.60136452 0 family PNTS name pnt1521
+prescribed_point 36.52373148 -49.64032242 0 family PNTS name pnt1522
+prescribed_point 36.53310059 -49.67920592 0 family PNTS name pnt1523
+prescribed_point 36.54246293 -49.718015 0 family PNTS name pnt1524
+prescribed_point 36.55179822 -49.75673615 0 family PNTS name pnt1525
+prescribed_point 36.56111321 -49.79537611 0 family PNTS name pnt1526
+prescribed_point 36.57040791 -49.8339349 0 family PNTS name pnt1527
+prescribed_point 36.57968231 -49.87241252 0 family PNTS name pnt1528
+prescribed_point 36.58893642 -49.91081572 0 family PNTS name pnt1529
+prescribed_point 36.598177 -49.94913774 0 family PNTS name pnt1530
+prescribed_point 36.60739729 -49.98737183 0 family PNTS name pnt1531
+prescribed_point 36.61659051 -50.0255315 0 family PNTS name pnt1532
+prescribed_point 36.62577021 -50.06361676 0 family PNTS name pnt1533
+prescribed_point 36.63492285 -50.10161408 0 family PNTS name pnt1534
+prescribed_point 36.64406196 -50.13953699 0 family PNTS name pnt1535
+prescribed_point 36.65318077 -50.17737872 0 family PNTS name pnt1536
+prescribed_point 36.6622793 -50.21513928 0 family PNTS name pnt1537
+prescribed_point 36.67135752 -50.25281865 0 family PNTS name pnt1538
+prescribed_point 36.68042222 -50.29042362 0 family PNTS name pnt1539
+prescribed_point 36.68945986 -50.32794741 0 family PNTS name pnt1540
+prescribed_point 36.69847721 -50.36539003 0 family PNTS name pnt1541
+prescribed_point 36.70748102 -50.40275823 0 family PNTS name pnt1542
+prescribed_point 36.71646454 -50.44005202 0 family PNTS name pnt1543
+prescribed_point 36.72542777 -50.47725787 0 family PNTS name pnt1544
+prescribed_point 36.7343707 -50.51438931 0 family PNTS name pnt1545
+prescribed_point 36.74329334 -50.55144634 0 family PNTS name pnt1546
+prescribed_point 36.75219569 -50.58841542 0 family PNTS name pnt1547
+prescribed_point 36.76107774 -50.62531686 0 family PNTS name pnt1548
+prescribed_point 36.76994626 -50.66213712 0 family PNTS name pnt1549
+prescribed_point 36.77879449 -50.69888297 0 family PNTS name pnt1550
+prescribed_point 36.78762242 -50.73554765 0 family PNTS name pnt1551
+prescribed_point 36.79643683 -50.77213114 0 family PNTS name pnt1552
+prescribed_point 36.80522417 -50.80864023 0 family PNTS name pnt1553
+prescribed_point 36.81399799 -50.8450749 0 family PNTS name pnt1554
+prescribed_point 36.82275151 -50.88143517 0 family PNTS name pnt1555
+prescribed_point 36.83148474 -50.91771425 0 family PNTS name pnt1556
+prescribed_point 36.84019767 -50.95391893 0 family PNTS name pnt1557
+prescribed_point 36.84889708 -50.99004243 0 family PNTS name pnt1558
+prescribed_point 36.85757619 -51.02609151 0 family PNTS name pnt1559
+prescribed_point 36.866235 -51.06206619 0 family PNTS name pnt1560
+prescribed_point 36.87487352 -51.09796645 0 family PNTS name pnt1561
+prescribed_point 36.88349175 -51.13378554 0 family PNTS name pnt1562
+prescribed_point 36.89209645 -51.16953021 0 family PNTS name pnt1563
+prescribed_point 36.90068085 -51.20520047 0 family PNTS name pnt1564
+prescribed_point 36.90925173 -51.24079633 0 family PNTS name pnt1565
+prescribed_point 36.91780231 -51.276311 0 family PNTS name pnt1566
+prescribed_point 36.92632583 -51.31175803 0 family PNTS name pnt1567
+prescribed_point 36.93483582 -51.34712388 0 family PNTS name pnt1568
+prescribed_point 36.94333229 -51.38241532 0 family PNTS name pnt1569
+prescribed_point 36.95180846 -51.41763911 0 family PNTS name pnt1570
+prescribed_point 36.96026433 -51.45278173 0 family PNTS name pnt1571
+prescribed_point 36.96729285 -51.48818817 0 family PNTS name pnt1572
+prescribed_point 36.97234609 -51.52382461 0 family PNTS name pnt1573
+prescribed_point 36.97560667 -51.55963017 0 family PNTS name pnt1574
+prescribed_point 36.97708138 -51.59547631 0 family PNTS name pnt1575
+prescribed_point 36.97676343 -51.63123452 0 family PNTS name pnt1576
+prescribed_point 36.97468667 -51.66691154 0 family PNTS name pnt1577
+prescribed_point 36.97084432 -51.70235857 0 family PNTS name pnt1578
+prescribed_point 36.96527697 -51.73745383 0 family PNTS name pnt1579
+prescribed_point 36.95799816 -51.7722041 0 family PNTS name pnt1580
+prescribed_point 36.94902816 -51.80648083 0 family PNTS name pnt1581
+prescribed_point 36.93842788 -51.84016227 0 family PNTS name pnt1582
+prescribed_point 36.92620407 -51.87324166 0 family PNTS name pnt1583
+prescribed_point 36.91239731 -51.90563781 0 family PNTS name pnt1584
+prescribed_point 36.8970888 -51.93720866 0 family PNTS name pnt1585
+prescribed_point 36.88028528 -51.96794746 0 family PNTS name pnt1586
+prescribed_point 36.86202059 -51.99780684 0 family PNTS name pnt1587
+prescribed_point 36.84241649 -52.02663799 0 family PNTS name pnt1588
+prescribed_point 36.82147975 -52.05442738 0 family PNTS name pnt1589
+prescribed_point 36.79923065 -52.08116148 0 family PNTS name pnt1590
+prescribed_point 36.77581126 -52.10669822 0 family PNTS name pnt1591
+prescribed_point 36.75124863 -52.13101732 0 family PNTS name pnt1592
+prescribed_point 36.72556983 -52.15412553 0 family PNTS name pnt1593
+prescribed_point 36.69888985 -52.17590786 0 family PNTS name pnt1594
+prescribed_point 36.67128988 -52.19633049 0 family PNTS name pnt1595
+prescribed_point 36.64276314 -52.21540018 0 family PNTS name pnt1596
+prescribed_point 36.61343816 -52.23305605 0 family PNTS name pnt1597
+prescribed_point 36.58340966 -52.24923721 0 family PNTS name pnt1598
+prescribed_point 36.55267763 -52.26397073 0 family PNTS name pnt1599
+prescribed_point 36.5213503 -52.27720925 0 family PNTS name pnt1600
+prescribed_point 36.48953592 -52.28891894 0 family PNTS name pnt1601
+prescribed_point 36.457248 -52.29909982 0 family PNTS name pnt1602
+prescribed_point 36.42451362 -52.3077654 0 family PNTS name pnt1603
+prescribed_point 5.077630361 8.416666799 0 family GEOM name pnt.03
+prescribed_point 4.685906202 -5.384910297 0 family GEOM name pnt.04
+prescribed_point 35.64179048 -51.98267421 0 family GEOM name pnt.05
+prescribed_point 36.96026433 -51.45278173 0 family GEOM name pnt.06
+prescribed_point 36.96026433 -51.45278173 0 family GEOM name pnt.07
+prescribed_point 42.758227898824 -50.484206343572 0 family GEOM name pnt.08
+define_curve family GEOM tetra_size 1e+10 name crv.07 vertex1 pnt.15 vertex2 pnt.16
+bspline
+3,3,1
+0,0,0,1.1486096706949,1.1486096706949
+1.1486096706949
+56.335416728,-103.022009428,0,1
+50.378166728298,-94.07984721944,0,0.83957015434206
+69.750050878,-112.412253328,0,1
+define_curve family GEOM tetra_size 1e+10 name crv.08 vertex1 pnt.16 vertex2 pnt.19
+bspline
+2,2,0
+0,0,1,1
+69.750050878,-112.412253328,0
+124.750050878,-112.412253328,0
+define_curve family GEOM tetra_size 1e+10 name crv.12 vertex1 pnt.24 vertex2 pnt.23
+bspline
+2,2,0
+0,0,1,1
+-55.006046682,35.148722252,0
+-0.006046682,35.148722252,0
+define_curve family GEOM tetra_size 1e+10 name crv.13 vertex1 pnt.23 vertex2 pnt.13
+bspline
+3,3,1
+0,0,0,0.83505343745897,0.83505343745897
+0.83505343745897
+-0.0060466819999991,35.148722252,0,1
+15.451355794306,28.713350022425,0,0.91409465283953
+25.481753318,16.368234452,0,1
+define_curve family GEOM tetra_size 1e+10 name crv.14 vertex1 pnt.24 vertex2 pnt.25
+bspline
+2,2,0
+0,0,1,1
+-55.006046682,35.148722252,0
+-55.006046682,-22.351277748,0
+define_curve family GEOM tetra_size 1e+10 name crv.05.0
+bspline
+2,2,0
+0,0,1,1
+25.481753318,-41.131765548,0
+56.335416728,-160.522009428,0
+define_curve family GEOM tetra_size 1e+10 name crv.07.0
+bspline
+3,3,1
+0,0,0,1.1486096706949,1.1486096706949
+1.1486096706949
+56.335416728,-160.522009428,0,1
+50.378166819502,-142.35513126443,0,0.83957015434206
+69.750050878,-169.912253328,0,1
+define_curve family GEOM tetra_size 1e+10 name crv.08.0
+bspline
+2,2,0
+0,0,1,1
+69.750050878,-169.912253328,0
+124.750050878,-169.912253328,0
+define_curve family GEOM tetra_size 1e+10 name crv.12.0
+bspline
+2,2,0
+0,0,1,1
+-55.006046682,-22.351277748,0
+-0.006046682,-22.351277748,0
+define_curve family GEOM tetra_size 1e+10 name crv.13.0
+bspline
+3,3,1
+0,0,0,0.83505343745897,0.83505343745897
+0.83505343745897
+-0.0060466819999991,-22.351277748,0,1
+15.451356231091,-23.847091704166,0,0.91409465283953
+25.481753318,-41.131765548,0,1
+define_curve family GEOM tetra_size 1e+10 name crv.15 vertex1 pnt.19 vertex2 pnt.19.0
+bspline
+2,2,0
+0,0,1,1
+124.750050878,-112.412253328,0
+124.750050878,-169.912253328,0
+define_curve family CRVS tetra_size 1e+10 name crv.00
+bspline
+53,4,0
+58.015472412109,58.015472412109,58.015472412109,58.015472412109,58.898652489494
+59.337518853402,59.773598764206,60.208285448458,60.641578906158,61.072085910754
+61.64330879711,62.06963612205,62.493176993885,62.913931412616,63.333292604795
+63.751260570421,64.165048856391,64.302978285047,64.439514487151,64.577443915807
+64.850516320015,65.122195497671,65.257338473223,65.529017650879,65.934446577535
+66.339875504191,66.745304430847,67.150733357503,67.554769057607,67.960197984263
+68.229090708815,68.499376659919,68.633126408919,68.903412360023,69.037162109022
+69.306054833574,69.441197809126,69.708697307126,69.843840282678,70.111339780678
+70.24648275623,70.51398225423,70.916624727781,71.85287297078,72.25412221778
+72.386478740228,72.653978238228,73.053834258675,73.453690279123,73.85354629957
+74.252009093466,74.649078660809,75.179897977153,75.576644897461,75.576644897461
+75.576644897461,75.576644897461
+4.6859064573872,-5.3849123499271,0
+4.4572549484383,-5.1993771608311,0
+4.1152467505376,-4.9224620883922,0
+3.6588908031049,-4.5541185726085,0
+3.3181874111047,-4.2801150387087,0
+2.9788458880373,-4.0085289334719,0
+2.6405769536507,-3.739409260033,0
+2.2649153313477,-3.4422276513303,0
+1.8937226037858,-3.1455612887421,0
+1.5247686873274,-2.8469507499832,0
+1.2037515497854,-2.572028577628,0
+0.90791098184588,-2.2704444755397,0
+0.65643134997794,-1.9326383124119,0
+0.44869571549475,-1.572469965624,0
+0.31593534429154,-1.2757733804232,0
+0.23541507376592,-1.0622501748492,0
+0.19015493476489,-0.93078886961948,0
+0.13614162683943,-0.75870706992931,0
+0.077287019989746,-0.53701906752132,0
+0.034472506404687,-0.31464846304591,0
+0.0048711134339814,-0.089343382581426,0
+-0.012659497737496,0.17944156094929,0
+0.0025029880505355,0.54181314335519,0
+0.056496128512135,0.9436504513703,0
+0.13578929089774,1.3417806120035,0
+0.22598166638369,1.7349981782991,0
+0.32481416426654,2.1299954921167,0
+0.42463713420863,2.4732567195503,0
+0.52527496050863,2.7738466964835,0
+0.60402115959186,2.9810471149995,0
+0.69171945108693,3.1909483142094,0
+0.76608540461426,3.3514858341411,0
+0.86826652879389,3.5527058006906,0
+0.95467386362354,3.7096077722142,0
+1.0670444981123,3.9019689003412,0
+1.1624061539703,4.0567203276392,0
+1.2813262578604,4.2428279257836,0
+1.3813271059254,4.3947151962812,0
+1.5040908067671,4.5781734249998,0
+1.6557510326962,4.802641545184,0
+1.9578011175747,5.2416435860147,0
+2.2977981911906,5.7137331340651,0
+2.5955572460897,6.1010336782909,0
+2.7631518686317,6.3118615703377,0
+2.9304383860997,6.5167229549066,0
+3.1634849964035,6.7879365102599,0
+3.4338614030928,7.0807443144504,0
+3.7169650152792,7.3632901241491,0
+4.0115343318737,7.6311775452155,0
+4.3536536256265,7.9132795996929,0
+4.70825386597,8.1752171820845,0
+4.9653777798415,8.3456464951608,0
+5.0776343406898,8.4166627457695,0
+define_curve family CRVS tetra_size 1e+10 name crv.01
+bspline
+205,4,0
+1.0076566934586,1.0076566934586,1.0076566934586,1.0076566934586,1.1243338275335
+1.2427580844609,1.2831616544714,1.3625755679403,1.4851795045239,1.6091766676595
+1.7345670573473,1.9059339232539,1.9491239463685,2.03689721915,2.0800872422646
+2.1692537415982,2.3030034905984,2.3489799668173,2.4395396927029,2.5788623479115
+2.6248388241303,2.7181850031201,2.7655547058911,2.861687337985,2.9578199700789
+3.055345828725,3.3521030843193,3.4022592401944,3.5039647784967,3.6586129257783
+3.7101623082055,3.8146542996119,3.9734821265498,4.026424735529,4.1350964065917
+4.188039015571,4.2437680776544,4.3524397487171,4.5196269349674,4.6882073477698
+4.8595742136763,4.9166965023118,4.9752120174994,5.0323343061349,5.2092740782498
+5.3876070769168,5.5687265286879,5.813934401855,6.0006267598345,6.0633219546784
+6.1901055709182,6.382370835106,6.447852483054,6.577422552398,6.7752607227942
+6.9744921197425,7.0427602207947,7.177903196347,7.4523688271079,7.6613528099207
+7.8731232458378,7.9441777999941,8.087680134859,8.3050234769843,8.526546498766
+8.6003875060265,8.7494627470997,8.9751654485376,9.0517929089023,9.1270271427149
+9.2816752899964,9.3583027503611,9.5143441241947,9.7497994114972,9.9880411519039
+10.068848291925,10.148262205394,10.230462571967,10.311269711988,10.474277218582
+10.556477585155,10.722271544853,10.804471911426,10.973052324229,11.311606376385
+11.829886653761,12.360705970106,12.904064325419,12.994624051305,13.179923182732
+13.36522231416,13.553307898691,13.646654077681,13.836132888765,13.932265520859
+14.123137558494,14.412928681328,14.705506257266,16.012352763123,17.270436339656
+17.377714784167,17.59366489974,17.700943344251,17.918286686376,18.24848137922
+18.46861117445,18.691527422783,18.80298554695,19.027295021836,19.140146372555
+19.367242300545,20.055496217275,20.403802855297,20.520833885672,20.756289172975
+20.87332020335,21.111561943756,21.349803684163,21.589438651122,21.709256134601
+21.950284328112,22.072888264696,22.315309684758,22.437913621342,22.684514721061
+22.807118657645,23.055112983916,23.179110147052,23.428497699875,23.553888089563
+23.80606209549,23.931452485178,24.185019717658,24.439980176689,24.696333862273
+24.824510705065,25.082257617201,25.472361051785,25.863857712921,26.259534053713
+26.656603621058,27.056459641506,27.190209390506,27.460495341611,27.729388066164
+27.865924268268,28.00106724382,28.137603445925,28.272746421477,28.410675850134
+28.547212052238,28.821677682999,29.235465968968,29.373395397625,29.65064748149
+30.490763092398,31.481347170931,31.910460948973,32.340967953568,32.772868184716
+33.207554868968,35.113488792226,35.557928062342,36.003760559011,36.900998458557
+38.862661443898,39.776618062069,40.694754359896,41.154519122085,41.615677110827
+42.694034462144,43.15797890399,43.312627051271,43.620530119283,43.776571493117
+44.085867787681,44.549812229527,45.480487566322,46.567204276952,47.497879613748
+47.963217282146,48.428554950543,48.892499392389,49.357837060787,49.821781502633
+50.438980865208,50.59362901249,50.74688393322,50.901532080502,51.362690069243
+51.825241284537,52.285006046726,53.203142344553,53.660120653639,54.268960656902
+54.420822351079,54.723152512883,55.175951142312,56.080155174618,56.52877412439
+56.677849365464,56.977393074163,57.125075088685,57.423225570832,58.01534685547
+58.015472412109,58.015472412109,58.015472412109,58.015472412109
+35.641725624632,-51.982713945757,0
+35.62145146405,-51.949392375298,0
+35.586582897304,-51.878701257816,0
+35.557324986553,-51.792200708642,0
+35.528461747427,-51.717884874991,0
+35.500048771891,-51.640845996466,0
+35.46247848087,-51.541143610427,0
+35.418676462366,-51.423734629934,0
+35.369547329489,-51.292521759224,0
+35.329959096748,-51.186419710008,0
+35.294604373105,-51.091775407682,0
+35.274605380891,-51.038168029387,0
+35.248652281358,-50.968619983219,0
+35.218227086422,-50.887015378461,0
+35.186384176283,-50.801584414565,0
+35.155213520279,-50.717885534433,0
+35.122700375684,-50.63057579952,0
+35.091056705647,-50.54551869156,0
+35.058753144014,-50.458635174203,0
+35.036875028775,-50.399773646133,0
+35.009079727104,-50.324966708847,0
+34.981667451034,-50.251135146598,0
+34.948023110401,-50.160482325156,0
+34.891461201582,-50.007972704117,0
+34.839510069144,-49.867687108108,0
+34.787869840061,-49.728127313478,0
+34.752323069993,-49.63196010745,0
+34.717092766009,-49.53661673025,0
+34.680738679119,-49.438169254787,0
+34.644519638177,-49.339996814302,0
+34.608397620814,-49.242055655983,0
+34.570785567045,-49.140000181176,0
+34.54708244012,-49.075657323562,0
+34.521042380641,-49.004931161444,0
+34.496845685573,-48.939202043472,0
+34.457949844306,-48.833491787173,0
+34.407510168664,-48.696305845964,0
+34.348465572906,-48.53560006636,0
+34.303727904566,-48.413739941041,0
+34.269988185786,-48.321787642161,0
+34.250704766622,-48.26920942639,0
+34.216322626221,-48.175477667826,0
+34.169663604032,-48.048191488504,0
+34.107838216585,-47.879428585187,0
+34.038731069881,-47.690665271387,0
+33.96880796561,-47.499563590824,0
+33.911666850429,-47.343270154476,0
+33.868760823092,-47.225905995177,0
+33.82515892581,-47.10658584673,0
+33.781011008298,-46.985748846778,0
+33.737013214372,-46.86528671651,0
+33.691722955775,-46.741252198371,0
+33.631897118424,-46.577380267614,0
+33.578223706161,-46.430370934546,0
+33.532651444647,-46.305517558407,0
+33.477888167535,-46.155512415989,0
+33.407037410959,-45.961459306757,0
+33.327880737637,-45.74477221817,0
+33.271219492467,-45.589712277595,0
+33.222518532697,-45.45651579519,0
+33.173219642729,-45.321738463769,0
+33.105990636023,-45.138042392869,0
+33.048097005769,-44.980038977164,0
+32.996494548561,-44.839314341629,0
+32.945450955384,-44.700187850792,0
+32.893175983394,-44.557871905162,0
+32.850122137153,-44.440798487855,0
+32.814030837015,-44.342680496802,0
+32.779498336211,-44.248916762289,0
+32.73463233229,-44.127172736257,0
+32.6807418859,-43.981090165809,0
+32.607847853467,-43.783833426323,0
+32.543689605266,-43.610600900917,0
+32.497628109564,-43.486444864008,0
+32.468815658449,-43.408844442867,0
+32.441674219552,-43.335809108658,0
+32.403039223449,-43.231949935546,0
+32.365374374519,-43.130794657609,0
+32.317264028487,-43.001840901369,0
+32.279133245278,-42.899768485461,0
+32.229916621831,-42.768225650725,0
+32.161622391561,-42.585987148084,0
+32.040990221214,-42.265190973243,0
+31.877396618111,-41.832877328965,0
+31.688058085871,-41.336731449543,0
+31.548735528942,-40.975127705793,0
+31.449658600759,-40.719577380121,0
+31.394450938964,-40.577558132286,0
+31.325749921752,-40.401499309759,0
+31.269928382267,-40.259014496645,0
+31.212009218373,-40.111599039787,0
+31.165851142166,-39.994453180705,0
+31.107776357635,-39.847554816389,0
+31.036477651113,-39.667742964153,0
+30.941221828782,-39.428772742546,0
+30.706744871451,-38.844389125082,0
+30.346543622167,-37.9628247144,0
+30.000242159839,-37.141781747878,-0
+29.792074333371,-36.657135630275,0
+29.735618461481,-36.526260284407,0
+29.663542451028,-36.359903154379,0
+29.57636154484,-36.159572244814,0
+29.474545456902,-35.927323280789,0
+29.369517317897,-35.68959089084,0
+29.29484115518,-35.521601584751,0
+29.218797202826,-35.351335897162,0
+29.157703355409,-35.215196669957,0
+29.079830005042,-35.042523178628,0
+28.939270635169,-34.7323562499,0
+28.762810947488,-34.348089942526,0
+28.600411348118,-33.999866858492,0
+28.500902602439,-33.787961965556,0
+28.434658042472,-33.647627192161,0
+28.349359220407,-33.467884586629,0
+28.265162184942,-33.291396652569,0
+28.161323451768,-33.075292708681,0
+28.0743793158,-32.895641390207,0
+27.987413391105,-32.716932885022,0
+27.915650406875,-32.570256980422,0
+27.827480261067,-32.391071828413,0
+27.754539175243,-32.243622666042,0
+27.66370528034,-32.061074326229,0
+27.590968025019,-31.915677857749,0
+27.498102982565,-31.731153311892,0
+27.423909413164,-31.58452657392,0
+27.329827884197,-31.399697136327,0
+27.254296076006,-31.252157729195,0
+27.157857503898,-31.064885319143,0
+27.081644195583,-30.917752073695,0
+26.983664108392,-30.729704130609,0
+26.88599899568,-30.543378543223,0
+26.766998372111,-30.318142883665,0
+26.66652024765,-30.129489892007,0
+26.565788574911,-29.94151683065,0
+26.44231649021,-29.712526187312,0
+26.277292151153,-29.409574499936,0
+26.086882133898,-29.064388289766,0
+25.895479532714,-28.721739444263,0
+25.699239030403,-28.374914668759,0
+25.544712954052,-28.105302589546,0
+25.410412782249,-27.873118552055,0
+25.298874957345,-27.681470498877,0
+25.182855946154,-27.483982691473,0
+25.092835495667,-27.331755167522,0
+25.022248205255,-27.212940277925,0
+24.95383672338,-27.098319586137,0
+24.882010040915,-26.978515093497,0
+24.813320401956,-26.864469950036,0
+24.717429086699,-26.7060232041,0
+24.575137647641,-26.472519177968,0
+24.430412446228,-26.237811431156,0
+24.284212123377,-26.002961561962,0
+24.06129007907,-25.647464773834,0
+23.683760139292,-25.056988683043,0
+23.267807778064,-24.427211516233,0
+22.922248048967,-23.917408050255,0
+22.678454764492,-23.563300201965,0
+22.429494791164,-23.207491784698,0
+21.895331768798,-22.456174065095,0
+21.340878165645,-21.708723876315,0
+20.772564121833,-20.971506651377,0
+20.405223267939,-20.501669543228,0
+19.718360859859,-19.641201310339,0
+18.913208032457,-18.673984261033,0
+18.086539868058,-17.717404229952,0
+17.580778803048,-17.145497080718,0
+17.169845545309,-16.689291367746,0
+16.721772228004,-16.197832750714,0
+16.265760784485,-15.708000041949,0
+15.876345535159,-15.298623151216,0
+15.663406511824,-15.076697035398,0
+15.518436231719,-14.926615697979,0
+15.340253983543,-14.743379814716,0
+15.122885959227,-14.521302346885,0
+14.722970929993,-14.117393154833,0
+14.135326174681,-13.535825464464,0
+13.42604391412,-12.85531471544,0
+12.820694439603,-12.291985570721,0
+12.362066793758,-11.872894318002,0
+12.017801204149,-11.561945302848,0
+11.669728088673,-11.250889635538,0
+11.323733905684,-10.944764946532,0
+10.935372518205,-10.60424506135,0
+10.623417097442,-10.333392544772,0
+10.391612158941,-10.133344917022,0
+10.273090883389,-10.031294772107,0
+10.080575940916,-9.8659082251742,0
+9.8052739090336,-9.6304328475443,0
+9.4557140624625,-9.333126270329,0
+8.9864721848826,-8.9360045144265,0
+8.5187992420172,-8.5426271276013,0
+8.0110083712129,-8.1179422132066,0
+7.7002379726077,-7.8591377691281,0
+7.4269482616025,-7.6321960656587,0
+7.1942154972629,-7.4392720725368,0
+6.7675450277258,-7.0865454219763,0
+6.3033654342139,-6.7046180978742,0
+5.915893877303,-6.3871810079892,0
+5.6837679134712,-6.1973523225414,0
+5.5315545835745,-6.0730414330864,0
+5.3369808237625,-5.9143418650185,0
+5.0699084403938,-5.696775614027,0
+4.8392691304775,-5.5093557941893,0
+4.6859389634591,-5.3849387263993,0
+4.6859064573872,-5.3849123499271,0
+define_curve family CRVS tetra_size 1e+10 name crv.03
+bspline
+86,4,0
+0,0,0,0,0.24577891281338
+0.49155782562675,0.9831156512535,1.4746734768803,1.7204523896936,1.966231302507
+2.2120102153204,2.4577891281338,2.9493469537605,3.4409047793873,3.6866836922006
+3.932462605014,4.1782415178274,4.4240204306408,4.9155782562675,5.4071360818943
+5.6529149947076,5.898693907521,6.1444728203344,6.3902517331478,6.5131411895545
+6.6360306459612,6.8818095587745,7.1275884715879,7.2504779279946,7.3733673844013
+7.6191462972147,7.864925210028,8.1107041228414,8.3564830356548,8.8480408612815
+9.3395986869083,9.5853775997217,9.831156512535,10.076935425348,10.322714338162
+10.814272163789,11.305829989415,11.551608902229,11.797387815042,12.043166727855
+12.288945640669,12.780503466296,13.272061291922,13.517840204736,13.763619117549
+14.746734768803,15.729850420056,15.729850420056,15.729850420056,16.689859119532
+17.649867819008,19.569885217959,21.489902616911,22.449911316387,23.409920015863
+27.249954813766,28.209963513242,30.129980912193,31.089989611669,32.049998311145
+33.010007010621,34.930024409572,36.850041808524,37.810050508,38.770059207475
+42.610094005379,46.450128803282,50.290163601185,54.130198399088,57.970233196992
+61.810267994895,65.650302792798,69.490337590701,71.410354989653,73.330372388604
+73.810376738342,74.29038108808,74.530383262949,74.770385437818,74.890386525253
+75.010387612687,75.044792175293,75.044792175293,75.044792175293,75.044792175293
+5.0776343406898,8.4166627457695,0
+5.1473061842647,8.4607388609318,0
+5.2871536693321,8.546675720313,0
+5.5700118349344,8.7105030435858,0
+5.9327309846115,8.9026366553912,0
+6.3041033402097,9.0761401760721,0
+6.6052669510609,9.2037227365456,0
+6.8348212167377,9.2943797223078,0
+7.063965971722,9.3785770753364,0
+7.375617381988,9.4845477780104,0
+7.767354345613,9.6020566010176,0
+8.1657959872418,9.7006733508261,0
+8.4860027126135,9.7673995108477,0
+8.7278997173101,9.8115233135282,0
+8.9709878888492,9.84953749768,0
+9.2958604411763,9.8917834149928,0
+9.7041198142034,9.928728338793,0
+10.112695890116,9.9434893662248,0
+10.440807375734,9.9415226501588,0
+10.687656591576,9.9328128346825,0
+10.931976670982,9.9170416442902,0
+11.135979106191,9.8975384600862,0
+11.299068528042,9.8781611767288,0
+11.461510557139,9.8562524963049,0
+11.663583083638,9.8240647407124,0
+11.864480073703,9.7851379636381,0
+12.0244320593,9.7499873987652,0
+12.18382549048,9.7121830932631,0
+12.381937663143,9.6600063790095,0
+12.617622571862,9.5895936824528,0
+12.850851896414,9.5117490499696,0
+13.158017739798,9.3986322467762,0
+13.536590964008,9.2393348966039,0
+13.904393247873,9.0593300261477,0
+14.192516303214,8.9038440108343,0
+14.405909901205,8.7815262725989,0
+14.616436661701,8.6538551699887,0
+14.892150762765,8.4775420559183,0
+15.229530567055,8.2451878899694,0
+15.556883090026,7.9987433898416,0
+15.813358271873,7.7937024374802,0
+16.002104182797,7.6368833685317,0
+16.188481433843,7.4763574123591,0
+16.43308741858,7.2582130026469,0
+16.731819380352,6.9782970878572,0
+17.021793669821,6.6895169860548,0
+17.249317954514,6.4532103773374,0
+17.586032925734,6.0940029092753,0
+18.071948226395,5.5408760047846,0
+18.48325492629,5.0293396585675,0
+18.75845898,4.673132081,0
+18.952920623809,4.4193952937168,0
+19.333113685318,3.9044151383478,0
+20.058094417695,2.8487140021707,0
+20.899210355969,1.4866251038279,0
+21.664586336663,0.081741953632642,0
+22.24111910371,-1.0606243352194,0
+23.075055133762,-2.791676157119,0
+23.852032943027,-4.5470870335656,0
+24.707202784124,-6.6172828139085,0
+25.176734081821,-7.809310435617,0
+25.628330531809,-9.007093578036,0
+25.957634150874,-9.9085602779719,0
+26.385311757921,-11.114519422901,0
+26.899092258597,-12.629870736179,0
+27.387379651638,-14.153863584059,0
+27.764113500844,-15.377323072667,0
+28.319736750214,-17.215274281349,0
+29.121171635026,-19.981404488316,0
+30.13816043112,-23.68421509091,0
+31.114054897681,-27.398327189174,0
+32.043951789924,-31.124398030205,0
+32.950324663891,-34.855748852392,0
+33.850827724274,-38.5879552242,0
+34.753131352418,-42.320966679249,0
+35.50583172241,-45.431191825223,0
+36.108342796991,-47.919164644655,0
+36.446379155561,-49.319327247108,0
+36.671339826464,-50.252564154845,0
+36.765062997832,-50.641411312476,0
+36.839571825586,-50.952568788603,0
+36.887269446223,-51.146786413048,0
+36.922899978591,-51.303036291866,0
+36.947392316802,-51.391030667359,0
+36.958038226618,-51.441462474923,0
+36.960232558773,-51.452736839673,0
+define_curve family CRVS tetra_size 1e+10 name crv.04
+bspline
+25,4,0
+75.044792175293,75.044792175293,75.044792175293,75.044792175293,75.250389787556
+75.490391962425,75.610393049859,75.730394137294,75.970396312163,76.03039685588
+76.150397943315,76.210398487032,76.24039875889,76.270399030749,76.330399574466
+76.390400118184,76.420400390042,76.450400661901,76.510401205618,76.540401477477
+76.600402021194,76.630402293052,76.69040283677,76.930405011639,77.050406099073
+77.170407186508,77.170407186508,77.170407186508,77.170407186508
+36.960232558773,-51.452736839673,0
+36.973345629174,-51.520111114966,0
+36.988006070804,-51.669011964339,0
+36.940638407301,-51.855227513063,0
+36.866544489258,-51.996971636993,0
+36.769742253663,-52.124694199119,0
+36.656154127295,-52.21278137116,0
+36.534201878992,-52.275007579297,0
+36.446860390821,-52.302514562153,0
+36.421674179568,-52.309291025341,0
+36.419496784046,-52.311652736111,0
+36.394067245961,-52.31599515023,0
+36.358878086376,-52.321515273209,0
+36.309899561647,-52.326066642483,0
+36.270686408511,-52.327660938287,0
+36.230214107322,-52.327627093732,0
+36.190319129447,-52.325019758796,0
+36.140445579181,-52.31862797291,0
+36.10111377883,-52.311072217839,0
+36.052936437415,-52.298714953662,0
+35.948445761762,-52.264777919415,0
+35.824778672331,-52.19371499055,0
+35.709959877009,-52.0812861117,0
+35.662664089059,-52.017037458096,0
+35.641725624632,-51.982713945757,0
+define_curve family GEOM tetra_size 1e+10 name crv.05 vertex1 pnt.13
+bspline
+2,2,0
+0,0,0.55994892120361,0.55994892120361
+25.481753318,16.368234452,0
+42.758228859609,-50.484203810842,0
+define_curve family GEOM tetra_size 1e+10 name crv.06 vertex2 pnt.15
+bspline
+2,2,0
+0.55994892120361,0.55994892120361,1,1
+42.758228859609,-50.484203810842,0
+56.335416728,-103.022009428,0
+affix 0
+define_model 1e+10 reference_size 1
+define_prism_meshing_parameters law 0 nlay 3 hratio 1.2 min_quality 0.01 fillet 0.1 tetra_smooth_limit 0.3
+return
