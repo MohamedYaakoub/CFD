@@ -1,39 +1,40 @@
 # ICEM CFD Project Settings
-# Saved by mohsy on Neptune on Fri Oct 22 11:29:43 PM W. Europe Daylight Time 2021
+# Saved by mohsy on Neptune on Sat Oct 23 2:36:38 AM W. Europe Daylight Time 2021
 # ICEM CFD - version 19.5 - Release date: Jul 29 2019
 
 array set file_name {
-    catia_dir .
-    parts_dir .
+    catia_dir C:/Users/mohsy/University/CFD/Assignment/Trials
+    parts_dir C:/Users/mohsy/University/CFD/Assignment/Trials
     domain_loaded 0
     cart_file_loaded 0
     cart_file {}
+    domain_saved PA4.uns
     archive {}
     med_replay {}
-    topology_dir .
-    ugparts_dir .
+    topology_dir C:/Users/mohsy/University/CFD/Assignment/Trials
+    ugparts_dir C:/Users/mohsy/University/CFD/Assignment/Trials
     icons {{$env(ICEM_ACN)/lib/ai_env/icons} {$env(ICEM_ACN)/lib/va/EZCAD/icons} {$env(ICEM_ACN)/lib/icons} {$env(ICEM_ACN)/lib/va/CABIN/icons}}
     tetin {Mesh_with conf.tin}
     family_boco {Mesh_with conf.fbc}
-    prism_params Mesh.prism_params
-    iges_dir .
+    prism_params {Mesh_with conf.prism_params}
+    iges_dir C:/Users/mohsy/University/CFD/Assignment/Trials
     solver_params_loaded 1
     attributes_loaded 1
     project_lock {}
     attributes {Mesh_with conf.atr}
     domain {}
-    domains_dir .
+    domains_dir C:/Users/mohsy/University/CFD/Assignment/Trials
     settings_loaded 0
     settings {Mesh_with conf.prj}
     blocking {Mesh_with conf.blk}
     hexa_replay {}
-    transfer_dir .
-    mesh_dir .
+    transfer_dir C:/Users/mohsy/University/CFD/Assignment/Trials
+    mesh_dir C:/Users/mohsy/University/CFD/Assignment/Trials
     family_topo {}
-    gemsparts_dir .
+    gemsparts_dir C:/Users/mohsy/University/CFD/Assignment/Trials
     family_boco_loaded 1
     tetin_loaded 1
-    project_dir .
+    project_dir C:/Users/mohsy/University/CFD/Assignment/Trials
     topo_mulcad_out {}
     solver_params {}
 }
@@ -59,6 +60,7 @@ array set options {
     external_num 1
     tree_disp_tri 2
     apply_all 0
+    default_solver {ANSYS Fluent}
     temporary_directory {}
     flood_select_angle 0
     home_after_load 1
@@ -120,6 +122,7 @@ array set disp_options {
     uns_surf_bounds 0
     uns_wide_lines 0
     uns_vol_bounds 0
+    uns_displ_orient Triad
     uns_orientation 0
     uns_directions 0
     uns_thickness 0
@@ -236,10 +239,11 @@ array set vid_options {
     vid_mode 0
     DelBlkPerFlag 0
 }
-set savedTreeVisibility {geomNode 1 geom_subsetNode 0 geomPointNode 2 geomCurveNode 2 blockingNode 1 block_subsetNode 2 block_vertNode 0 block_edgeNode 2 block_faceNode 0 block_blockNode 0 block_meshNode 0 topoNode 2 topo-root 2 partNode 1 part-CRVS 2 part-GEOM 2 part-PNTS 0 part-SOLID 2 part-VORFN 0}
-set last_view {rot {-0.0035943232747 0.0237653486018 -0.00019385555928 0.999711083998} scale {3.63137212203 3.63137212203 3.63137212203} center {10.687995837328522 9.92073568575897191 0.0160959347164937316} pos {-241.22310184 155.045380684 0}}
+set savedTreeVisibility {geomNode 1 geom_subsetNode 0 geomPointNode 2 geomCurveNode 2 blockingNode 1 block_subsetNode 2 block_vertNode 0 block_edgeNode 2 block_faceNode 0 block_blockNode 2 block_meshNode 0 topoNode 2 topo-root 2 partNode 1 part-CRVS 2 part-GEOM 2 part-PNTS 0 part-SOLID 2 part-VORFN 0}
+set last_view {rot {-0 -0 0 1} scale {12.3578681059 12.3578681059 12.3578681059} center {43.3730525935423614 -77.9659074581614959 3.10382610885639529e-06} pos {-166.817816126 -552.262603149 0}}
 array set cut_info {
     active 0
+    whole 1
 }
 array set hex_option {
     default_bunching_ratio 2.0
@@ -271,150 +275,18 @@ array set saved_views {
 #------------- DEZ Data ------------------
 
 namespace eval ::AIEnv::GUIManagement::DEZ {
-    array set createPointsDEZ_data {
-        this createPointsDEZ
+    array set deletePointsDEZ_data {
+        this deletePointsDEZ
         type DEZ
-        PartList {"From screen" CRVS GEOM PNTS SOLID VORFN}
-        __createPointsFam_Last_Index 0
-        name pnt.10
-        createPointsEXGVal 0
-        pickScreenList {}
-        createPntExplicitVal 0
-        x 36.96026433
-        y -51.45278173
-        z 0
-        crePntParamList {-1, 1, 0.1}
-        Xexpress 2*sin(m*180)
-        Yexpress 2*cos(m*180)
-        Zexpress { m / 2}
-        pickBasePnt {}
-        dx 0
-        dy 0
-        dz 0
-        createPointsCentFRVal 0
-        pickCenterList {}
-        pickCenterCrv {}
-        createPnt2LocMethodVal 1
-        nPnt2Loc 1
-        ratio 0.5
-        pickBetweenList {}
-        ptExtEGVal 0
-        pickEndList {}
-        how_select_end {both xmin xmax ymin ymax zmin zmax}
-        which_end both
-        __createPntCrvEnd_Last_Index 0
-        fangle 30
-        toler 0.1
-        pickIntList {}
-        createPntCrvParMethodVal 1
-        crePnts3param 0.5
-        pickParList {}
-        pickProjCrv {}
-        pickPoint {}
-        trimCrvPrjFlag 0
-        movePointPrjFlag 0
-        pickProjSrf {}
-        pickPoint2 {}
-        embedPntOnSurfFlag 0
+        pointsList {}
+        DelUnattFlag 0
+        JoinCrvFlag 0
     }
-    array set createCurvesDEZ_data {
-        this createCurvesDEZ
-        type param
-        PartList {"From screen" CRVS GEOM PNTS SOLID VORFN}
-        __createCurvesFam_Last_Index 0
-        name crv.11
-        createCurvesEXGVal 6
-        pickList {}
-        createCrvArcMethodVal 0
-        pickArcList {}
-        RadiusArcGGVal 0
-        radius 0
-        keep_arc 0
-        RadiusGGVal 0
-        stangle 0
-        enangle 360
-        pickCircleList {}
-        creCurveEGVal 2
-        pickSurf {}
-        pickCurvCrePnt {}
-        pickEdgePnt {}
-        pickEdgePnt2 {}
-        UVChoiceVal 0
-        isopar 0.5
-        creCrvIntSetRVal 0
-        diffPartsFlag 0
-        singleCurveFlag 0
-        pickSetSurfs {}
-        createCurveIntCTVal 1
-        pickSet1Surfs {}
-        pickSet2Surfs {}
-        createCrvProjMethodVal 0
-        pickCurvesProj {}
-        pickSurfsProj {}
-        createCrvPrjEGVal 0
-        projpointsvec {}
-        prjOriginCurvFlag 1
-        prTrFlag 0
-        modifyCurveSegFRVal 0
-        pickCurveSeg {}
-        pickPointSeg {}
-        pickCurveSegWith {}
-        segBothFlag 0
-        modSegmCRVNormEGVal 0
-        SegPlanePntList {}
-        segVecList {}
-        keepOriginCurvFlag 0
-        seg_angle2 20
-        minSeg2 1
-        modifyReapproxCrvVal 0
-        pickCurveConcat {}
-        creCrvConcatTolGGVal 0
-        ctol 0.1
-        pickCurveReapp {}
-        ctol1 0.1
-        reappcrvfacetedFlag 0
-        pickCurveHull {}
-        hull_tol 0.1
-        shrink 0.2
-        four 0
-        pickCurveExtract {}
-        crvExtEGVal 0
-        extract_bsp_how 0
-        fangle 20
-        MinSeg {}
-        boundary {}
-        __facetedBoundaryOpt_Last_Index 0
-        modCrvEGVal 3
-        modCrv_crv0 {}
-        modCrv_crv1 {}
-        modCrvExtEndEGVal 0
-        modCrvExtEndPnt {}
-        allowExtendTargetFlag 0
-        CrvExtTo {}
-        modCrvExtLen 1
-        modCrvExtMethod line
-        modCrv_crv2 {}
-        modCrvMatchAcc 1
-        modCrvMatchOneOrBoth 0
-        modCrvMatchMethodEGVal 2
-        modCrvKeepFlag 0
-        modCrv_crv3_1 {}
-        createCrvMidMethodVal 0
-        pickMidline_crv2 {}
-        midlineList {}
-        midlineList2 {}
-        pickSurfSect {}
-        sectCurvePlaneEGVal 0
-        sectCurvePlaneXYZEGVal 0
-        sectCurveplnpnt1 {}
-        sectCurveplnpnt2 {}
-        sectCurveplnpnt3 {}
-        pickcrvexist {}
-        numsect {}
-        sectCurveOffsetGGVal 0
-        mpsectdelta {}
-        mpsectstart {}
-        mpsectend {}
+    array set deleteEntityDEZ_data {
+        this deleteEntityDEZ
+        type DEZ
+        entityList {}
+        DelUnattFlag 0
     }
     array set meshPrismDEZ_data {
         this meshPrismDEZ
@@ -430,7 +302,7 @@ namespace eval ::AIEnv::GUIManagement::DEZ {
     array set splitBlkDEZ_data {
         this splitBlkDEZ
         type DEZ
-        splitBlkVal 2
+        splitBlkVal 0
         splitBlkBlkSelVal 0
         markedBlock {}
         splitBlkEdge {}
@@ -477,6 +349,25 @@ namespace eval ::AIEnv::GUIManagement::DEZ {
         uFace2 {}
         splitSheets2 {}
         splitSheets {}
+    }
+    array set mergeBVertexDEZ_data {
+        this mergeBVertexDEZ
+        type DEZ
+        mergeBVertexmainVal 0
+        merge_multipleEGVal 0
+        pickblkbound {}
+        propagate 1
+        merge_ave 0
+        force_edge_collapse 0
+        rebuild_orphan 0
+        update_projections 0
+        update_edge_node_count 0
+        pickverbase {}
+        tolerance {}
+        collapseBlkEdge {}
+        collapseBlks {}
+        mergeVert {}
+        splitEdge {}
     }
     array set editBlockMenuDEZ_data {
         this editBlockMenuDEZ
@@ -531,7 +422,7 @@ namespace eval ::AIEnv::GUIManagement::DEZ {
         curves {}
         assocEdgeMethodVal 0
         edges {}
-        update 1
+        update 0
         intersection 0
         curve_intersection 0
         curve_refmesh 0
@@ -657,8 +548,8 @@ namespace eval ::AIEnv::GUIManagement::DEZ {
     array set editEdgeMenuDEZ_data {
         this editEdgeMenuDEZ
         type DEZ
-        editEdgemainVal 0
-        editEdgeSplitEdgeHowVal 1
+        editEdgemainVal 1
+        editEdgeSplitEdgeHowVal 3
         edgeSplits {}
         AutoedgeSplits {}
         auto_linear_all 0
@@ -690,7 +581,7 @@ namespace eval ::AIEnv::GUIManagement::DEZ {
     array set mParamsDEZ_data {
         this mParamsDEZ
         type DEZ
-        blockParamVal 0
+        blockParamVal 2
         blockParamSelVal 0
         reset_edge_bunch 0
         check_blck 0
@@ -716,7 +607,7 @@ namespace eval ::AIEnv::GUIManagement::DEZ {
         eparam_rel 0
         lockNodes 0
         lockParams 0
-        copyFlag 0
+        copyFlag 1
         eparamCopyVal 0
         copyEdge {}
         absolute 0
@@ -743,6 +634,105 @@ namespace eval ::AIEnv::GUIManagement::DEZ {
         blocks {}
         edgeRefDimGGVal 0
         ref_dim {}
+    }
+    array set hexQualityDEZ_data {
+        this hexQualityDEZ
+        type DEZ
+        qualityDDList {Angle {Aspect ratio} {Custom quality} {Determinant 2x2x2} {Determinant 3x3x3} Distortion {Eriksson Skewness} Ford {Max angle} {Max length} {Max ortho} {Max ortho 4.3v} {Max ratio} {Max side} {Max warp} {Max warp 4.3v} {Mid node} {Mid node Angle} {Min angle} {Min ortho} {Min side} Quality Taper Volume Warpage {X size} {Y size} {Z size}}
+        qualitydde {Min angle}
+        __hexQualityDDE_Last_Index 24
+        minv 0
+        maxv 90
+        ylim 20
+        nbars 20
+        onlyVisible 0
+        activePartsOnly 0
+    }
+    array set hexSmoothDEZ_data {
+        this hexSmoothDEZ
+        type DEZ
+        smoothPremeshVal 0
+        iters 1
+        quality 0.2
+        qualityDDList {"Determinant 3x3x3" Angle}
+        qualitydde {Determinant 3x3x3}
+        __HEXchooseQualityDDE_Last_Index 0
+        onlyVisible 0
+        activePartsOnly 0
+        laplaceFlag 0
+        itersSurf 10
+        itersVol 5
+        freezeCriterion 1
+        numLayersFix 0
+        partFixList {}
+        fix_layers_settings {}
+        partFirstList {}
+        layer_distance_settings {}
+        rebunchEdges 0
+        edgesRebunchList {}
+        expansionSurf 0.0
+        expansionVol 0.0
+        treatUnstruct 0
+        stabilizeSurf 1.0
+        stabilizeVol 2.0
+        useorthoDistSurf 0
+        useorthoDistVol 0
+        partBorderList {}
+        SrfFitFlag 1
+        KperGeomFlag 1
+        RelaxBlocks {}
+        display_blocks_off 0
+        HEXsmoothDirVal 1
+        refEdge {}
+        refEdgeDir {}
+        startIndex 1
+        endIndex 1
+        incrIndex 1
+        iterIndex 0
+        planeNums {}
+        smoothFaceOptionsVal 0
+        NonRelaxFaces {}
+        display_faces_off 0
+        display_faces_icons 0
+        smoothFilterNonRelax 0
+        NonRelaxRemove 1
+        HoldCellHeightFaces {}
+        smoothFilterHoldCellHeight 0
+        HoldCellHeightRemove 1
+        smoothVertexEntitiesVal 0
+        GlobalVertices {}
+        display_vertices_off 1
+        LayerVertices {}
+        smoothAdvancedVal 1
+        itersEdges 25
+        itersVertices 25
+        parameterPrjLim 0.0
+        parameterRelFac 0.5
+        parameterResFac 0.05
+        parameterFaceFit 1
+        parameterUseProj 1
+        parameterUseOrt 1
+        parameterUseFra 0
+        VolumeList {Laplace {Sorenson - Laplace} {Sorenson - Thomas & Middlecoff} {Thomas & Middlecoff} Interpolation {Hilgenstock - Thomas & Middlecoff} {Hilgenstock - Laplace}}
+        volume_method {Sorenson - Laplace}
+        __volumeMethod_Last_Index 0
+        FaceList {Laplace {Sorenson - Laplace} {Sorenson - Thomas & Middlecoff} {Thomas & Middlecoff} Interpolation {Hilgenstock - Thomas & Middlecoff} {Hilgenstock - Laplace}}
+        face_method {Sorenson - Laplace}
+        __faceMethod_Last_Index 0
+        gridexpansionFace 3.5
+        gridexpansionVol 4.6
+        niterPost 3
+        limitPost 0.2
+        HEXsmoothMBSVal 0
+        mbs_setting_load {}
+        mbs_setting_save {}
+        mbs_setting_seq_1 {}
+        mbs_setting_seq_2 {}
+        mbs_setting_seq_3 {}
+        mbs_setting_seq_4 {}
+        mbs_setting_seq_5 {}
+        mbs_setting_old {}
+        mbs_setting_new {}
     }
     array set deleteBlockDEZ_data {
         this deleteBlockDEZ
