@@ -1,5 +1,5 @@
 # ICEM CFD Project Settings
-# Saved by mohsy on Neptune on Sat Oct 23 2:36:38 AM W. Europe Daylight Time 2021
+# Saved by mohsy on Neptune on Sat Oct 23 2:50:33 AM W. Europe Daylight Time 2021
 # ICEM CFD - version 19.5 - Release date: Jul 29 2019
 
 array set file_name {
@@ -239,8 +239,8 @@ array set vid_options {
     vid_mode 0
     DelBlkPerFlag 0
 }
-set savedTreeVisibility {geomNode 1 geom_subsetNode 0 geomPointNode 2 geomCurveNode 2 blockingNode 1 block_subsetNode 2 block_vertNode 0 block_edgeNode 2 block_faceNode 0 block_blockNode 2 block_meshNode 0 topoNode 2 topo-root 2 partNode 1 part-CRVS 2 part-GEOM 2 part-PNTS 0 part-SOLID 2 part-VORFN 0}
-set last_view {rot {-0 -0 0 1} scale {12.3578681059 12.3578681059 12.3578681059} center {43.3730525935423614 -77.9659074581614959 3.10382610885639529e-06} pos {-166.817816126 -552.262603149 0}}
+set savedTreeVisibility {geomNode 1 geom_subsetNode 0 geomPointNode 2 geomCurveNode 2 blockingNode 1 block_subsetNode 2 block_vertNode 0 block_edgeNode 2 block_faceNode 0 block_blockNode 0 block_meshNode 0 topoNode 2 topo-root 2 partNode 1 part-CRVS 2 part-GEOM 2 part-PNTS 0 part-SOLID 2 part-VORFN 0}
+set last_view {rot {0 0 0 1} scale {33.4755315581 33.4755315581 33.4755315581} center {49.4523789544079122 -102.530157913758927 1.55254110659940752e-06} pos {1362.41581673 -3492.81008492 0}}
 array set cut_info {
     active 0
     whole 1
@@ -275,19 +275,6 @@ array set saved_views {
 #------------- DEZ Data ------------------
 
 namespace eval ::AIEnv::GUIManagement::DEZ {
-    array set deletePointsDEZ_data {
-        this deletePointsDEZ
-        type DEZ
-        pointsList {}
-        DelUnattFlag 0
-        JoinCrvFlag 0
-    }
-    array set deleteEntityDEZ_data {
-        this deleteEntityDEZ
-        type DEZ
-        entityList {}
-        DelUnattFlag 0
-    }
     array set meshPrismDEZ_data {
         this meshPrismDEZ
         type DEZ
@@ -349,25 +336,6 @@ namespace eval ::AIEnv::GUIManagement::DEZ {
         uFace2 {}
         splitSheets2 {}
         splitSheets {}
-    }
-    array set mergeBVertexDEZ_data {
-        this mergeBVertexDEZ
-        type DEZ
-        mergeBVertexmainVal 0
-        merge_multipleEGVal 0
-        pickblkbound {}
-        propagate 1
-        merge_ave 0
-        force_edge_collapse 0
-        rebuild_orphan 0
-        update_projections 0
-        update_edge_node_count 0
-        pickverbase {}
-        tolerance {}
-        collapseBlkEdge {}
-        collapseBlks {}
-        mergeVert {}
-        splitEdge {}
     }
     array set editBlockMenuDEZ_data {
         this editBlockMenuDEZ
@@ -634,110 +602,6 @@ namespace eval ::AIEnv::GUIManagement::DEZ {
         blocks {}
         edgeRefDimGGVal 0
         ref_dim {}
-    }
-    array set hexQualityDEZ_data {
-        this hexQualityDEZ
-        type DEZ
-        qualityDDList {Angle {Aspect ratio} {Custom quality} {Determinant 2x2x2} {Determinant 3x3x3} Distortion {Eriksson Skewness} Ford {Max angle} {Max length} {Max ortho} {Max ortho 4.3v} {Max ratio} {Max side} {Max warp} {Max warp 4.3v} {Mid node} {Mid node Angle} {Min angle} {Min ortho} {Min side} Quality Taper Volume Warpage {X size} {Y size} {Z size}}
-        qualitydde {Min angle}
-        __hexQualityDDE_Last_Index 24
-        minv 0
-        maxv 90
-        ylim 20
-        nbars 20
-        onlyVisible 0
-        activePartsOnly 0
-    }
-    array set hexSmoothDEZ_data {
-        this hexSmoothDEZ
-        type DEZ
-        smoothPremeshVal 0
-        iters 1
-        quality 0.2
-        qualityDDList {"Determinant 3x3x3" Angle}
-        qualitydde {Determinant 3x3x3}
-        __HEXchooseQualityDDE_Last_Index 0
-        onlyVisible 0
-        activePartsOnly 0
-        laplaceFlag 0
-        itersSurf 10
-        itersVol 5
-        freezeCriterion 1
-        numLayersFix 0
-        partFixList {}
-        fix_layers_settings {}
-        partFirstList {}
-        layer_distance_settings {}
-        rebunchEdges 0
-        edgesRebunchList {}
-        expansionSurf 0.0
-        expansionVol 0.0
-        treatUnstruct 0
-        stabilizeSurf 1.0
-        stabilizeVol 2.0
-        useorthoDistSurf 0
-        useorthoDistVol 0
-        partBorderList {}
-        SrfFitFlag 1
-        KperGeomFlag 1
-        RelaxBlocks {}
-        display_blocks_off 0
-        HEXsmoothDirVal 1
-        refEdge {}
-        refEdgeDir {}
-        startIndex 1
-        endIndex 1
-        incrIndex 1
-        iterIndex 0
-        planeNums {}
-        smoothFaceOptionsVal 0
-        NonRelaxFaces {}
-        display_faces_off 0
-        display_faces_icons 0
-        smoothFilterNonRelax 0
-        NonRelaxRemove 1
-        HoldCellHeightFaces {}
-        smoothFilterHoldCellHeight 0
-        HoldCellHeightRemove 1
-        smoothVertexEntitiesVal 0
-        GlobalVertices {}
-        display_vertices_off 1
-        LayerVertices {}
-        smoothAdvancedVal 1
-        itersEdges 25
-        itersVertices 25
-        parameterPrjLim 0.0
-        parameterRelFac 0.5
-        parameterResFac 0.05
-        parameterFaceFit 1
-        parameterUseProj 1
-        parameterUseOrt 1
-        parameterUseFra 0
-        VolumeList {Laplace {Sorenson - Laplace} {Sorenson - Thomas & Middlecoff} {Thomas & Middlecoff} Interpolation {Hilgenstock - Thomas & Middlecoff} {Hilgenstock - Laplace}}
-        volume_method {Sorenson - Laplace}
-        __volumeMethod_Last_Index 0
-        FaceList {Laplace {Sorenson - Laplace} {Sorenson - Thomas & Middlecoff} {Thomas & Middlecoff} Interpolation {Hilgenstock - Thomas & Middlecoff} {Hilgenstock - Laplace}}
-        face_method {Sorenson - Laplace}
-        __faceMethod_Last_Index 0
-        gridexpansionFace 3.5
-        gridexpansionVol 4.6
-        niterPost 3
-        limitPost 0.2
-        HEXsmoothMBSVal 0
-        mbs_setting_load {}
-        mbs_setting_save {}
-        mbs_setting_seq_1 {}
-        mbs_setting_seq_2 {}
-        mbs_setting_seq_3 {}
-        mbs_setting_seq_4 {}
-        mbs_setting_seq_5 {}
-        mbs_setting_old {}
-        mbs_setting_new {}
-    }
-    array set deleteBlockDEZ_data {
-        this deleteBlockDEZ
-        type DEZ
-        delBlocks {}
     }
     array set hexMeshOptsDEZ_data {
         this hexMeshOptsDEZ
