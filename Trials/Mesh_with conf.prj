@@ -1,5 +1,5 @@
 # ICEM CFD Project Settings
-# Saved by mohsy on Neptune on Sat Oct 23 4:52:12 PM W. Europe Daylight Time 2021
+# Saved by mohsy on Neptune on Sat Oct 23 11:19:03 PM W. Europe Daylight Time 2021
 # ICEM CFD - version 19.5 - Release date: Jul 29 2019
 
 array set file_name {
@@ -50,7 +50,7 @@ array set options {
     keep_existing_file_names 0
     record_journal 0
     edit_wait 0
-    face_mode all
+    face_mode 0
     select_mode all
     med_save_emergency_tetin 1
     user_name mohsy
@@ -115,17 +115,17 @@ array set disp_options {
     uns_shrink_npos 0
     uns_node_type None
     uns_icons_normals_vol 0
-    uns_bcfield 0
     backup Wire
+    uns_bcfield 0
     uns_nodes 0
     uns_only_edges 0
     uns_surf_bounds 0
     uns_wide_lines 0
     uns_vol_bounds 0
-    uns_displ_orient Triad
-    uns_orientation 0
-    uns_directions 0
     uns_thickness 0
+    uns_directions 0
+    uns_orientation 0
+    uns_displ_orient Triad
     uns_shell_diagnostic 0
     uns_normals 0
     uns_couplings 0
@@ -240,7 +240,7 @@ array set vid_options {
     DelBlkPerFlag 0
 }
 set savedTreeVisibility {geomNode 1 geom_subsetNode 0 geomPointNode 2 geomCurveNode 2 blockingNode 1 block_subsetNode 2 block_vertNode 0 block_edgeNode 2 block_faceNode 0 block_blockNode 0 block_meshNode 0 topoNode 2 topo-root 2 partNode 1 part-CRVS 2 part-GEOM 2 part-PNTS 0 part-SOLID 2 part-VORFN 0}
-set last_view {rot {0.0 -0.000897665947665 0.0 0.999999597098} scale {3.42024935357 3.42024935357 3.42024935357} center {49.4523789544079122 -102.530157913758927 1.55254110659940752e-06} pos {-73.7107331699 -261.450235657 0}}
+set last_view {rot {-0.00149253509685 -0.00149253509685 -2.22766597783e-006 0.999997772334} scale {5.82758939562 5.82758939562 5.82758939562} center {34.638471603399999 -67.135993957500006 0} pos {1.63264119171 -166.136040332 0}}
 array set cut_info {
     active 0
     whole 1
@@ -275,163 +275,6 @@ array set saved_views {
 #------------- DEZ Data ------------------
 
 namespace eval ::AIEnv::GUIManagement::DEZ {
-    array set createSurfsDEZ_data {
-        this createSurfsDEZ
-        type DEZ
-        PartList {"From screen" CRVS GEOM PNTS SOLID VORFN}
-        __createSurfsFam_Last_Index 0
-        name srf.00
-        createSurfsEXGVal 7
-        createSurfSimpleMethodVal 0
-        curveList {}
-        createSrfTol 0.1
-        Simple4ptsList {}
-        curveDrivingList {}
-        curveDrivenList {}
-        createSurfSweepMethodVal 0
-        pntSweepVecList {{0 0 0} {1 0 0}}
-        curveSweepList {}
-        crvSweepDList {}
-        sangle 0
-        eangle 360
-        curveRevAxis {}
-        curveRevList {}
-        lofttol 0.1
-        loftsurfList {}
-        offsetdist 0
-        offsetSurfList {}
-        createSurfMidMethodVal 0
-        distance 1.0
-        how_modes {
-        Confirm
-        Present/Confirm
-        Quiet
-    }
-        mode Quiet
-        __createPartMidMode_Last_Index 0
-        partsurfList {}
-        keepFlag 0
-        DelUnattFlag 1
-        assemblyFlag 0
-        partialFlag 0
-        similarFlag 0
-        connectedFlag 0
-        __createSurfMidMode_Last_Index 0
-        midsurfList {}
-        midsurfList2 {}
-        modifyFacetSurf2EXGVal 0
-        crvSurfTrmSurfList {}
-        crvSurfTrmCurveList {}
-        modSegmPlaneNormEGVal 0
-        SegPlanePntList {}
-        segPlanenormal {0 1 0}
-        SegPlanePnt1 {}
-        SegPlanePnt2 {}
-        SegPlanePnt3 {}
-        modSurfKeepOldFlag 0
-        seg_angle 30
-        minSeg 1
-        modifyReapproxSurfVal 0
-        modSurfMergeList {}
-        reappSurfList {}
-        mtol1 0.1
-        reappSurf1List {}
-        reappCur1List {}
-        mtol2 0.1
-        reappSurf2List {}
-        mtol4 0.1
-        facetedonlyFlag3 0
-        how_modes1 {
-        Confirm
-        Quiet
-    }
-        mode1 Confirm
-        __reappEachSurfMode_Last_Index 0
-        reappEachSurfList {}
-        mtol3 0.1
-        facetedonlyFlag4 0
-        TrimSurfs {}
-        CurtSurfCurvList {}
-        CurtSurfSurfList {}
-        prTrFlag 0
-        createSurfExtMethodVal 2
-        ExtendCurve {}
-        ExtendSurf {}
-        extendlist {
-        "Closest"
-        "Tangential from edge"
-        "Tangential along U/V"
-    }
-        extend_method Closest
-        __createSurfaceExtendMethod_Last_Index 0
-        connect 1
-        ExtSrfAtEdgeSrf {}
-        ExtSrfAtEdgeEdgenum {}
-        ExtSrfAtEdgeDistance {}
-        absolute 0
-        midparts {}
-        proximity 2.0
-        __MPartsMethod_Last_Index 0
-        ext_image {}
-        ext_single {}
-        imagesize {}
-        shrinkWrapEGVal 0
-        minFeatSize {}
-        nSmooth 1
-        projFactor {}
-        c3dshrinkPart {}
-        __c3dshrinkPart_Last_Index 0
-        partFlag 0
-        VisGeomFlag 0
-        MakeGeomFlag 0
-        convexHullMethodEXGVal 0
-        convexHullSurList {}
-        convexCoarsenGGVal 1
-        convexTol 0.001
-        convexRemInterFaceFlag 0
-        convexHullSeparateFlag 1
-        convexCoarsenGG2Val 0
-        splitMethodGGVal 0
-        splitXDiv 2
-        splitYDiv 2
-        splitZDiv 2
-        convexCoarsenGG3Val 0
-        createStdShapeEGVal 0
-        stdBoxTypeEGVal 0
-        StdBoxSides {27.5 27.5 27.5}
-        boxAxPntList {0 0 0}
-        boxEntityList {}
-        xF 1
-        yF 1
-        zF 1
-        stdBoxAdjustBoundsVal 0
-        Xmin {}
-        Xmax {}
-        Ymin {}
-        Ymax {}
-        Zmin {}
-        Zmax {}
-        RadStdSphGGVal 0
-        radiusSph 1
-        stangleSph 0
-        enangleSph 180
-        StdSphereList {{0 0 0} {0 0 1}}
-        CylindRad1 1
-        CylindRad2 1
-        CylindBase1Flag 1
-        CylindBase2Flag 1
-        cylAxPntList {}
-        StdHoleSurfList {}
-        ReplaceHoleGGVal 0
-        StdHoleCrvList {}
-        StdHoleRad {}
-        StdHoleLocList {}
-        StdPlaneSide 27.5
-        TrimPlaneCurveList {}
-        StdPlaneCurveParam {}
-        StdPlaneRadius 27.5
-        TrimPlaneSurfList {}
-    }
     array set meshPrismDEZ_data {
         this meshPrismDEZ
         type DEZ
@@ -494,24 +337,91 @@ namespace eval ::AIEnv::GUIManagement::DEZ {
         splitSheets2 {}
         splitSheets {}
     }
-    array set mergeBVertexDEZ_data {
-        this mergeBVertexDEZ
+    array set editBlockMenuDEZ_data {
+        this editBlockMenuDEZ
         type DEZ
-        mergeBVertexmainVal 0
-        merge_multipleEGVal 0
-        pickblkbound {}
-        propagate 1
-        merge_ave 0
-        force_edge_collapse 0
-        rebuild_orphan 0
-        update_projections 0
-        update_edge_node_count 0
-        pickverbase {}
-        tolerance {}
-        collapseBlkEdge {}
-        collapseBlks {}
-        mergeVert {}
-        splitEdge {}
+        editBlkmainVal 0
+        joinBlockGGVal 0
+        joinBlocks {}
+        refDirEdge {}
+        joinBlockFaceFaceVal 0
+        joinFaceCorners {}
+        joinFaceBlocks {}
+        modOgridEGVal 0
+        rescaleOBlkSelVal 0
+        rescaleBlks {}
+        OEdge {}
+        absolute 0
+        distance {}
+        resetOgridEdge {}
+        periodicBlkMVal 0
+        perVerts {}
+        convBlockTypeVal 1
+        convBlocks {}
+        swept_face {}
+        merge_parallel 0
+        mapped_face {}
+        freeBlockFaceFreeTypeMappedMethodVal 0
+        vertsFree {}
+        vertsSide {}
+        sblock {}
+        sheet {}
+        ublock {}
+        meshTypeList {"Tetra-Delaunay" "Tetra-Adv.Front" "Hexa-Core" "Hexa-Dominant" "TGrid"}
+        mesh_type {}
+        __setUBlockMtype_Last_Index 0
+        sbmeshTypeList {{Tri (STL like)} {All Tri} {All Quad} {Quad Dominant} {Quad w/one Tri}}
+        sbmesh_type {Quad w/one Tri}
+        __setSBlockMtype_Last_Index 0
+        sblock_faces {}
+        editBlockIJKHowVal 0
+        blocks {}
+        vert {}
+        transferBlocks {}
+    }
+    array set editProjDEZ_data {
+        this editProjDEZ
+        type DEZ
+        editAssocEGVal 1
+        assocVertEGVal 1
+        verts {}
+        part_name {}
+        point {}
+        curves {}
+        assocEdgeMethodVal 0
+        edges {}
+        update 0
+        intersection 0
+        curve_intersection 0
+        curve_refmesh 0
+        projFacBlkseVal 2
+        faces {}
+        solids {}
+        projFaceSharedGGVal 0
+        surface {}
+        face_surface {}
+        unsetAssocFaceKeepMeshVal 0
+        FaceKeepMeshEGVal 0
+        updateVert 0
+        updateEdge 0
+        updateFace 0
+        updateDormant 0
+        updateAssocBlockGGVal 0
+        update_method parametric
+        resetVert 0
+        v_reset_method all
+        resetEdge 0
+        e_reset_method all
+        resetFace 0
+        f_reset_method all
+        projVUpdateGGVal 0
+        projVerts {}
+        move_ogrid 0
+        groupEGVal 0
+        groupTypeVal 0
+        groupCurvesList {}
+        tangential_angle 10.0
+        auto_proj 0
     }
     array set moveBVertexDEZ_data {
         this moveBVertexDEZ
@@ -568,6 +478,39 @@ namespace eval ::AIEnv::GUIManagement::DEZ {
         angle {}
         moveVertsGGVal 0
     }
+    array set editEdgeMenuDEZ_data {
+        this editEdgeMenuDEZ
+        type DEZ
+        editEdgemainVal 1
+        editEdgeSplitEdgeHowVal 0
+        edgeSplits {}
+        AutoedgeSplits {}
+        auto_linear_all 0
+        edges {}
+        editEdgeSplitEdgeTan1Val 0
+        tan_factor1 0.00
+        tan_point1 {}
+        editEdgeSplitEdgeTan2Val 0
+        tan_factor2 0.00
+        tan_point2 {}
+        vertexSplits {}
+        edgeUnSplitVal 0
+        edgeUnSplits {}
+        editEdgeLinkEGVal 0
+        edgeSLink {}
+        edgeTLinks {}
+        factor 0.0
+        editEdgeLinkDirGGVal 0
+        dir_vector {}
+        editEdgeLinkDirGG2Val 0
+        edgeLinkDim {}
+        edgeLinkSrcIndex {}
+        edgeLinkTargIndex {}
+        link all
+        edgeUnLink {}
+        editEdgeOptionsEdgeVal 0
+        edgesSplitType {}
+    }
     array set mParamsDEZ_data {
         this mParamsDEZ
         type DEZ
@@ -577,23 +520,23 @@ namespace eval ::AIEnv::GUIManagement::DEZ {
         check_blck 0
         factor 1
         scale_spacings 0
-        edge {37 149 -1}
-        length 5.29852
-        n 41
+        edge {116 131 -1}
+        length 5.89741
+        n 21
         eparamMeshLawVal 18
         curves {}
         h1 0
-        h1act 0.132463
+        h1act 0.29487
         link_sp1 0
         r1 2
         r1act 1
         h2 0
-        h2act 0.132463
+        h2act 0.29487
         link_sp2 0
         r2 2
         r2act 1
-        lmax 8.78501e+09
-        lmaxact 0.132463
+        lmax 0
+        lmaxact 0.29487
         eparam_rel 0
         lockNodes 0
         lockParams 0
@@ -624,6 +567,110 @@ namespace eval ::AIEnv::GUIManagement::DEZ {
         blocks {}
         edgeRefDimGGVal 0
         ref_dim {}
+    }
+    array set hexQualityDEZ_data {
+        this hexQualityDEZ
+        type DEZ
+        qualityDDList {Angle {Aspect ratio} {Custom quality} {Determinant 2x2x2} {Determinant 3x3x3} Distortion {Eriksson Skewness} Ford {Max angle} {Max length} {Max ortho} {Max ortho 4.3v} {Max ratio} {Max side} {Max warp} {Max warp 4.3v} {Mid node} {Mid node Angle} {Min angle} {Min ortho} {Min side} Quality Taper Volume Warpage {X size} {Y size} {Z size}}
+        qualitydde {Determinant 3x3x3}
+        __hexQualityDDE_Last_Index 0
+        minv 0
+        maxv 1
+        ylim 0
+        nbars 20
+        onlyVisible 0
+        activePartsOnly 1
+    }
+    array set hexSmoothDEZ_data {
+        this hexSmoothDEZ
+        type DEZ
+        smoothPremeshVal 0
+        iters 1
+        quality 0.2
+        qualityDDList {"Determinant 3x3x3" Angle}
+        qualitydde Angle
+        __HEXchooseQualityDDE_Last_Index 1
+        onlyVisible 0
+        activePartsOnly 0
+        laplaceFlag 0
+        itersSurf 10
+        itersVol 5
+        freezeCriterion 1
+        numLayersFix 0
+        partFixList {}
+        fix_layers_settings {}
+        partFirstList {}
+        layer_distance_settings {}
+        rebunchEdges 0
+        edgesRebunchList {}
+        expansionSurf 0.0
+        expansionVol 0.0
+        treatUnstruct 0
+        stabilizeSurf 1.0
+        stabilizeVol 2.0
+        useorthoDistSurf 0
+        useorthoDistVol 0
+        partBorderList {}
+        SrfFitFlag 1
+        KperGeomFlag 1
+        RelaxBlocks {}
+        display_blocks_off 0
+        HEXsmoothDirVal 1
+        refEdge {}
+        refEdgeDir {}
+        startIndex 1
+        endIndex 1
+        incrIndex 1
+        iterIndex 0
+        planeNums {}
+        smoothFaceOptionsVal 0
+        NonRelaxFaces {}
+        display_faces_off 0
+        display_faces_icons 0
+        smoothFilterNonRelax 0
+        NonRelaxRemove 1
+        HoldCellHeightFaces {}
+        smoothFilterHoldCellHeight 0
+        HoldCellHeightRemove 1
+        smoothVertexEntitiesVal 0
+        GlobalVertices {}
+        display_vertices_off 1
+        LayerVertices {}
+        smoothAdvancedVal 1
+        itersEdges 25
+        itersVertices 25
+        parameterPrjLim 0.0
+        parameterRelFac 0.5
+        parameterResFac 0.05
+        parameterFaceFit 1
+        parameterUseProj 1
+        parameterUseOrt 1
+        parameterUseFra 0
+        VolumeList {Laplace {Sorenson - Laplace} {Sorenson - Thomas & Middlecoff} {Thomas & Middlecoff} Interpolation {Hilgenstock - Thomas & Middlecoff} {Hilgenstock - Laplace}}
+        volume_method {Sorenson - Laplace}
+        __volumeMethod_Last_Index 0
+        FaceList {Laplace {Sorenson - Laplace} {Sorenson - Thomas & Middlecoff} {Thomas & Middlecoff} Interpolation {Hilgenstock - Thomas & Middlecoff} {Hilgenstock - Laplace}}
+        face_method {Sorenson - Laplace}
+        __faceMethod_Last_Index 0
+        gridexpansionFace 3.5
+        gridexpansionVol 4.6
+        niterPost 3
+        limitPost 0.2
+        HEXsmoothMBSVal 0
+        mbs_setting_load {}
+        mbs_setting_save {}
+        mbs_setting_seq_1 {}
+        mbs_setting_seq_2 {}
+        mbs_setting_seq_3 {}
+        mbs_setting_seq_4 {}
+        mbs_setting_seq_5 {}
+        mbs_setting_old {}
+        mbs_setting_new {}
+    }
+    array set deleteBlockDEZ_data {
+        this deleteBlockDEZ
+        type DEZ
+        delBlocks {}
     }
     array set hexMeshOptsDEZ_data {
         this hexMeshOptsDEZ

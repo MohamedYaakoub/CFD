@@ -1,4 +1,4 @@
-# Written by ICEM CFD 19.5, user Javier Alba Maestre, Fri Oct 22 15:15:47 W. Europe Summer Time 2021
+# Written by ICEM CFD 19.5, user mohsy, Sun Nov 07 7:20:33 PM W. Europe Standard Time 2021
 
 begin family PNTS
     begin solver "ANSYS Fluent"
@@ -23,3 +23,8 @@ begin family SOLID
         end bctype color
     end solver "ANSYS Fluent"
 end family SOLID
+
+begin family SURFS
+    begin solver "ANSYS Fluent"
+    end solver "ANSYS Fluent"
+end family SURFS

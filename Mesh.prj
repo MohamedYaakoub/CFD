@@ -1,38 +1,40 @@
 # ICEM CFD Project Settings
-# Saved by Javier Alba Maestre on DESKTOP-OQH3M22 on Fri Oct 22 15:15:47 W. Europe Summer Time 2021
+# Saved by mohsy on Neptune on Sun Nov 07 7:20:33 PM W. Europe Standard Time 2021
 # ICEM CFD - version 19.5 - Release date: Jul 29 2019
 
 array set file_name {
-    catia_dir .
-    parts_dir .
+    catia_dir C:/Users/mohsy/University/CFD/Assignment
+    parts_dir C:/Users/mohsy/University/CFD/Assignment
     domain_loaded 0
     cart_file_loaded 0
     cart_file {}
+    domain_saved PA4.uns
     archive {}
     med_replay {}
-    topology_dir .
-    ugparts_dir .
+    topology_dir C:/Users/mohsy/University/CFD/Assignment
+    ugparts_dir C:/Users/mohsy/University/CFD/Assignment
     icons {{$env(ICEM_ACN)/lib/ai_env/icons} {$env(ICEM_ACN)/lib/va/EZCAD/icons} {$env(ICEM_ACN)/lib/icons} {$env(ICEM_ACN)/lib/va/CABIN/icons}}
     tetin Mesh.tin
     family_boco Mesh.fbc
-    iges_dir .
-    solver_params_loaded 0
-    attributes_loaded 0
+    prism_params Mesh.prism_params
+    iges_dir C:/Users/mohsy/University/CFD/Assignment
+    solver_params_loaded 1
+    attributes_loaded 1
     project_lock {}
     attributes Mesh.atr
     domain {}
-    domains_dir .
+    domains_dir C:/Users/mohsy/University/CFD/Assignment
     settings_loaded 0
     settings Mesh.prj
     blocking Mesh.blk
     hexa_replay {}
-    transfer_dir .
-    mesh_dir .
+    transfer_dir C:/Users/mohsy/University/CFD/Assignment
+    mesh_dir C:/Users/mohsy/University/CFD/Assignment
     family_topo {}
-    gemsparts_dir .
-    family_boco_loaded 0
+    gemsparts_dir C:/Users/mohsy/University/CFD/Assignment
+    family_boco_loaded 1
     tetin_loaded 1
-    project_dir .
+    project_dir C:/Users/mohsy/University/CFD/Assignment
     topo_mulcad_out {}
     solver_params {}
 }
@@ -51,13 +53,14 @@ array set options {
     face_mode all
     select_mode all
     med_save_emergency_tetin 1
-    user_name {Javier Alba Maestre}
+    user_name mohsy
     diag_which all
     uns_warn_if_display 500000
     bubble_delay 1000
     external_num 1
     tree_disp_tri 2
     apply_all 0
+    default_solver {ANSYS Fluent}
     temporary_directory {}
     flood_select_angle 0
     home_after_load 1
@@ -66,7 +69,7 @@ array set options {
     undo_logging 1
     tree_disp_hexa 0
     histo_solid_default 1
-    host_name DESKTOP-OQH3M22
+    host_name Neptune
     xhidden_full 1
     replay_internal_editor 1
     editor {}
@@ -119,6 +122,7 @@ array set disp_options {
     uns_surf_bounds 0
     uns_wide_lines 0
     uns_vol_bounds 0
+    uns_displ_orient Triad
     uns_orientation 0
     uns_directions 0
     uns_thickness 0
@@ -168,11 +172,11 @@ array set prism_values {
     max_size_ratio {}
     triangle_quality {}
     max_prism_angle 180
-    tetra_smooth_limit 0.3
+    tetra_smooth_limit 0.30000001
     max_jump_factor 5
     use_existing_quad_layers 0
     layers 3
-    fillet 0.10
+    fillet 0.1
     into_orphan 0
     init_dir_from_prev {}
     blayer_2d 0
@@ -185,29 +189,63 @@ array set prism_values {
     stair_step 1
     smoothing_steps 12
     side_family {}
-    min_prism_quality 0.01
+    min_prism_quality 0.0099999998
     ratio 1.2
 }
 set aie_current_flavor {}
 array set vid_options {
+    wb_import_tritol 0.001
+    wb_import_mix_res_line 0
+    wb_import_cad_att_pre {SDFEA;DDM}
+    wb_import_surface_bodies 1
+    wb_NS_to_subset 0
+    wb_import_mat_points 0
     auxiliary 0
+    wb_import_mix_res_surface 0
+    wb_import_mix_res -1
+    wb_import_cad_att_trans 1
     show_name 0
+    wb_import_delete_solids 0
+    wb_import_solid_bodies 1
+    wb_import_save_pmdb {}
+    wb_import_mix_res_solid 0
     inherit 1
     default_part GEOM
     new_srf_topo 1
+    wb_import_associativity_model_name {}
     DelPerFlag 0
     show_item_name 0
+    wb_import_save_partfile 0
+    wb_import_line_bodies 0
     composite_tolerance 1.0
+    wb_import_en_sym_proc 1
+    wb_NS_to_entity_parts 0
+    wb_import_reference_key 0
+    wb_import_work_points 0
+    wb_import_sel_proc 1
+    wb_import_geom 0
+    wb_NS_only 0
+    wb_import_pluginname {}
+    wb_import_mix_res_point 0
+    wb_import_refresh_pmdb 0
+    wb_import_create_solids 0
+    wb_import_load_pmdb {}
+    wb_import_scale_geo Default
+    wb_import_sel_pre {}
+    wb_import_lcs 0
     replace 0
+    wb_import_cad_associativity 0
     same_pnt_tol 1e-4
     tdv_axes 1
+    wb_import_mesh 0
     vid_mode 0
     DelBlkPerFlag 0
 }
-set savedTreeVisibility {geomNode 1 geom_subsetNode 0 geomPointNode 2 geomCurveNode 2 blockingNode 1 block_subsetNode 2 block_vertNode 0 block_edgeNode 2 block_faceNode 0 block_blockNode 0 block_meshNode 0 topoNode 2 topo-root 2 partNode 1 part-CRVS 2 part-GEOM 2 part-PNTS 0 part-SOLID 2 part-VORFN 0}
-set last_view {rot {0.0 0.00131926083104 0.0 0.999999129775} scale {10.6419342994 10.6419342994 10.6419342994} center {34.872 -67.38165 0.0} pos {-172.752765762 -654.910943155 0}}
+set savedTreeVisibility {geomNode 1 geom_subsetNode 0 geomPointNode 0 geomCurveNode 2 geomSurfNode 0 blockingNode 1 block_subsetNode 2 block_vertNode 0 block_edgeNode 2 block_faceNode 0 block_blockNode 0 block_meshNode 0 topoNode 2 topo-root 2 partNode 2 part-CRVS 2 part-GEOM 2 part-PNTS 2 part-SOLID 2 part-SURFS 2 part-VORFN 0}
+set last_view {rot {-0 0 0 1} scale {2.25342358899 2.25342358899 2.25342358899} center {45.970613479599997 -137.184011459 0} pos {-35.3670766833 -110.490218588 0}}
 array set cut_info {
     active 0
+    whole 1
 }
 array set hex_option {
     default_bunching_ratio 2.0
@@ -239,245 +277,173 @@ array set saved_views {
 #------------- DEZ Data ------------------
 
 namespace eval ::AIEnv::GUIManagement::DEZ {
-    array set createPointsDEZ_data {
-        this createPointsDEZ
+    array set createSurfsDEZ_data {
+        this createSurfsDEZ
         type DEZ
-        PartList {"From screen" CRVS GEOM PNTS SOLID VORFN}
-        __createPointsFam_Last_Index 0
-        name pnt.08
-        createPointsEXGVal 1
-        pickScreenList {}
-        createPntExplicitVal 0
-        x 36.96026433
-        y -51.45278173
-        z 0
-        crePntParamList {-1, 1, 0.1}
-        Xexpress 2*sin(m*180)
-        Yexpress 2*cos(m*180)
-        Zexpress { m / 2}
-        pickBasePnt {}
-        dx 0
-        dy 0
-        dz 0
-        createPointsCentFRVal 0
-        pickCenterList {}
-        pickCenterCrv {}
-        createPnt2LocMethodVal 1
-        nPnt2Loc 1
-        ratio 0.5
-        pickBetweenList {}
-        ptExtEGVal 0
-        pickEndList {}
-        how_select_end {both xmin xmax ymin ymax zmin zmax}
-        which_end both
-        __createPntCrvEnd_Last_Index 0
-        fangle 30
-        toler 0.1
-        pickIntList {}
-        createPntCrvParMethodVal 1
-        crePnts3param 0.5
-        pickParList {}
-        pickProjCrv {}
-        pickPoint {}
-        trimCrvPrjFlag 0
-        movePointPrjFlag 0
-        pickProjSrf {}
-        pickPoint2 {}
-        embedPntOnSurfFlag 0
+        PartList {"From screen" CRVS GEOM PNTS SOLID SURFS VORFN}
+        __createSurfsFam_Last_Index 0
+        name srf.00
+        createSurfsEXGVal 7
+        createSurfSimpleMethodVal 0
+        curveList {}
+        createSrfTol 0.2
+        Simple4ptsList {}
+        curveDrivingList {}
+        curveDrivenList {}
+        createSurfSweepMethodVal 0
+        pntSweepVecList {{0 0 0} {1 0 0}}
+        curveSweepList {}
+        crvSweepDList {}
+        sangle 0
+        eangle 360
+        curveRevAxis {}
+        curveRevList {}
+        lofttol 0.1
+        loftsurfList {}
+        offsetdist 0
+        offsetSurfList {}
+        createSurfMidMethodVal 0
+        distance 2.0
+        how_modes {
+        Confirm
+        Present/Confirm
+        Quiet
     }
-    array set createCurvesDEZ_data {
-        this createCurvesDEZ
-        type param
-        PartList {"From screen" CRVS GEOM PNTS SOLID VORFN}
-        __createCurvesFam_Last_Index 0
-        name crv.06
-        createCurvesEXGVal 6
-        pickList {}
-        createCrvArcMethodVal 0
-        pickArcList {}
-        RadiusArcGGVal 0
-        radius 0
-        keep_arc 0
-        RadiusGGVal 0
-        stangle 0
-        enangle 360
-        pickCircleList {}
-        creCurveEGVal 2
-        pickSurf {}
-        pickCurvCrePnt {}
-        pickEdgePnt {}
-        pickEdgePnt2 {}
-        UVChoiceVal 0
-        isopar 0.5
-        creCrvIntSetRVal 0
-        diffPartsFlag 0
-        singleCurveFlag 0
-        pickSetSurfs {}
-        createCurveIntCTVal 1
-        pickSet1Surfs {}
-        pickSet2Surfs {}
-        createCrvProjMethodVal 0
-        pickCurvesProj {}
-        pickSurfsProj {}
-        createCrvPrjEGVal 0
-        projpointsvec {}
-        prjOriginCurvFlag 1
-        prTrFlag 0
-        modifyCurveSegFRVal 0
-        pickCurveSeg crv.01
-        pickPointSeg {}
-        pickCurveSegWith {}
-        segBothFlag 0
-        modSegmCRVNormEGVal 0
+        mode Quiet
+        __createPartMidMode_Last_Index 0
+        partsurfList {}
+        keepFlag 0
+        DelUnattFlag 1
+        assemblyFlag 0
+        partialFlag 0
+        similarFlag 0
+        connectedFlag 0
+        __createSurfMidMode_Last_Index 0
+        midsurfList {}
+        midsurfList2 {}
+        modifyFacetSurf2EXGVal 0
+        crvSurfTrmSurfList {}
+        crvSurfTrmCurveList {}
+        modSegmPlaneNormEGVal 0
         SegPlanePntList {}
-        segVecList {}
-        keepOriginCurvFlag 0
-        seg_angle2 20
-        minSeg2 1
-        modifyReapproxCrvVal 0
-        pickCurveConcat {}
-        creCrvConcatTolGGVal 0
-        ctol 0.1
-        pickCurveReapp {}
-        ctol1 0.1
-        reappcrvfacetedFlag 0
-        pickCurveHull {}
-        hull_tol 0.1
-        shrink 0.2
-        four 0
-        pickCurveExtract {}
-        crvExtEGVal 0
-        extract_bsp_how 0
-        fangle 20
-        MinSeg {}
-        boundary {}
-        __facetedBoundaryOpt_Last_Index 0
-        modCrvEGVal 3
-        modCrv_crv0 {}
-        modCrv_crv1 {}
-        modCrvExtEndEGVal 0
-        modCrvExtEndPnt {}
-        allowExtendTargetFlag 0
-        CrvExtTo {}
-        modCrvExtLen 1
-        modCrvExtMethod line
-        modCrv_crv2 {}
-        modCrvMatchAcc 1
-        modCrvMatchOneOrBoth 0
-        modCrvMatchMethodEGVal 2
-        modCrvKeepFlag 0
-        modCrv_crv3_1 {}
-        createCrvMidMethodVal 0
-        pickMidline_crv2 {}
-        midlineList {}
-        midlineList2 {}
-        pickSurfSect {}
-        sectCurvePlaneEGVal 0
-        sectCurvePlaneXYZEGVal 0
-        sectCurveplnpnt1 {}
-        sectCurveplnpnt2 {}
-        sectCurveplnpnt3 {}
-        pickcrvexist {}
-        numsect {}
-        sectCurveOffsetGGVal 0
-        mpsectdelta {}
-        mpsectstart {}
-        mpsectend {}
+        segPlanenormal {0 1 0}
+        SegPlanePnt1 {}
+        SegPlanePnt2 {}
+        SegPlanePnt3 {}
+        modSurfKeepOldFlag 0
+        seg_angle 30
+        minSeg 1
+        modifyReapproxSurfVal 0
+        modSurfMergeList {}
+        reappSurfList {}
+        mtol1 0.1
+        reappSurf1List {}
+        reappCur1List {}
+        mtol2 0.1
+        reappSurf2List {}
+        mtol4 0.1
+        facetedonlyFlag3 0
+        how_modes1 {
+        Confirm
+        Quiet
     }
-    array set splitBlkDEZ_data {
-        this splitBlkDEZ
-        type DEZ
-        splitBlkVal 0
-        splitBlkBlkSelVal 0
-        markedBlock {}
-        splitBlkEdge {}
-        copy_from_parallel 0
-        project 0
-        move_ogrid_nodes 0
-        nearest_node_split 0
-        splitBlkEdgeMethodVal 0
-        splitPoint {}
-        splitPar 0.5
-        splitDist {}
-        splitCurve {}
-        splitCurvePar {}
-        Faces {}
-        Edges {}
-        Vertices {}
-        around 0
-        offset 1
+        mode1 Confirm
+        __reappEachSurfMode_Last_Index 0
+        reappEachSurfList {}
+        mtol3 0.1
+        facetedonlyFlag4 0
+        TrimSurfs {}
+        CurtSurfCurvList {}
+        CurtSurfSurfList {}
+        prTrFlag 0
+        createSurfExtMethodVal 2
+        ExtendCurve {}
+        ExtendSurf {}
+        extendlist {
+        "Closest"
+        "Tangential from edge"
+        "Tangential along U/V"
+    }
+        extend_method Closest
+        __createSurfaceExtendMethod_Last_Index 0
+        connect 1
+        ExtSrfAtEdgeSrf {}
+        ExtSrfAtEdgeEdgenum {}
+        ExtSrfAtEdgeDistance {}
         absolute 0
-        link_shape 0
-        splitExtendGGVal 0
-        splitBlkBlkSel2Val 0
-        markedBlock2 {}
-        ExtendEdge {}
-        SelectionMethodVal 1
-        splitFace {}
-        splitFaceEdge {}
-        splitVerts {}
-        sblock {}
-        iface {}
-        ImprintUnsBlkMethodVal 0
-        ImprintUnsBlkEGVal 0
-        vecImprintList {}
-        SplitUnsBlk3dFMVal 0
-        ublock {}
-        splitSheets1 {}
-        iFace {}
-        edgesProj {}
-        SplitUnsBlk3dMethodVal 0
-        SplitUnsBlk3dEGVal 0
-        split_along {}
-        SplitUnsBlk3dOutputVal 0
-        uFace1 {}
-        uFace2 {}
-        splitSheets2 {}
-        splitSheets {}
+        midparts {}
+        proximity 4.0
+        __MPartsMethod_Last_Index 0
+        ext_image {}
+        ext_single {}
+        imagesize {}
+        shrinkWrapEGVal 0
+        minFeatSize {}
+        nSmooth 1
+        projFactor {}
+        c3dshrinkPart {}
+        __c3dshrinkPart_Last_Index 0
+        partFlag 0
+        VisGeomFlag 0
+        MakeGeomFlag 0
+        convexHullMethodEXGVal 0
+        convexHullSurList {}
+        convexCoarsenGGVal 1
+        convexTol 0.001
+        convexRemInterFaceFlag 0
+        convexHullSeparateFlag 1
+        convexCoarsenGG2Val 0
+        splitMethodGGVal 0
+        splitXDiv 2
+        splitYDiv 2
+        splitZDiv 2
+        convexCoarsenGG3Val 0
+        createStdShapeEGVal 0
+        stdBoxTypeEGVal 0
+        StdBoxSides {40.1 40.1 40.1}
+        boxAxPntList {0 0 0}
+        boxEntityList {}
+        xF 1
+        yF 1
+        zF 1
+        stdBoxAdjustBoundsVal 0
+        Xmin {}
+        Xmax {}
+        Ymin {}
+        Ymax {}
+        Zmin {}
+        Zmax {}
+        RadStdSphGGVal 0
+        radiusSph 1
+        stangleSph 0
+        enangleSph 180
+        StdSphereList {{0 0 0} {0 0 1}}
+        CylindRad1 1
+        CylindRad2 1
+        CylindBase1Flag 1
+        CylindBase2Flag 1
+        cylAxPntList {}
+        StdHoleSurfList {}
+        ReplaceHoleGGVal 0
+        StdHoleCrvList {}
+        StdHoleRad {}
+        StdHoleLocList {}
+        StdPlaneSide 40.1
+        TrimPlaneCurveList {}
+        StdPlaneCurveParam {}
+        StdPlaneRadius 40.1
+        TrimPlaneSurfList {}
     }
-    array set editProjDEZ_data {
-        this editProjDEZ
+    array set meshPrismDEZ_data {
+        this meshPrismDEZ
         type DEZ
-        editAssocEGVal 1
-        assocVertEGVal 1
-        verts {}
-        part_name {}
-        point {}
-        curves {}
-        assocEdgeMethodVal 0
-        edges {{ 36 37 0 }}
-        update 0
-        intersection 0
-        curve_intersection 0
-        curve_refmesh 0
-        projFacBlkseVal 2
-        faces {}
-        solids {}
-        projFaceSharedGGVal 0
-        surface {}
-        face_surface {}
-        unsetAssocFaceKeepMeshVal 0
-        FaceKeepMeshEGVal 0
-        updateVert 0
-        updateEdge 0
-        updateFace 0
-        updateDormant 0
-        updateAssocBlockGGVal 0
-        update_method parametric
-        resetVert 0
-        v_reset_method all
-        resetEdge 0
-        e_reset_method all
-        resetFace 0
-        f_reset_method all
-        projVUpdateGGVal 0
-        projVerts {}
-        move_ogrid 0
-        groupEGVal 0
-        groupTypeVal 0
-        groupCurvesList {}
-        tangential_angle 10.0
-        auto_proj 0
+        n_triangle_smoothing_steps 5
+        triangle_quality {}
+        __meshPrismTriQuality_Last_Index 0
+        n_tetra_smoothing_steps 10
+        smoothing_steps 12
+        first_layer_smoothing_steps 1
+        loadmesh 0
     }
     array set hexMeshOptsDEZ_data {
         this hexMeshOptsDEZ

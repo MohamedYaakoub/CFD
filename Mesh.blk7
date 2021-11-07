@@ -1,5 +1,5 @@
 # blocking file written by ICEM CFD - version 19.5
-# written on Sun Nov  7 19:20:33 2021
+# written on Sun Nov  7 19:10:15 2021
 
 MATERIALS
 {
@@ -1648,15 +1648,15 @@ PREPOINTS 1624 internal_ids
 }
 COMPOSITE_CURVES 8
 {
+56 1 0 0 0 0 crv.32 {
+crv.32
+}
 0 5 0 0 0 0 crv.12 {
 crv.12
 crv.13
 crv.15
 crv.17
 crv.10
-}
-56 1 0 0 0 0 crv.32 {
-crv.32
 }
 23 1 0 0 0 0 crv.21 {
 crv.21

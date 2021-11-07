@@ -1,0 +1,30 @@
+Program: ICEM CFD 19.5
+Compile date: Mon Jul 29 21:51:49 EDT 2019
+Tcl files modified: Tue Jul 30 3:09:56 AM W. Europe Daylight Time 2019
+Reporter: 
+Email: 
+System: Windows
+Example name: .
+Doing what:
+
+
+Comments: 
+
+
+Description:
+bad geometry specifier "336x270+197574"
+    while executing
+"wm geometry $path "${w}x${h}${x}${y}""
+    (procedure "BWidget::place" line 133)
+    invoked from within
+"BWidget::place $path.shell [winfo width $path] 0 below $path"
+    (procedure "ComboBox::_mapliste" line 37)
+    invoked from within
+"ComboBox::_mapliste .v.f0.frame.p2.f1.frame.mParamsDEZ.sw.sf.frame.blockparam-f.f.gf.edgeparams.eparammeshlaw-f.f.eparammeshlaw-cb"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel \#0 $cmd"
+    (procedure "ArrowButton::invoke" line 28)
+    invoked from within
+"ArrowButton::invoke .v.f0.frame.p2.f1.frame.mParamsDEZ.sw.sf.frame.blockparam-f.f.gf.edgeparams.eparammeshlaw-f.f.eparammeshlaw-cb.a"
+    (command bound to event)

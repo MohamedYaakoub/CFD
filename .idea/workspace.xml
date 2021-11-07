@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d97acf3b-9c69-43f0-94e8-f18b33016fd3" name="Changes" comment="Changes" />
+    <list default="true" id="d97acf3b-9c69-43f0-94e8-f18b33016fd3" name="Changes" comment="Changes">
+      <change beforePath="$PROJECT_DIR$/Trials/Mesh_with conf.atr" beforeDir="false" afterPath="$PROJECT_DIR$/Trials/Mesh_with conf.atr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trials/Mesh_with conf.blk" beforeDir="false" afterPath="$PROJECT_DIR$/Trials/Mesh_with conf.blk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trials/Mesh_with conf.fbc" beforeDir="false" afterPath="$PROJECT_DIR$/Trials/Mesh_with conf.fbc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trials/Mesh_with conf.fbc_old" beforeDir="false" afterPath="$PROJECT_DIR$/Trials/Mesh_with conf.fbc_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trials/Mesh_with conf.prj" beforeDir="false" afterPath="$PROJECT_DIR$/Trials/Mesh_with conf.prj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trials/Mesh_with conf.tin" beforeDir="false" afterPath="$PROJECT_DIR$/Trials/Mesh_with conf.tin" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +30,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../MDO" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -40,6 +47,7 @@
       <workItem from="1634764926763" duration="650000" />
       <workItem from="1634908898761" duration="35000" />
       <workItem from="1634908946692" duration="15000" />
+      <workItem from="1635111350390" duration="9000" />
     </task>
     <servers />
   </component>
