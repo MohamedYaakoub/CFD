@@ -1,0 +1,8 @@
+# family_boco file written by ICEM CFD by mohsy on Sun Nov 07 8:43:03 PM W. Europe Standard Time 2021
+## solver ANSYS Fluent
+"PNTS"
+"GEOM"
+"CRVS"
+"SOLID"
+"SOLID" "color" 3403390
+"SURFS"

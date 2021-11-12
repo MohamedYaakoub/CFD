@@ -1,30 +1,69 @@
-# Written by ICEM CFD 19.5, user mohsy, Sun Nov 07 7:20:33 PM W. Europe Standard Time 2021
+# Written by ICEM CFD 19.5, user mohsy, Tue Nov 09 7:45:51 PM W. Europe Standard Time 2021
 
 begin family PNTS
-    begin solver "ANSYS Fluent"
-    end solver "ANSYS Fluent"
+    begin solver "ANSYS CFX"
+    end solver "ANSYS CFX"
 end family PNTS
 
 begin family GEOM
-    begin solver "ANSYS Fluent"
-    end solver "ANSYS Fluent"
+    begin solver "ANSYS CFX"
+    end solver "ANSYS CFX"
 end family GEOM
 
 begin family CRVS
-    begin solver "ANSYS Fluent"
-    end solver "ANSYS Fluent"
+    begin solver "ANSYS CFX"
+    end solver "ANSYS CFX"
 end family CRVS
 
 begin family SOLID
-    begin solver "ANSYS Fluent"
+    begin solver "ANSYS CFX"
         begin bctype color
             active 1
             color 3403390 1
         end bctype color
-    end solver "ANSYS Fluent"
+    end solver "ANSYS CFX"
 end family SOLID
 
-begin family SURFS
-    begin solver "ANSYS Fluent"
-    end solver "ANSYS Fluent"
-end family SURFS
+begin family INLET
+    begin solver "ANSYS CFX"
+    end solver "ANSYS CFX"
+end family INLET
+
+begin family CHANNEL_WALL
+    begin solver "ANSYS CFX"
+    end solver "ANSYS CFX"
+end family CHANNEL_WALL
+
+begin family CHANNEL_CENTER
+    begin solver "ANSYS CFX"
+    end solver "ANSYS CFX"
+end family CHANNEL_CENTER
+
+begin family OUTLET
+    begin solver "ANSYS CFX"
+    end solver "ANSYS CFX"
+end family OUTLET
+
+begin family RIGHT_SYM,
+    begin solver "ANSYS CFX"
+    end solver "ANSYS CFX"
+end family RIGHT_SYM,
+
+begin family LEFT_SYM,
+    begin solver "ANSYS CFX"
+    end solver "ANSYS CFX"
+end family LEFT_SYM,
+
+begin family BLADE
+    begin solver "ANSYS CFX"
+    end solver "ANSYS CFX"
+end family BLADE
+
+begin family SOLID_2
+    begin solver "ANSYS CFX"
+        begin bctype color
+            active 1
+            color 9384930 1
+        end bctype color
+    end solver "ANSYS CFX"
+end family SOLID_2

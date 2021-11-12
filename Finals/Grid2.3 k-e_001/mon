@@ -1,0 +1,349 @@
+@START@
+@BASE QUANTITIES START@
+Mass,Length,Time,Temperature,Angle,Chemical Amount,Luminance,Current,Solid Angle,Money
+@BASE QUANTITIES END@
+@BASE UNITS START@
+kg,m,s,K,rad,mol,cd,amp,sr,GBP
+@BASE UNITS END@
+CURRENT TIMESTEP,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+ACCUMULATED TIMESTEP,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+FORCE,NORMAL,Blade,X-DIR,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Force
+FORCE,NORMAL,Blade,Y-DIR,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Force
+FORCE,NORMAL,Blade,Z-DIR,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Force
+FORCE,TANGENTIAL,Blade,X-DIR,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Force
+FORCE,TANGENTIAL,Blade,Y-DIR,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Force
+FORCE,TANGENTIAL,Blade,Z-DIR,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Force
+MOMENT,NORMAL,Blade,X-DIR,[1.0 2.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Moment
+MOMENT,NORMAL,Blade,Y-DIR,[1.0 2.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Moment
+MOMENT,NORMAL,Blade,Z-DIR,[1.0 2.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Moment
+MOMENT,TANGENTIAL,Blade,X-DIR,[1.0 2.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Moment
+MOMENT,TANGENTIAL,Blade,Y-DIR,[1.0 2.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Moment
+MOMENT,TANGENTIAL,Blade,Z-DIR,[1.0 2.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Moment
+FORCE,NORMAL,Domain Interface 1 Side 1,X-DIR,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Force
+FORCE,NORMAL,Domain Interface 1 Side 1,Y-DIR,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Force
+FORCE,NORMAL,Domain Interface 1 Side 1,Z-DIR,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Force
+FORCE,TANGENTIAL,Domain Interface 1 Side 1,X-DIR,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Force
+FORCE,TANGENTIAL,Domain Interface 1 Side 1,Y-DIR,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Force
+FORCE,TANGENTIAL,Domain Interface 1 Side 1,Z-DIR,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Force
+MOMENT,NORMAL,Domain Interface 1 Side 1,X-DIR,[1.0 2.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Moment
+MOMENT,NORMAL,Domain Interface 1 Side 1,Y-DIR,[1.0 2.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Moment
+MOMENT,NORMAL,Domain Interface 1 Side 1,Z-DIR,[1.0 2.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Moment
+MOMENT,TANGENTIAL,Domain Interface 1 Side 1,X-DIR,[1.0 2.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Moment
+MOMENT,TANGENTIAL,Domain Interface 1 Side 1,Y-DIR,[1.0 2.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Moment
+MOMENT,TANGENTIAL,Domain Interface 1 Side 1,Z-DIR,[1.0 2.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Moment
+FORCE,NORMAL,Domain Interface 1 Side 2,X-DIR,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Force
+FORCE,NORMAL,Domain Interface 1 Side 2,Y-DIR,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Force
+FORCE,NORMAL,Domain Interface 1 Side 2,Z-DIR,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Force
+FORCE,TANGENTIAL,Domain Interface 1 Side 2,X-DIR,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Force
+FORCE,TANGENTIAL,Domain Interface 1 Side 2,Y-DIR,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Force
+FORCE,TANGENTIAL,Domain Interface 1 Side 2,Z-DIR,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Force
+MOMENT,NORMAL,Domain Interface 1 Side 2,X-DIR,[1.0 2.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Moment
+MOMENT,NORMAL,Domain Interface 1 Side 2,Y-DIR,[1.0 2.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Moment
+MOMENT,NORMAL,Domain Interface 1 Side 2,Z-DIR,[1.0 2.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Moment
+MOMENT,TANGENTIAL,Domain Interface 1 Side 2,X-DIR,[1.0 2.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Moment
+MOMENT,TANGENTIAL,Domain Interface 1 Side 2,Y-DIR,[1.0 2.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Moment
+MOMENT,TANGENTIAL,Domain Interface 1 Side 2,Z-DIR,[1.0 2.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Moment
+RESIDUAL,RMS,Default Domain,U-Mom,Momentum and Mass,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+RESIDUAL,MAX,Default Domain,U-Mom,Momentum and Mass,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+RESIDUAL,RMS,Default Domain,V-Mom,Momentum and Mass,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+RESIDUAL,MAX,Default Domain,V-Mom,Momentum and Mass,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+RESIDUAL,RMS,Default Domain,W-Mom,Momentum and Mass,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+RESIDUAL,MAX,Default Domain,W-Mom,Momentum and Mass,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+RESIDUAL,RMS,Default Domain,P-Mass,Momentum and Mass,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+RESIDUAL,MAX,Default Domain,P-Mass,Momentum and Mass,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+COMBINED,RESIDUAL,RMS,U-Mom,Momentum and Mass,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+COMBINED,RESIDUAL,MAX,U-Mom,Momentum and Mass,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+COMBINED,RESIDUAL,RMS,V-Mom,Momentum and Mass,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+COMBINED,RESIDUAL,MAX,V-Mom,Momentum and Mass,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+COMBINED,RESIDUAL,RMS,W-Mom,Momentum and Mass,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+COMBINED,RESIDUAL,MAX,W-Mom,Momentum and Mass,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+COMBINED,RESIDUAL,RMS,P-Mass,Momentum and Mass,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+COMBINED,RESIDUAL,MAX,P-Mass,Momentum and Mass,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+FLOW,BOUNDARY,Blade,U-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Domain Interface 1 Side 1,U-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Domain Interface 1 Side 2,U-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Inlet,U-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Outlet,U-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Sym,U-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Blade,U-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Domain Interface 1 Side 1,U-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Domain Interface 1 Side 2,U-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Inlet,U-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Outlet,U-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Sym,U-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,DOMAIN INTERFACE,Domain Interface 1 (Side 1),U-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,DOMAIN INTERFACE,Domain Interface 1 (Side 2),U-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,DOMAIN,Default Domain (Neg),U-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,DOMAIN,Default Domain (Pos),U-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Blade,V-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Domain Interface 1 Side 1,V-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Domain Interface 1 Side 2,V-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Inlet,V-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Outlet,V-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Sym,V-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Blade,V-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Domain Interface 1 Side 1,V-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Domain Interface 1 Side 2,V-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Inlet,V-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Outlet,V-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Sym,V-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,DOMAIN INTERFACE,Domain Interface 1 (Side 1),V-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,DOMAIN INTERFACE,Domain Interface 1 (Side 2),V-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,DOMAIN,Default Domain (Neg),V-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,DOMAIN,Default Domain (Pos),V-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Blade,W-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Domain Interface 1 Side 1,W-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Domain Interface 1 Side 2,W-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Inlet,W-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Outlet,W-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Sym,W-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Blade,W-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Domain Interface 1 Side 1,W-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Domain Interface 1 Side 2,W-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Inlet,W-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Outlet,W-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Sym,W-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,DOMAIN INTERFACE,Domain Interface 1 (Side 1),W-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,DOMAIN INTERFACE,Domain Interface 1 (Side 2),W-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,DOMAIN,Default Domain (Neg),W-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,DOMAIN,Default Domain (Pos),W-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Blade,P-Mass,Momentum and Mass,[1.0 0.0 -1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Domain Interface 1 Side 1,P-Mass,Momentum and Mass,[1.0 0.0 -1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Domain Interface 1 Side 2,P-Mass,Momentum and Mass,[1.0 0.0 -1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Inlet,P-Mass,Momentum and Mass,[1.0 0.0 -1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Outlet,P-Mass,Momentum and Mass,[1.0 0.0 -1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Sym,P-Mass,Momentum and Mass,[1.0 0.0 -1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Blade,P-Mass,Momentum and Mass,[1.0 0.0 -1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Domain Interface 1 Side 1,P-Mass,Momentum and Mass,[1.0 0.0 -1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Domain Interface 1 Side 2,P-Mass,Momentum and Mass,[1.0 0.0 -1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Inlet,P-Mass,Momentum and Mass,[1.0 0.0 -1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Outlet,P-Mass,Momentum and Mass,[1.0 0.0 -1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Sym,P-Mass,Momentum and Mass,[1.0 0.0 -1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,DOMAIN INTERFACE,Domain Interface 1 (Side 1),P-Mass,Momentum and Mass,[1.0 0.0 -1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,DOMAIN INTERFACE,Domain Interface 1 (Side 2),P-Mass,Momentum and Mass,[1.0 0.0 -1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,DOMAIN,Default Domain (Neg),P-Mass,Momentum and Mass,[1.0 0.0 -1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,DOMAIN,Default Domain (Pos),P-Mass,Momentum and Mass,[1.0 0.0 -1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+IMBALANCE,Default Domain,U-Mom,Momentum and Mass,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+IMBALANCE,Default Domain,V-Mom,Momentum and Mass,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+IMBALANCE,Default Domain,W-Mom,Momentum and Mass,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+IMBALANCE,Default Domain,P-Mass,Momentum and Mass,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+RESIDUAL,RMS,Default Domain,H-Energy,Heat Transfer,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+RESIDUAL,MAX,Default Domain,H-Energy,Heat Transfer,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+COMBINED,RESIDUAL,RMS,H-Energy,Heat Transfer,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+COMBINED,RESIDUAL,MAX,H-Energy,Heat Transfer,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+FLOW,BOUNDARY,Blade,H-Energy,Heat Transfer,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Domain Interface 1 Side 1,H-Energy,Heat Transfer,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Domain Interface 1 Side 2,H-Energy,Heat Transfer,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Inlet,H-Energy,Heat Transfer,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Outlet,H-Energy,Heat Transfer,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Sym,H-Energy,Heat Transfer,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Blade,H-Energy,Heat Transfer,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Domain Interface 1 Side 1,H-Energy,Heat Transfer,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Domain Interface 1 Side 2,H-Energy,Heat Transfer,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Inlet,H-Energy,Heat Transfer,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Outlet,H-Energy,Heat Transfer,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Sym,H-Energy,Heat Transfer,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,DOMAIN INTERFACE,Domain Interface 1 (Side 1),H-Energy,Heat Transfer,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,DOMAIN INTERFACE,Domain Interface 1 (Side 2),H-Energy,Heat Transfer,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,DOMAIN,Default Domain (Neg),H-Energy,Heat Transfer,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,DOMAIN,Default Domain (Pos),H-Energy,Heat Transfer,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+IMBALANCE,Default Domain,H-Energy,Heat Transfer,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+RESIDUAL,RMS,Default Domain,K-TurbKE,TurbKE and Diss.K,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+RESIDUAL,MAX,Default Domain,K-TurbKE,TurbKE and Diss.K,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+COMBINED,RESIDUAL,RMS,K-TurbKE,TurbKE and Diss.K,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+COMBINED,RESIDUAL,MAX,K-TurbKE,TurbKE and Diss.K,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+RESIDUAL,RMS,Default Domain,E-Diss.K,TurbKE and Diss.K,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+RESIDUAL,MAX,Default Domain,E-Diss.K,TurbKE and Diss.K,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+COMBINED,RESIDUAL,RMS,E-Diss.K,TurbKE and Diss.K,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+COMBINED,RESIDUAL,MAX,E-Diss.K,TurbKE and Diss.K,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+FLOW,BOUNDARY,Blade,K-TurbKE,TurbKE and Diss.K,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Domain Interface 1 Side 1,K-TurbKE,TurbKE and Diss.K,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Domain Interface 1 Side 2,K-TurbKE,TurbKE and Diss.K,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Inlet,K-TurbKE,TurbKE and Diss.K,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Outlet,K-TurbKE,TurbKE and Diss.K,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Sym,K-TurbKE,TurbKE and Diss.K,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Blade,K-TurbKE,TurbKE and Diss.K,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Domain Interface 1 Side 1,K-TurbKE,TurbKE and Diss.K,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Domain Interface 1 Side 2,K-TurbKE,TurbKE and Diss.K,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Inlet,K-TurbKE,TurbKE and Diss.K,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Outlet,K-TurbKE,TurbKE and Diss.K,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Sym,K-TurbKE,TurbKE and Diss.K,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,DOMAIN INTERFACE,Domain Interface 1 (Side 1),K-TurbKE,TurbKE and Diss.K,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,DOMAIN INTERFACE,Domain Interface 1 (Side 2),K-TurbKE,TurbKE and Diss.K,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,DOMAIN,Default Domain (Neg),K-TurbKE,TurbKE and Diss.K,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,DOMAIN,Default Domain (Pos),K-TurbKE,TurbKE and Diss.K,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Blade,E-Diss.K,TurbKE and Diss.K,[1.0 2.0 -4.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Domain Interface 1 Side 1,E-Diss.K,TurbKE and Diss.K,[1.0 2.0 -4.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Domain Interface 1 Side 2,E-Diss.K,TurbKE and Diss.K,[1.0 2.0 -4.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Inlet,E-Diss.K,TurbKE and Diss.K,[1.0 2.0 -4.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Outlet,E-Diss.K,TurbKE and Diss.K,[1.0 2.0 -4.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Sym,E-Diss.K,TurbKE and Diss.K,[1.0 2.0 -4.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Blade,E-Diss.K,TurbKE and Diss.K,[1.0 2.0 -4.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Domain Interface 1 Side 1,E-Diss.K,TurbKE and Diss.K,[1.0 2.0 -4.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Domain Interface 1 Side 2,E-Diss.K,TurbKE and Diss.K,[1.0 2.0 -4.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Inlet,E-Diss.K,TurbKE and Diss.K,[1.0 2.0 -4.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Outlet,E-Diss.K,TurbKE and Diss.K,[1.0 2.0 -4.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Sym,E-Diss.K,TurbKE and Diss.K,[1.0 2.0 -4.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,DOMAIN INTERFACE,Domain Interface 1 (Side 1),E-Diss.K,TurbKE and Diss.K,[1.0 2.0 -4.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,DOMAIN INTERFACE,Domain Interface 1 (Side 2),E-Diss.K,TurbKE and Diss.K,[1.0 2.0 -4.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,DOMAIN,Default Domain (Neg),E-Diss.K,TurbKE and Diss.K,[1.0 2.0 -4.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,DOMAIN,Default Domain (Pos),E-Diss.K,TurbKE and Diss.K,[1.0 2.0 -4.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+@GROUP START@ Momentum and Mass
+RESIDUAL,RMS,Default Domain,U-Mom,Momentum and Mass,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+RESIDUAL,MAX,Default Domain,U-Mom,Momentum and Mass,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+RESIDUAL,RMS,Default Domain,V-Mom,Momentum and Mass,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+RESIDUAL,MAX,Default Domain,V-Mom,Momentum and Mass,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+RESIDUAL,RMS,Default Domain,W-Mom,Momentum and Mass,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+RESIDUAL,MAX,Default Domain,W-Mom,Momentum and Mass,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+RESIDUAL,RMS,Default Domain,P-Mass,Momentum and Mass,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+RESIDUAL,MAX,Default Domain,P-Mass,Momentum and Mass,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+COMBINED,RESIDUAL,RMS,U-Mom,Momentum and Mass,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+COMBINED,RESIDUAL,MAX,U-Mom,Momentum and Mass,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+COMBINED,RESIDUAL,RMS,V-Mom,Momentum and Mass,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+COMBINED,RESIDUAL,MAX,V-Mom,Momentum and Mass,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+COMBINED,RESIDUAL,RMS,W-Mom,Momentum and Mass,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+COMBINED,RESIDUAL,MAX,W-Mom,Momentum and Mass,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+COMBINED,RESIDUAL,RMS,P-Mass,Momentum and Mass,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+COMBINED,RESIDUAL,MAX,P-Mass,Momentum and Mass,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+FLOW,BOUNDARY,Blade,U-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Domain Interface 1 Side 1,U-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Domain Interface 1 Side 2,U-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Inlet,U-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Outlet,U-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Sym,U-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Blade,U-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Domain Interface 1 Side 1,U-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Domain Interface 1 Side 2,U-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Inlet,U-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Outlet,U-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Sym,U-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,DOMAIN INTERFACE,Domain Interface 1 (Side 1),U-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,DOMAIN INTERFACE,Domain Interface 1 (Side 2),U-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,DOMAIN,Default Domain (Neg),U-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,DOMAIN,Default Domain (Pos),U-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Blade,V-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Domain Interface 1 Side 1,V-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Domain Interface 1 Side 2,V-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Inlet,V-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Outlet,V-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Sym,V-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Blade,V-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Domain Interface 1 Side 1,V-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Domain Interface 1 Side 2,V-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Inlet,V-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Outlet,V-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Sym,V-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,DOMAIN INTERFACE,Domain Interface 1 (Side 1),V-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,DOMAIN INTERFACE,Domain Interface 1 (Side 2),V-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,DOMAIN,Default Domain (Neg),V-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,DOMAIN,Default Domain (Pos),V-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Blade,W-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Domain Interface 1 Side 1,W-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Domain Interface 1 Side 2,W-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Inlet,W-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Outlet,W-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Sym,W-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Blade,W-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Domain Interface 1 Side 1,W-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Domain Interface 1 Side 2,W-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Inlet,W-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Outlet,W-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Sym,W-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,DOMAIN INTERFACE,Domain Interface 1 (Side 1),W-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,DOMAIN INTERFACE,Domain Interface 1 (Side 2),W-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,DOMAIN,Default Domain (Neg),W-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,DOMAIN,Default Domain (Pos),W-Mom,Momentum and Mass,[1.0 1.0 -2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Blade,P-Mass,Momentum and Mass,[1.0 0.0 -1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Domain Interface 1 Side 1,P-Mass,Momentum and Mass,[1.0 0.0 -1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Domain Interface 1 Side 2,P-Mass,Momentum and Mass,[1.0 0.0 -1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Inlet,P-Mass,Momentum and Mass,[1.0 0.0 -1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Outlet,P-Mass,Momentum and Mass,[1.0 0.0 -1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Sym,P-Mass,Momentum and Mass,[1.0 0.0 -1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Blade,P-Mass,Momentum and Mass,[1.0 0.0 -1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Domain Interface 1 Side 1,P-Mass,Momentum and Mass,[1.0 0.0 -1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Domain Interface 1 Side 2,P-Mass,Momentum and Mass,[1.0 0.0 -1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Inlet,P-Mass,Momentum and Mass,[1.0 0.0 -1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Outlet,P-Mass,Momentum and Mass,[1.0 0.0 -1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Sym,P-Mass,Momentum and Mass,[1.0 0.0 -1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,DOMAIN INTERFACE,Domain Interface 1 (Side 1),P-Mass,Momentum and Mass,[1.0 0.0 -1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,DOMAIN INTERFACE,Domain Interface 1 (Side 2),P-Mass,Momentum and Mass,[1.0 0.0 -1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,DOMAIN,Default Domain (Neg),P-Mass,Momentum and Mass,[1.0 0.0 -1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,DOMAIN,Default Domain (Pos),P-Mass,Momentum and Mass,[1.0 0.0 -1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+IMBALANCE,Default Domain,U-Mom,Momentum and Mass,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+IMBALANCE,Default Domain,V-Mom,Momentum and Mass,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+IMBALANCE,Default Domain,W-Mom,Momentum and Mass,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+IMBALANCE,Default Domain,P-Mass,Momentum and Mass,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+@GROUP END@
+@GROUP START@ Heat Transfer
+RESIDUAL,RMS,Default Domain,H-Energy,Heat Transfer,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+RESIDUAL,MAX,Default Domain,H-Energy,Heat Transfer,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+COMBINED,RESIDUAL,RMS,H-Energy,Heat Transfer,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+COMBINED,RESIDUAL,MAX,H-Energy,Heat Transfer,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+FLOW,BOUNDARY,Blade,H-Energy,Heat Transfer,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Domain Interface 1 Side 1,H-Energy,Heat Transfer,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Domain Interface 1 Side 2,H-Energy,Heat Transfer,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Inlet,H-Energy,Heat Transfer,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Outlet,H-Energy,Heat Transfer,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Sym,H-Energy,Heat Transfer,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Blade,H-Energy,Heat Transfer,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Domain Interface 1 Side 1,H-Energy,Heat Transfer,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Domain Interface 1 Side 2,H-Energy,Heat Transfer,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Inlet,H-Energy,Heat Transfer,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Outlet,H-Energy,Heat Transfer,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Sym,H-Energy,Heat Transfer,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,DOMAIN INTERFACE,Domain Interface 1 (Side 1),H-Energy,Heat Transfer,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,DOMAIN INTERFACE,Domain Interface 1 (Side 2),H-Energy,Heat Transfer,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,DOMAIN,Default Domain (Neg),H-Energy,Heat Transfer,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,DOMAIN,Default Domain (Pos),H-Energy,Heat Transfer,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+IMBALANCE,Default Domain,H-Energy,Heat Transfer,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+@GROUP END@
+@GROUP START@ TurbKE and Diss.K
+RESIDUAL,RMS,Default Domain,K-TurbKE,TurbKE and Diss.K,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+RESIDUAL,MAX,Default Domain,K-TurbKE,TurbKE and Diss.K,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+COMBINED,RESIDUAL,RMS,K-TurbKE,TurbKE and Diss.K,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+COMBINED,RESIDUAL,MAX,K-TurbKE,TurbKE and Diss.K,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+RESIDUAL,RMS,Default Domain,E-Diss.K,TurbKE and Diss.K,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+RESIDUAL,MAX,Default Domain,E-Diss.K,TurbKE and Diss.K,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+COMBINED,RESIDUAL,RMS,E-Diss.K,TurbKE and Diss.K,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+COMBINED,RESIDUAL,MAX,E-Diss.K,TurbKE and Diss.K,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+FLOW,BOUNDARY,Blade,K-TurbKE,TurbKE and Diss.K,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Domain Interface 1 Side 1,K-TurbKE,TurbKE and Diss.K,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Domain Interface 1 Side 2,K-TurbKE,TurbKE and Diss.K,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Inlet,K-TurbKE,TurbKE and Diss.K,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Outlet,K-TurbKE,TurbKE and Diss.K,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Sym,K-TurbKE,TurbKE and Diss.K,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Blade,K-TurbKE,TurbKE and Diss.K,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Domain Interface 1 Side 1,K-TurbKE,TurbKE and Diss.K,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Domain Interface 1 Side 2,K-TurbKE,TurbKE and Diss.K,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Inlet,K-TurbKE,TurbKE and Diss.K,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Outlet,K-TurbKE,TurbKE and Diss.K,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Sym,K-TurbKE,TurbKE and Diss.K,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,DOMAIN INTERFACE,Domain Interface 1 (Side 1),K-TurbKE,TurbKE and Diss.K,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,DOMAIN INTERFACE,Domain Interface 1 (Side 2),K-TurbKE,TurbKE and Diss.K,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,DOMAIN,Default Domain (Neg),K-TurbKE,TurbKE and Diss.K,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,DOMAIN,Default Domain (Pos),K-TurbKE,TurbKE and Diss.K,[1.0 2.0 -3.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Blade,E-Diss.K,TurbKE and Diss.K,[1.0 2.0 -4.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Domain Interface 1 Side 1,E-Diss.K,TurbKE and Diss.K,[1.0 2.0 -4.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Domain Interface 1 Side 2,E-Diss.K,TurbKE and Diss.K,[1.0 2.0 -4.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Inlet,E-Diss.K,TurbKE and Diss.K,[1.0 2.0 -4.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Outlet,E-Diss.K,TurbKE and Diss.K,[1.0 2.0 -4.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,BOUNDARY,Sym,E-Diss.K,TurbKE and Diss.K,[1.0 2.0 -4.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Blade,E-Diss.K,TurbKE and Diss.K,[1.0 2.0 -4.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Domain Interface 1 Side 1,E-Diss.K,TurbKE and Diss.K,[1.0 2.0 -4.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Domain Interface 1 Side 2,E-Diss.K,TurbKE and Diss.K,[1.0 2.0 -4.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Inlet,E-Diss.K,TurbKE and Diss.K,[1.0 2.0 -4.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Outlet,E-Diss.K,TurbKE and Diss.K,[1.0 2.0 -4.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,BOUNDARY,Sym,E-Diss.K,TurbKE and Diss.K,[1.0 2.0 -4.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,DOMAIN INTERFACE,Domain Interface 1 (Side 1),E-Diss.K,TurbKE and Diss.K,[1.0 2.0 -4.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+FLOW,DOMAIN INTERFACE,Domain Interface 1 (Side 2),E-Diss.K,TurbKE and Diss.K,[1.0 2.0 -4.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,DOMAIN,Default Domain (Neg),E-Diss.K,TurbKE and Diss.K,[1.0 2.0 -4.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+SOURCE,DOMAIN,Default Domain (Pos),E-Diss.K,TurbKE and Diss.K,[1.0 2.0 -4.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Unknown
+IMBALANCE,Default Domain,K-TurbKE,TurbKE and Diss.K,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+IMBALANCE,Default Domain,E-Diss.K,TurbKE and Diss.K,[0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0],Dimensionless
+@GROUP END@
+@END@
+1,1,1.6093254e-05,-9.0599060e-06,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,4.6566129e-10,1.5716068e-08,-2.9802322e-07,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,9.6957176e+01,4.1485044e+03,7.6881952e-05,1.2287846e-03,0.0000000e+00,0.0000000e+00,1.3683045e-03,7.9473160e-02,9.6957176e+01,4.1485044e+03,7.6881952e-05,1.2287846e-03,0.0000000e+00,0.0000000e+00,1.3683045e-03,7.9473160e-02,-3.2186508e-06,0.0000000e+00,0.0000000e+00,2.1022007e+01,-1.1982533e+01,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,-1.0494144e+02,1.0494144e+02,0.0000000e+00,0.0000000e+00,1.4305115e-06,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,-7.3992340e+01,7.3992340e+01,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,3.6621094e-04,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,1.1490814e-02,-4.7367241e-02,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,3.9408290e+00,3.1888964e+00,0.0000000e+00,0.0000000e+00,8.6138124e+00,0.0000000e+00,3.4896692e-04,1.8000905e+02,9.6284719e-03,5.9921110e-01,9.6284719e-03,5.9921110e-01,-6.0855161e-04,0.0000000e+00,0.0000000e+00,1.2952800e+03,-5.3213364e+03,0.0000000e+00,0.0000000e+00,-6.6872257e-05,0.0000000e+00,-4.1485066e-05,7.0799468e-03,0.0000000e+00,4.4263422e+05,3.5817700e+05,-6.9466889e-01,6.9466889e-01,1.8000983e+02,1.1639247e-02,4.5182818e-01,1.1639247e-02,4.5182818e-01,2.6696097e-02,1.0704217e+00,2.6696097e-02,1.0704217e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,1.3132537e-03,-7.1050854e-10,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,5.9125785e-08,4.7847823e-08,-3.0559238e-14,5.1879524e-05,0.0000000e+00,0.0000000e+00,0.0000000e+00,1.3890094e-01,-2.7193485e-11,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,2.2627922e-09,1.8311740e-09,-3.4351591e-16,2.8592628e-06
+2,2,1.2484974e+00,3.2472301e-01,0.0000000e+00,4.2227508e-05,-1.0362038e-05,0.0000000e+00,-3.2473588e-04,1.2484906e-03,2.7719975e-02,1.0381272e-08,4.2203556e-08,3.7450172e-07,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,9.6126450e-03,4.1297629e-01,2.7566140e-03,1.1433710e-01,0.0000000e+00,0.0000000e+00,1.8096246e-02,3.2881336e+00,9.6126450e-03,4.1297629e-01,2.7566140e-03,1.1433710e-01,0.0000000e+00,0.0000000e+00,1.8096246e-02,3.2881336e+00,-1.2485359e+00,0.0000000e+00,0.0000000e+00,2.1233664e+01,-1.7707664e+01,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,5.2933052e+01,2.0259297e+02,0.0000000e+00,0.0000000e+00,-3.2470894e-01,0.0000000e+00,0.0000000e+00,-1.0503239e-05,-2.6374364e-02,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,-6.2199593e+01,6.5524010e+01,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,-5.9757696e-08,-6.5552526e-06,-2.7587891e-02,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,1.7953577e-02,8.9701992e-03,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,1.0466184e-02,-2.7597012e-02,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,9.4690984e-01,8.3715773e-01,0.0000000e+00,0.0000000e+00,1.2725195e+02,1.4676343e+00,-3.3107231e-04,1.8660031e+02,7.8070858e-03,7.1050674e-01,7.8070858e-03,7.1050674e-01,-2.7767357e-01,0.0000000e+00,0.0000000e+00,1.1814879e+03,-3.1003540e+03,0.0000000e+00,0.0000000e+00,-9.3968734e-02,-9.7271539e-02,-2.3337189e-04,1.1627113e-03,0.0000000e+00,1.0556795e+05,9.3319719e+04,-2.4599470e+03,2.4599468e+03,1.8657967e+02,5.0609691e-05,6.1040553e-03,5.0609691e-05,6.1040553e-03,1.6199388e-02,1.0000000e+00,1.6199388e-02,1.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,1.7084291e-03,-4.5773467e-07,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,2.0818223e-04,1.4127145e-04,-3.4755252e-05,2.6899746e+01,0.0000000e+00,0.0000000e+00,0.0000000e+00,2.1572278e-01,-2.5220288e-08,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,9.4051524e-05,-4.7263016e-05,-5.2675330e-03,2.5612769e+00
+3,3,3.6924164e+00,1.5535839e+00,0.0000000e+00,1.8635977e-02,-5.1382836e-04,0.0000000e+00,-1.5356333e-03,3.6310877e-03,1.1110957e-01,3.3102060e-07,1.8520768e-05,5.0230586e-04,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,7.5859479e-03,2.3073983e-01,5.8004186e-03,3.1648210e-01,0.0000000e+00,0.0000000e+00,8.3098775e-03,1.8910547e+00,7.5859479e-03,2.3073983e-01,5.8004186e-03,3.1648210e-01,0.0000000e+00,0.0000000e+00,8.3098775e-03,1.8910547e+00,-3.7110491e+00,0.0000000e+00,0.0000000e+00,2.1216669e+01,-1.5063271e+01,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,-1.6293234e+01,1.3368132e+02,0.0000000e+00,0.0000000e+00,-1.5530610e+00,0.0000000e+00,0.0000000e+00,-1.1252820e-05,-4.9116996e-01,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,-4.3589199e+01,7.5436409e+01,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,-2.4639874e-08,-2.2789679e-06,-1.2536621e-01,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,6.5499932e-02,5.9578288e-02,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,1.1271141e-02,-2.5652053e-02,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,1.7396505e-01,2.7205184e-01,0.0000000e+00,0.0000000e+00,8.9638878e+01,2.2294041e+01,-2.1715875e-04,1.5865945e+02,2.7686781e-03,3.9747825e-01,2.7686781e-03,3.9747825e-01,-1.0368015e+02,0.0000000e+00,0.0000000e+00,1.2743667e+03,-2.8673225e+03,0.0000000e+00,0.0000000e+00,6.4671471e+01,-1.2796100e+00,-3.5254780e-04,9.0158946e-04,0.0000000e+00,1.9363166e+04,3.0285256e+04,-2.1695657e+03,2.1695654e+03,1.5854309e+02,3.0344846e-03,1.8939133e-01,3.0344846e-03,1.8939133e-01,5.6951237e-03,9.9882162e-01,5.6951237e-03,9.9882162e-01,0.0000000e+00,0.0000000e+00,0.0000000e+00,2.4429380e-03,-3.0372969e-03,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,2.7258146e+01,2.3944838e+01,-1.8510156e+02,5.0673412e+01,0.0000000e+00,0.0000000e+00,0.0000000e+00,3.5542122e-01,-2.4102896e-04,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,1.8233170e+06,1.5838854e+06,-2.5843254e+07,2.2361316e+05
+4,4,4.8220396e+00,2.1992080e+00,0.0000000e+00,3.5248380e-02,-5.0987463e-02,0.0000000e+00,-2.1855927e-03,4.7787642e-03,1.2719668e-01,5.0730217e-05,3.5068213e-05,-5.8596494e-04,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,3.3421207e-03,2.5440028e-01,4.1954275e-03,2.0331576e-01,0.0000000e+00,0.0000000e+00,6.9692824e-03,1.0546191e+00,3.3421207e-03,2.5440028e-01,4.1954275e-03,2.0331576e-01,0.0000000e+00,0.0000000e+00,6.9692824e-03,1.0546191e+00,-4.8572903e+00,0.0000000e+00,0.0000000e+00,2.1250687e+01,-1.5163865e+01,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,3.4228589e+02,-3.0849475e+02,0.0000000e+00,0.0000000e+00,-2.1482251e+00,0.0000000e+00,0.0000000e+00,-1.3687613e-05,-1.8629897e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,2.5580042e+02,-2.5113286e+02,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,-1.3444321e-09,-5.8661431e-07,3.2836914e-02,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,-3.0709015e+01,3.0676401e+01,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,1.3652465e-02,-2.1364581e-02,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,-1.7313877e-02,1.2881811e-01,0.0000000e+00,0.0000000e+00,1.0231406e+01,1.9174798e-01,6.5196902e-05,8.0572609e+01,9.4417766e-05,8.2663083e-03,9.4417766e-05,8.2663083e-03,-1.4801202e+02,0.0000000e+00,0.0000000e+00,1.5477583e+03,-2.4068044e+03,0.0000000e+00,0.0000000e+00,2.9247412e+04,3.2543473e+04,-6.3805224e-04,-7.6164151e-06,0.0000000e+00,-9.1537883e+04,1.0400961e+05,-1.6249277e+05,1.6249275e+05,4.5082340e+01,5.8024768e-02,5.3555268e-01,5.8024768e-02,5.3555268e-01,1.0789517e-01,3.9630139e+00,1.0789517e-01,3.9630139e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,4.2034946e-03,-3.0404623e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,-2.6971267e+03,2.7109260e+03,-5.3360479e+03,3.5548047e+03,0.0000000e+00,0.0000000e+00,0.0000000e+00,7.2890252e-01,-3.4990627e-01,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,1.5621078e+05,2.0205992e+05,-2.6092841e+11,1.6426661e+07
+5,5,5.7830410e+00,2.8397052e+00,0.0000000e+00,9.3839811e-03,-9.5305825e-03,0.0000000e+00,-2.8280220e-03,5.7464344e-03,1.4540298e-01,9.4856459e-06,9.3538374e-06,-1.1961790e-04,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,3.2866783e-03,1.9874363e-01,3.8370779e-03,1.5083213e-01,0.0000000e+00,0.0000000e+00,1.1850049e-01,2.6359501e+01,3.2866783e-03,1.9874363e-01,3.8370779e-03,1.5083213e-01,0.0000000e+00,0.0000000e+00,1.1850049e-01,2.6359501e+01,-5.7924342e+00,0.0000000e+00,0.0000000e+00,2.1357233e+01,-1.4121454e+01,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,-3.0876399e+03,3.0962256e+03,0.0000000e+00,0.0000000e+00,-2.8301773e+00,0.0000000e+00,0.0000000e+00,-1.9687950e-05,-1.1429387e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,2.8232974e+03,-2.8229497e+03,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,8.5441343e-10,8.9536229e-08,2.0751953e-03,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,2.8468039e+01,-2.8468920e+01,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,1.5680047e-02,-1.2963635e-02,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,-5.6375094e-02,8.6234599e-02,0.0000000e+00,0.0000000e+00,3.2391223e-01,-1.1709380e-01,3.8563088e-05,3.7775925e+01,1.8440851e-05,2.0609421e-03,1.8440851e-05,2.0609421e-03,-1.8357946e+01,0.0000000e+00,0.0000000e+00,1.7835498e+03,-1.3392390e+04,0.0000000e+00,0.0000000e+00,4.8705845e+06,3.5988628e+06,-7.9054793e-04,5.6627277e-06,0.0000000e+00,9.1497760e+06,-9.1412370e+06,-9.7822540e+06,9.7822560e+06,8.6548164e+01,3.2444550e-05,2.6972517e-03,3.2444550e-05,2.6972517e-03,1.4985092e-02,2.7417550e+00,1.4985092e-02,2.7417550e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,6.6059940e-03,-4.8573370e+02,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,7.2158550e+05,-7.2128006e+05,-1.6917551e+01,8.0938414e+04,0.0000000e+00,0.0000000e+00,0.0000000e+00,1.3399588e+00,-8.8424080e+01,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,0.0000000e+00,1.5044263e+05,-1.8603297e+04,-2.3202725e+08,3.4796403e+06

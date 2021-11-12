@@ -1,0 +1,938 @@
+ This run of the CFX 2019 R3 Solver started at 16:04:04 on 11 Nov 2021
+ by user mohsy on NEPTUNE (amd_opteron.sse2_winnt) using the command:
+ 
+  "C:\Program Files\ANSYS Inc\v195\CFX\bin\perllib\cfx5solve.pl"
+    -stdout-comms -batch -ccl -
+ 
+ 2019 R3
+ 
+  Point Releases and Patches installed:
+  ANSYS, Inc. Products 2019 R3
+  SpaceClaim 2019 R3
+  CFX (includes CFD-Post) 2019 R3
+  ICEM CFD 2019 R3
+  ANSYS, Inc. License Manager 2019 R3
+ 
+ Setting up CFX Solver run ...
+ 
+ 
+ +--------------------------------------------------------------------+
+ |                                                                    |
+ |                    CFX Command Language for Run                    |
+ |                                                                    |
+ +--------------------------------------------------------------------+
+ 
+ LIBRARY:
+   MATERIAL: Air Ideal Gas
+     Material Description = Air Ideal Gas (constant Cp)
+     Material Group = Air Data,Calorically Perfect Ideal Gases
+     Option = Pure Substance
+     Thermodynamic State = Gas
+     PROPERTIES:
+       Option = General Material
+       EQUATION OF STATE:
+         Molar Mass = 28.96 [kg kmol^-1]
+         Option = Ideal Gas
+       END
+       SPECIFIC HEAT CAPACITY:
+         Option = Value
+         Specific Heat Capacity = 1.0044E+03 [J kg^-1 K^-1]
+         Specific Heat Type = Constant Pressure
+       END
+       REFERENCE STATE:
+         Option = Specified Point
+         Reference Pressure = 1 [atm]
+         Reference Specific Enthalpy = 0. [J/kg]
+         Reference Specific Entropy = 0. [J/kg/K]
+         Reference Temperature = 25 [C]
+       END
+       DYNAMIC VISCOSITY:
+         Option = Sutherlands Formula
+         Reference Temperature = 273.15 [K]
+         Reference Viscosity = 1.716e-5 [kg m^-1 s^-1]
+         Sutherlands Constant = 110.4 [K]
+         Temperature Exponent = 1.5
+       END
+       THERMAL CONDUCTIVITY:
+         Option = Sutherlands Formula
+         Reference Temperature = 273.15 [K]
+         Reference Thermal Conductivity = 0.024289 [W m^-1 K^-1]
+         Sutherlands Constant = 110.4 [K]
+         Temperature Exponent = 1.5
+       END
+       ABSORPTION COEFFICIENT:
+         Absorption Coefficient = 0.01 [m^-1]
+         Option = Value
+       END
+       SCATTERING COEFFICIENT:
+         Option = Value
+         Scattering Coefficient = 0.0 [m^-1]
+       END
+       REFRACTIVE INDEX:
+         Option = Value
+         Refractive Index = 1.0 [m m^-1]
+       END
+     END
+   END
+ END
+ FLOW: Flow Analysis 1
+   SOLUTION UNITS:
+     Angle Units = [rad]
+     Length Units = [m]
+     Mass Units = [kg]
+     Solid Angle Units = [sr]
+     Temperature Units = [K]
+     Time Units = [s]
+   END
+   ANALYSIS TYPE:
+     Option = Steady State
+     EXTERNAL SOLVER COUPLING:
+       Option = None
+     END
+   END
+   DOMAIN: Default Domain
+     Coord Frame = Coord 0
+     Domain Type = Fluid
+     Location = SOLID
+     BOUNDARY: Blade
+       Boundary Type = WALL
+       Location = BLADE
+       BOUNDARY CONDITIONS:
+         HEAT TRANSFER:
+           Fixed Temperature = 300 [K]
+           Option = Fixed Temperature
+         END
+         MASS AND MOMENTUM:
+           Option = No Slip Wall
+         END
+         WALL ROUGHNESS:
+           Option = Smooth Wall
+         END
+       END
+     END
+     BOUNDARY: Domain Interface 1 Side 1
+       Boundary Type = INTERFACE
+       Location = CHANNEL_CENTER
+       BOUNDARY CONDITIONS:
+         HEAT TRANSFER:
+           Option = Conservative Interface Flux
+         END
+         MASS AND MOMENTUM:
+           Option = Conservative Interface Flux
+         END
+         TURBULENCE:
+           Option = Conservative Interface Flux
+         END
+       END
+     END
+     BOUNDARY: Domain Interface 1 Side 2
+       Boundary Type = INTERFACE
+       Location = CHANNEL_WALL
+       BOUNDARY CONDITIONS:
+         HEAT TRANSFER:
+           Option = Conservative Interface Flux
+         END
+         MASS AND MOMENTUM:
+           Option = Conservative Interface Flux
+         END
+         TURBULENCE:
+           Option = Conservative Interface Flux
+         END
+       END
+     END
+     BOUNDARY: Inlet
+       Boundary Type = INLET
+       Location = INLET
+       BOUNDARY CONDITIONS:
+         FLOW DIRECTION:
+           Option = Normal to Boundary Condition
+         END
+         FLOW REGIME:
+           Option = Subsonic
+         END
+         HEAT TRANSFER:
+           Option = Static Temperature
+           Static Temperature = 410 [K]
+         END
+         MASS AND MOMENTUM:
+           Option = Total Pressure
+           Relative Pressure = 182800 [Pa]
+         END
+         TURBULENCE:
+           Eddy Length Scale = 3.2 [mm]
+           Fractional Intensity = 0.01
+           Option = Intensity and Length Scale
+         END
+       END
+     END
+     BOUNDARY: Outlet
+       Boundary Type = OUTLET
+       Location = OUTLET
+       BOUNDARY CONDITIONS:
+         FLOW REGIME:
+           Option = Subsonic
+         END
+         MASS AND MOMENTUM:
+           Option = Static Pressure
+           Relative Pressure = 104196 [Pa]
+         END
+       END
+     END
+     BOUNDARY: Sym
+       Boundary Type = SYMMETRY
+       Location = LEFT_SYM,RIGHT_SYM
+     END
+     DOMAIN MODELS:
+       BUOYANCY MODEL:
+         Option = Non Buoyant
+       END
+       DOMAIN MOTION:
+         Option = Stationary
+       END
+       MESH DEFORMATION:
+         Option = None
+       END
+       REFERENCE PRESSURE:
+         Reference Pressure = 1 [atm]
+       END
+     END
+     FLUID DEFINITION: Fluid 1
+       Material = Air Ideal Gas
+       Option = Material Library
+       MORPHOLOGY:
+         Option = Continuous Fluid
+       END
+     END
+     FLUID MODELS:
+       COMBUSTION MODEL:
+         Option = None
+       END
+       HEAT TRANSFER MODEL:
+         Include Viscous Work Term = True
+         Option = Total Energy
+       END
+       THERMAL RADIATION MODEL:
+         Option = None
+       END
+       TURBULENCE MODEL:
+         Option = k epsilon
+       END
+       TURBULENT WALL FUNCTIONS:
+         High Speed Model = Off
+         Option = Scalable
+       END
+     END
+     INITIALISATION:
+       Option = Automatic
+       INITIAL CONDITIONS:
+         Velocity Type = Cartesian
+         CARTESIAN VELOCITY COMPONENTS:
+           Option = Automatic
+         END
+         STATIC PRESSURE:
+           Option = Automatic with Value
+           Relative Pressure = 182800 [Pa]
+         END
+         TEMPERATURE:
+           Option = Automatic with Value
+           Temperature = 410 [K]
+         END
+         TURBULENCE INITIAL CONDITIONS:
+           Option = Intensity and Length Scale
+           EDDY LENGTH SCALE:
+             Eddy Length Scale = 3.2 [mm]
+             Option = Automatic with Value
+           END
+           FRACTIONAL INTENSITY:
+             Fractional Intensity = 0.01
+             Option = Automatic with Value
+           END
+         END
+       END
+     END
+   END
+   DOMAIN INTERFACE: Domain Interface 1
+     Boundary List1 = Domain Interface 1 Side 1
+     Boundary List2 = Domain Interface 1 Side 2
+     Interface Type = Fluid Fluid
+     INTERFACE MODELS:
+       Option = Translational Periodicity
+       MASS AND MOMENTUM:
+         Option = Conservative Interface Flux
+         MOMENTUM INTERFACE MODEL:
+           Option = None
+         END
+       END
+     END
+     MESH CONNECTION:
+       Option = Automatic
+     END
+   END
+   OUTPUT CONTROL:
+     RESULTS:
+       File Compression Level = Default
+       Option = Standard
+     END
+   END
+   SOLVER CONTROL:
+     Turbulence Numerics = First Order
+     ADVECTION SCHEME:
+       Option = High Resolution
+     END
+     CONVERGENCE CONTROL:
+       Length Scale Option = Conservative
+       Maximum Number of Iterations = 4000
+       Minimum Number of Iterations = 1
+       Timescale Control = Auto Timescale
+       Timescale Factor = 5
+     END
+     CONVERGENCE CRITERIA:
+       Residual Target = 0.0000000001
+       Residual Type = RMS
+     END
+     DYNAMIC MODEL CONTROL:
+       Global Dynamic Model Control = On
+     END
+     INTERRUPT CONTROL:
+       Option = Any Interrupt
+       CONVERGENCE CONDITIONS:
+         Option = Default Conditions
+       END
+     END
+   END
+ END
+ COMMAND FILE:
+   Version = 19.5
+   Results Version = 19.5
+ END
+ SIMULATION CONTROL:
+   EXECUTION CONTROL:
+     EXECUTABLE SELECTION:
+       Double Precision = No
+       Large Problem = No
+     END
+     INTERPOLATOR STEP CONTROL:
+       Runtime Priority = Standard
+       MEMORY CONTROL:
+         Memory Allocation Factor = 1.0
+       END
+     END
+     PARALLEL HOST LIBRARY:
+       HOST DEFINITION: neptune
+         Host Architecture String = winnt-amd64
+         Installation Root = C:\Program Files\ANSYS Inc\v%v\CFX
+       END
+     END
+     PARTITIONER STEP CONTROL:
+       Multidomain Option = Automatic
+       Runtime Priority = Standard
+       MEMORY CONTROL:
+         Memory Allocation Factor = 1.0
+       END
+       PARTITION SMOOTHING:
+         Maximum Partition Smoothing Sweeps = 100
+         Option = Smooth
+       END
+       PARTITIONING TYPE:
+         MeTiS Type = k-way
+         Option = MeTiS
+         Partition Size Rule = Automatic
+         Partition Weight Factors = 0.14286, 0.14286, 0.14286, 0.14286, \
+           0.14286, 0.14286, 0.14286
+       END
+     END
+     RUN DEFINITION:
+       Run Mode = Full
+       Solver Input File = \
+         C:/Users/mohsy/University/CFD/Assignment/Finals/Grid2.2 k-e.def
+       Solver Results File = \
+         C:\Users\mohsy\University\CFD\Assignment\Finals\Grid2.2 k-e_001.res
+     END
+     SOLVER STEP CONTROL:
+       Runtime Priority = Standard
+       MEMORY CONTROL:
+         Memory Allocation Factor = 1.0
+       END
+       PARALLEL ENVIRONMENT:
+         Number of Processes = 7
+         Start Method = Intel MPI Local Parallel
+         Parallel Host List = neptune*7
+       END
+     END
+   END
+ END
+ 
+ 
+ +--------------------------------------------------------------------+
+ |                                                                    |
+ |                            Partitioning                            |
+ |                                                                    |
+ +--------------------------------------------------------------------+
+ 
+
+
+
+ +--------------------------------------------------------------------+
+ |                                                                    |
+ |                     ANSYS(R) CFX(R) Partitioner                    |
+ |                                                                    |
+ | 2019 R3                                                            |
+ | Build 19.5 2019-08-05T20:34:06.105000                              |
+ | Mon Aug  5 22:39:07 GMTDT 2019                                     |
+ |                                                                    |
+ |                        Executable Attributes                       |
+ |                                                                    |
+ |           single-64bit-int32-archfort-optimised-std-lcomp          |
+ |                                                                    |
+ | (C) 1996-2019 ANSYS, Inc.                                          |
+ |                                                                    |
+ | All rights reserved. Unauthorized use, distribution or duplication |
+ | is prohibited. This product is subject to U.S. laws governing      |
+ | export and re-export. For full Legal Notice, see documentation.    |
+ +--------------------------------------------------------------------+
+
+
+
+
+ +--------------------------------------------------------------------+
+ |                  Job Information at Start of Run                   |
+ +--------------------------------------------------------------------+
+
+ Run mode:       partitioning run
+
+ Host computer:  NEPTUNE (PID:19424)
+
+ Job started:    Thu Nov 11 16:04:05 2021
+
+ +--------------------------------------------------------------------+
+ |                        License Information                         |
+ +--------------------------------------------------------------------+
+ 
+ License Cap:    ANSYS CFX Solver (Max 512K Nodes)
+ License Cap:     Parallel
+ License ID:     flexserv1-root-2165-311209
+
+
+ +--------------------------------------------------------------------+
+ |        Memory Allocated for Run  (Actual usage may be less)        |
+ +--------------------------------------------------------------------+
+
+           | Real       | Integer    | Character | Logical  | Double
+ ----------+------------+------------+-----------+----------+----------
+ Mwords    |       2.06 |       8.86 |      7.23 |     0.12 |     0.80
+ Mbytes    |       7.87 |      33.81 |      6.90 |     0.46 |     6.09
+ ----------+------------+------------+-----------+----------+----------
+
+
+ +--------------------------------------------------------------------+
+ |                  Host Memory Information (Mbytes)                  |
+ +--------------------------------------------------------------------+
+ |          Host           |     System     |   Allocated    |   %    |
+ +-------------------------+----------------+----------------+--------+
+ | NEPTUNE                 |     15776.36   |        55.13   |   0.35 |
+ +-------------------------+----------------+----------------+--------+
+
+ +--------------------------------------------------------------------+
+ | The MeTiS partitioning method allocates additional memory.         |
+ | Total memory usage will therefore exceed the values shown above.   |
+ +--------------------------------------------------------------------+
+
+ +--------------------------------------------------------------------+
+ |                      Topology Simplification                       |
+ +--------------------------------------------------------------------+
+
+ +--------------------------------------------------------------------+
+ |                       ****** Warning ******                        |
+ |                                                                    |
+ | Topology simplification is activated with the following            |
+ | restrictions:                                                      |
+ |                                                                    |
+ | - Mesh regions referenced only within User Fortran and NOT         |
+ |   in the command file will cause the solver to stop.               |
+ | - The solver will stop during any "Edit Run in Progress" step      |
+ |   if new 2D regions are referenced.                                |
+ +--------------------------------------------------------------------+
+
+ +--------------------------------------------------------------------+
+ |                          Mesh Statistics                           |
+ +--------------------------------------------------------------------+
+
+ Domain Name : Default Domain
+
+     Total Number of Nodes                                =      134118
+
+     Total Number of Elements                             =       66450
+         Total Number of Hexahedrons                      =       66450
+
+     Total Number of Faces                                =      134118
+
+ Domain Interface Name : Domain Interface 1
+
+     Discretization type                                  =         GGI
+     Intersection type                                    =      Direct
+     Non-overlap area fraction on side 1                  =    1.90E-03
+     Non-overlap area fraction on side 2                  =    0.00E+00
+
+ +--------------------------------------------------------------------+
+ |                     Vertex Based Partitioning                      |
+ +--------------------------------------------------------------------+
+
+ Partitioning of domain: Default Domain
+
+ - Partitioning tool:       MeTiS multilevel k-way algorithm
+ - Number of partitions:             7
+ - Number of graph-nodes:       134118
+ - Number of graph-edges:       676798
+
+ +--------------------------------------------------------------------+
+ |                 Iso-Partition Connection Statistics                |
+ +--------------------------------------------------------------------+
+ | Domains in Group          |        |           Vertices            |
+ |                           | Smooth +---------+----------+----------+
+ |                           | Sweeps |  Moves  |   <25%   |   <50%   |
+ +---------------------------+--------+---------+----------+----------+
+ | Default Domain            |     1  |       0 |       0  |       0  |
+ +---------------------------+--------+---------+----------+----------+
+
+ +--------------------------------------------------------------------+
+ |                      Partitioning Information                      |
+ +--------------------------------------------------------------------+
+
+ Partitioning information for domain: Default Domain
+
+        +------------------+------------------------+-----------------+
+        |     Elements     |        Vertices        |     Faces       |
+ +------+------------------+------------------------+-----------------+
+ | Part |   Number     %   |   Number     %   %Ovlp |  Number     %   |
+ +------+------------------+------------------------+-----------------+
+ | Full |     66450        |    134118              |   134118        |
+ +------+------------------+------------------------+-----------------+
+ |    1 |      9939   14.7 |     20380   14.6   3.7 |    20000   14.6 |
+ |    2 |      9226   13.6 |     18994   13.6   2.0 |    18805   13.7 |
+ |    3 |      9567   14.1 |     19820   14.2   5.2 |    19312   14.1 |
+ |    4 |      9883   14.6 |     20360   14.6   4.4 |    19916   14.6 |
+ |    5 |      9643   14.2 |     19778   14.2   3.3 |    19453   14.2 |
+ |    6 |      9708   14.3 |     19932   14.3   4.0 |    19530   14.3 |
+ |    7 |      9821   14.5 |     20234   14.5   4.3 |    19803   14.5 |
+ +------+------------------+------------------------+-----------------+
+ | Min  |      9226   13.6 |     18994   13.6   2.0 |    18805   13.7 |
+ |(part)|           (    2)|           (    2     2)|          (    2)|
+ +------+------------------+------------------------+-----------------+
+ | Max  |      9939   14.7 |     20380   14.6   5.2 |    20000   14.6 |
+ |(part)|           (    1)|           (    1     3)|          (    1)|
+ +------+------------------+------------------------+-----------------+
+ | Ave  |      9684   14.3 |     19928   14.3   3.8 |    19546   14.3 |
+ +------+------------------+------------------------+-----------------+
+ | Sum  |     67787  100.0 |    139498  100.0       |   136819  100.0 |
+ +------+------------------+------------------------+-----------------+
+
+ +--------------------------------------------------------------------+
+ |                 Partitioning CPU-Time Requirements                 |
+ +--------------------------------------------------------------------+
+ GGI Intersection               6.00E-03    0.4 %
+ Preparations                   1.30E-02    0.9 %
+ Low-level Mesh Partitioning    3.10E-02    2.1 %
+ File Reading                   1.80E-02    1.2 %
+ Partition Smoothing            1.50E-02    1.0 %
+ Topology - Domain Interface    2.00E-03    0.1 %
+ Topology - Global              4.00E-03    0.3 %
+ Topology - Element/Face/Patch  1.80E-02    1.2 %
+ Topology - Vertex              1.00E-03    0.1 %
+ Variable Updates               2.00E-03    0.1 %
+ File Writing                   8.00E-03    0.5 %
+ Miscellaneous                  1.38E+00   92.1 %
+                                --------
+ Total                          1.50E+00
+
+ +--------------------------------------------------------------------+
+ |                   Job Information at End of Run                    |
+ +--------------------------------------------------------------------+
+
+ Host computer:  NEPTUNE (PID:19424)
+
+ Job finished:   Thu Nov 11 16:04:06 2021
+
+ Total wall clock time: 1.491E+00 seconds
+             or: (          0:         0:         0:     1.491 )
+                 (       Days:     Hours:   Minutes:   Seconds )
+
+ 
+ +--------------------------------------------------------------------+
+ |                                                                    |
+ |                               Solver                               |
+ |                                                                    |
+ +--------------------------------------------------------------------+
+ 
+
+
+
+ +--------------------------------------------------------------------+
+ |                                                                    |
+ |                       ANSYS(R) CFX(R) Solver                       |
+ |                                                                    |
+ | 2019 R3                                                            |
+ | Build 19.5 2019-08-05T20:34:06.105000                              |
+ | Mon Aug  5 22:39:07 GMTDT 2019                                     |
+ |                                                                    |
+ |                        Executable Attributes                       |
+ |                                                                    |
+ |           single-64bit-int32-archfort-optimised-std-lcomp          |
+ |                                                                    |
+ | (C) 1996-2019 ANSYS, Inc.                                          |
+ |                                                                    |
+ | All rights reserved. Unauthorized use, distribution or duplication |
+ | is prohibited. This product is subject to U.S. laws governing      |
+ | export and re-export. For full Legal Notice, see documentation.    |
+ +--------------------------------------------------------------------+
+
+
+
+
+ +--------------------------------------------------------------------+
+ |                  Job Information at Start of Run                   |
+ +--------------------------------------------------------------------+
+
+ Run mode:       parallel run (MPI)
+
+ Job started:    Thu Nov 11 16:04:07 2021
+
+ +--------------------------------------------------------------------+
+ |                        License Information                         |
+ +--------------------------------------------------------------------+
+ 
+ License Cap:    ANSYS CFX Solver (Max 512K Nodes)
+ License Cap:     Parallel
+ License ID:     flexserv1-root-2165-311230
+
+
+ +--------------------------------------------------------------------+
+ |        Memory Allocated for Run  (Actual usage may be less)        |
+ +--------------------------------------------------------------------+
+
+ Allocated storage in:    Mwords
+                          Mbytes
+
+ Partition | Real       | Integer    | Character | Logical  | Double
+ ----------+------------+------------+-----------+----------+----------
+   Minimum |      22.10 |       2.78 |      7.68 |     0.12 |     0.81
+  (     2) |      84.29 |      10.61 |      7.33 |     0.11 |     6.14
+ ----------+------------+------------+-----------+----------+----------
+   Maximum |      22.23 |       2.87 |      7.68 |     0.12 |     0.81
+  (     1) |      84.80 |      10.93 |      7.33 |     0.11 |     6.14
+ ----------+------------+------------+-----------+----------+----------
+   Average |      22.15 |       2.83 |      7.68 |     0.12 |     0.81
+           |      84.50 |      10.81 |      7.33 |     0.11 |     6.14
+ ----------+------------+------------+-----------+----------+----------
+     Total |     155.06 |      19.83 |     53.78 |     0.84 |     5.64
+           |     591.52 |      75.64 |     51.29 |     0.80 |    43.01
+ ----------+------------+------------+-----------+----------+----------
+
+
+ +--------------------------------------------------------------------+
+ |                  Host Memory Information (Mbytes)                  |
+ +--------------------------------------------------------------------+
+ |           Host         | Npart |   System    |  Allocated  |   %   |
+ +------------------------+-------+-------------+-------------+-------+
+ | NEPTUNE                |    7  |    15776.36 |      762.27 |  4.83 |
+ +------------------------+-------+-------------+-------------+-------+
+
+
+ +--------------------------------------------------------------------+
+ |                     ****** Notice ******                           |
+ | The Wall Heat Transfer Coefficient written to the results file for |
+ | any turbulent phase with heat transfer is based on the turbulent   |
+ | wall function coefficient. It is consistent with the Wall Heat Flux|
+ | the wall temperature, and the Wall Adjacent Temperature            |
+ | (near-wall temperature).  If you would like it to be based on a    |
+ | user-specified bulk temperature instead, please set the expert     |
+ | parameter "tbulk for htc = <value>".                               |
+ +--------------------------------------------------------------------+
+
+ +--------------------------------------------------------------------+
+ |                      Topology Simplification                       |
+ +--------------------------------------------------------------------+
+
+ +--------------------------------------------------------------------+
+ |                       ****** Warning ******                        |
+ |                                                                    |
+ | Topology simplification is activated with the following            |
+ | restrictions:                                                      |
+ |                                                                    |
+ | - Mesh regions referenced only within User Fortran and NOT         |
+ |   in the command file will cause the solver to stop.               |
+ | - The solver will stop during any "Edit Run in Progress" step      |
+ |   if new 2D regions are referenced.                                |
+ +--------------------------------------------------------------------+
+
+ +--------------------------------------------------------------------+
+ |                          Mesh Statistics                           |
+ +--------------------------------------------------------------------+
+ | Domain Name          | Orthog. Angle | Exp. Factor  | Aspect Ratio |
+ +----------------------+---------------+--------------+--------------+
+ |                      | Minimum [deg] |   Maximum    |    Maximum   |
+ +----------------------+---------------+--------------+--------------+
+ | Default Domain       |       45.9 ok |        11 ok |     72567  ! |
+ +----------------------+---------------+--------------+--------------+
+ |                      |  %!  %ok  %OK | %!  %ok  %OK | %!  %ok  %OK |
+ +----------------------+---------------+--------------+--------------+
+ | Default Domain       |   0    1   99 |  0   <1  100 | 24   17   59 |
+ +----------------------+---------------+--------------+--------------+
+
+ Domain Name : Default Domain
+
+     Total Number of Nodes                                =      134118
+
+     Total Number of Elements                             =       66450
+         Total Number of Hexahedrons                      =       66450
+
+     Total Number of Faces                                =      134118
+
+ Domain Interface Name : Domain Interface 1
+
+     Discretization type                                  =         GGI
+     Intersection type                                    = Partitioner
+     Non-overlap area fraction on side 1                  =    1.90E-03
+     Non-overlap area fraction on side 2                  =    0.00E+00
+
+ +--------------------------------------------------------------------+
+ |                     Average Scale Information                      |
+ +--------------------------------------------------------------------+
+
+ Domain Name : Default Domain
+     Global Length                                         = 2.8043E-02
+     Minimum Extent                                        = 2.0000E-03
+     Maximum Extent                                        = 3.4454E-01
+     Density                                               = 2.4137E+00
+     Dynamic Viscosity                                     = 2.3258E-05
+     Velocity                                              = 0.0000E+00
+     Speed of Sound                                        = 4.0599E+02
+     Mach Number                                           = 0.0000E+00
+     Thermal Conductivity                                  = 3.2921E-02
+     Specific Heat Capacity at Constant Pressure           = 1.0044E+03
+     Specific Heat Capacity at Constant Volume             = 7.1730E+02
+     Specific Heat Ratio                                   = 1.4003E+00
+     Prandtl Number                                        = 7.0960E-01
+
+ +--------------------------------------------------------------------+
+ |                Checking for Isolated Fluid Regions                 |
+ +--------------------------------------------------------------------+
+ 
+ No isolated fluid regions were found.
+
+ +--------------------------------------------------------------------+
+ |              The Equations Solved in This Calculation              |
+ +--------------------------------------------------------------------+
+
+ Subsystem : Momentum and Mass
+
+   U-Mom
+   V-Mom
+   W-Mom
+   P-Mass
+
+ Subsystem : Heat Transfer
+
+   H-Energy
+
+ Subsystem : TurbKE and Diss.K
+
+   K-TurbKE
+   E-Diss.K
+                   
+ CFD Solver started: Thu Nov 11 16:04:11 2021
+
+
+ +--------------------------------------------------------------------+
+ |                       Convergence History                          |
+ +--------------------------------------------------------------------+
+
+ ======================================================================
+ |                        Timescale Information                       |
+ ----------------------------------------------------------------------
+ |       Equation       |         Type          |      Timescale      |
+ +----------------------+-----------------------+---------------------+
+ | U-Mom                | Auto Timescale        |     1.32070E-04     |
+ | V-Mom                | Auto Timescale        |     1.32070E-04     |
+ | W-Mom                | Auto Timescale        |     1.32070E-04     |
+ | P-Mass               | Auto Timescale        |     1.32070E-04     |
+ +----------------------+-----------------------+---------------------+
+ | H-Energy             | Auto Timescale        |     1.32070E-04     |
+ +----------------------+-----------------------+---------------------+
+ | K-TurbKE             | Auto Timescale        |     1.32070E-04     |
+ | E-Diss.K             | Auto Timescale        |     1.32070E-04     |
+ +----------------------+-----------------------+---------------------+
+
+ ======================================================================
+ OUTER LOOP ITERATION =    1                    CPU SECONDS = 2.312E+01
+ ----------------------------------------------------------------------
+ |       Equation       | Rate | RMS Res | Max Res |  Linear Solution |
+ +----------------------+------+---------+---------+------------------+
+ | U-Mom                | 0.00 | 2.4E+02 | 1.0E+04 |       1.6E-03  OK|
+ | V-Mom                | 0.00 | 1.9E-04 | 3.0E-03 |       4.8E+02  ok|
+ | W-Mom                | 0.00 | 0.0E+00 | 0.0E+00 |       0.0E+00  OK|
+ | P-Mass               | 0.00 | 1.4E-03 | 7.9E-02 |  9.2  1.6E-02  OK|
+ +----------------------+------+---------+---------+------------------+
+ | H-Energy             | 0.00 | 4.7E-03 | 4.7E-01 |  5.8  2.8E-06  OK|
+ +----------------------+------+---------+---------+------------------+
+ | K-TurbKE             | 0.00 | 2.9E-03 | 1.1E-01 |  5.8  6.9E-03  OK|
+ | E-Diss.K             | 0.00 | 3.9E-02 | 1.6E+00 | 11.3  4.0E-05  OK|
+ +----------------------+------+---------+---------+------------------+
+
+ ======================================================================
+ OUTER LOOP ITERATION =    2                    CPU SECONDS = 2.965E+01
+ ----------------------------------------------------------------------
+ |       Equation       | Rate | RMS Res | Max Res |  Linear Solution |
+ +----------------------+------+---------+---------+------------------+
+ | U-Mom                | 0.00 | 3.4E-02 | 1.3E+00 |       3.9E-02  OK|
+ | V-Mom                |24.13 | 4.5E-03 | 1.9E-01 |       2.1E-02  OK|
+ | W-Mom                | 0.00 | 0.0E+00 | 0.0E+00 |       0.0E+00  OK|
+ | P-Mass               |14.50 | 2.0E-02 | 3.6E+00 |  5.1  7.8E-02  OK|
+ +----------------------+------+---------+---------+------------------+
+ | H-Energy             | 1.63 | 7.6E-03 | 8.3E-01 |  5.9  2.9E-03  OK|
+ +----------------------+------+---------+---------+------------------+
+ | K-TurbKE             | 0.01 | 4.3E-05 | 5.1E-04 | 44.6  3.8E+00  F |
+ | E-Diss.K             | 0.39 | 1.5E-02 | 1.0E+00 | 26.9  7.5E-04  OK|
+ +----------------------+------+---------+---------+------------------+
+
+ ======================================================================
+ OUTER LOOP ITERATION =    3                    CPU SECONDS = 3.540E+01
+ ----------------------------------------------------------------------
+ |       Equation       | Rate | RMS Res | Max Res |  Linear Solution |
+ +----------------------+------+---------+---------+------------------+
+ | U-Mom                | 0.47 | 1.6E-02 | 6.1E-01 |       2.1E-02  OK|
+ | V-Mom                | 1.06 | 4.8E-03 | 4.0E-01 |       1.2E-02  OK|
+ | W-Mom                | 0.00 | 0.0E+00 | 0.0E+00 |       0.0E+00  OK|
+ | P-Mass               | 0.46 | 9.1E-03 | 1.5E+00 |  5.1  9.2E-02  OK|
+ +----------------------+------+---------+---------+------------------+
+ | H-Energy             | 0.04 | 3.1E-04 | 3.9E-02 | 25.6  1.0E-01  OK|
+ +----------------------+------+---------+---------+------------------+
+ | K-TurbKE             | 6.94 | 3.0E-04 | 1.0E-02 | 40.5  9.7E-02  OK|
+ | E-Diss.K             | 0.71 | 1.1E-02 | 1.0E+00 |100.3  6.0E-06  OK|
+ +----------------------+------+---------+---------+------------------+
+
+ ======================================================================
+ OUTER LOOP ITERATION =    4                    CPU SECONDS = 4.185E+01
+ ----------------------------------------------------------------------
+ |       Equation       | Rate | RMS Res | Max Res |  Linear Solution |
+ +----------------------+------+---------+---------+------------------+
+ | U-Mom                | 0.28 | 4.4E-03 | 1.2E-01 |       4.5E-03  OK|
+ | V-Mom                | 0.80 | 3.8E-03 | 9.2E-02 |       7.1E-02  OK|
+ | W-Mom                | 0.00 | 0.0E+00 | 0.0E+00 |       0.0E+00  OK|
+ | P-Mass               | 0.23 | 2.1E-03 | 2.3E-01 | 13.3  5.1E-02  OK|
+ +----------------------+------+---------+---------+------------------+
+ | H-Energy             | 5.60 | 1.8E-03 | 4.8E-01 | 10.6  6.3E-02  OK|
+ +----------------------+------+---------+---------+------------------+
+ | K-TurbKE             | 2.78 | 8.3E-04 | 7.1E-03 | 29.9  9.2E-02  OK|
+ | E-Diss.K             | 0.68 | 7.4E-03 | 1.0E+00 | 83.1  7.2E-06  OK|
+ +----------------------+------+---------+---------+------------------+
+
+ ======================================================================
+ OUTER LOOP ITERATION =    5                    CPU SECONDS = 4.852E+01
+ ----------------------------------------------------------------------
+ |       Equation       | Rate | RMS Res | Max Res |  Linear Solution |
+ +----------------------+------+---------+---------+------------------+
+ | U-Mom                | 0.49 | 2.1E-03 | 5.5E-02 |       6.0E-02  OK|
+ | V-Mom                | 0.57 | 2.2E-03 | 3.3E-02 |       3.3E-02  OK|
+ | W-Mom                | 0.00 | 0.0E+00 | 0.0E+00 |       0.0E+00  OK|
+ | P-Mass               | 1.54 | 3.2E-03 | 2.5E-01 | 17.4  8.7E-02  OK|
+ +----------------------+------+---------+---------+------------------+
+ | H-Energy             | 0.18 | 3.2E-04 | 6.4E-02 |  5.8  2.7E-02  OK|
+ +----------------------+------+---------+---------+------------------+
+ | K-TurbKE             | 0.17 | 1.4E-04 | 1.2E-02 |  5.8  5.6E-02  OK|
+ | E-Diss.K             | 0.58 | 4.3E-03 | 1.0E+00 |103.7  8.2E-07  OK|
+ +----------------------+------+---------+---------+------------------+
+
+ ======================================================================
+ |                        Timescale Information                       |
+ ----------------------------------------------------------------------
+ |       Equation       |         Type          |      Timescale      |
+ +----------------------+-----------------------+---------------------+
+ | U-Mom                | Auto Timescale        |     9.58922E-05     |
+ | V-Mom                | Auto Timescale        |     9.58922E-05     |
+ | W-Mom                | Auto Timescale        |     9.58922E-05     |
+ | P-Mass               | Auto Timescale        |     9.58922E-05     |
+ +----------------------+-----------------------+---------------------+
+ | H-Energy             | Auto Timescale        |     9.58922E-05     |
+ +----------------------+-----------------------+---------------------+
+ | K-TurbKE             | Auto Timescale        |     9.58922E-05     |
+ | E-Diss.K             | Auto Timescale        |     9.58922E-05     |
+ +----------------------+-----------------------+---------------------+
+
+ ======================================================================
+ OUTER LOOP ITERATION =    6                    CPU SECONDS = 5.580E+01
+ ----------------------------------------------------------------------
+ |       Equation       | Rate | RMS Res | Max Res |  Linear Solution |
+ +----------------------+------+---------+---------+------------------+
+ | U-Mom                | 1.54 | 3.3E-03 | 6.4E-02 |       1.3E-02  OK|
+ | V-Mom                | 1.16 | 2.5E-03 | 7.5E-02 |       2.4E-02  OK|
+ | W-Mom                | 0.00 | 0.0E+00 | 0.0E+00 |       0.0E+00  OK|
+ | P-Mass               | 1.65 | 5.3E-03 | 2.6E-01 |  5.1  9.9E-02  OK|
+ +----------------------+------+---------+---------+------------------+
+
+ Parallel run: Received message from slave
+ -----------------------------------------
+ Slave partition :        7
+ Slave routine   : ErrAction
+ Master location : Message Handler
+ Message label   : 001100279
+ Message follows below - : 
+ 
+ +--------------------------------------------------------------------+
+ | ERROR #001100279 has occurred in subroutine ErrAction.             |
+ | Message:                                                           |
+ | Floating point exception: Overflow                                 |
+ |                                                                    |
+ |                                                                    |
+ |                                                                    |
+ |                                                                    |
+ |                                                                    |
+ +--------------------------------------------------------------------+
+
+ Parallel run: Received message from slave
+ -----------------------------------------
+ Slave partition :        7
+ Slave routine   : ErrAction
+ Master location : Message Handler
+ Message label   : 001100279
+ Message follows below - : 
+ 
+ +--------------------------------------------------------------------+
+ | ERROR #001100279 has occurred in subroutine ErrAction.             |
+ | Message:                                                           |
+ | Stopped in routine FPX: C_FPX_HANDLER                              |
+ |                                                                    |
+ |                                                                    |
+ |                                                                    |
+ |                                                                    |
+ |                                                                    |
+ +--------------------------------------------------------------------+
+ 
+ +--------------------------------------------------------------------+
+ | ERROR #001100279 has occurred in subroutine MESG_RETRIEVE.         |
+ | Message:                                                           |
+ | Stopping the run due to error(s) reported above                    |
+ |                                                                    |
+ |                                                                    |
+ |                                                                    |
+ |                                                                    |
+ |                                                                    |
+ +--------------------------------------------------------------------+
+
+ +--------------------------------------------------------------------+
+ |                An error has occurred in cfx5solve:                 |
+ |                                                                    |
+ | The ANSYS CFX solver exited with return code 1.   No results file  |
+ | has been created.                                                  |
+ +--------------------------------------------------------------------+
+
+End of solution stage.
+
+ +--------------------------------------------------------------------+
+ | The following user files have been saved in the directory          |
+ | C:\Users\mohsy\University\CFD\Assignment\Finals\Grid2.2 k-e_001:   |
+ |                                                                    |
+ | trace, pids, mon                                                   |
+ +--------------------------------------------------------------------+
+
+
+This run of the ANSYS CFX Solver has finished.
